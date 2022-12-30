@@ -4,7 +4,7 @@ collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2015-spring-teaching-1
 venue: "Dartmouth College, CS Department"
-date: 2015-01-01
+date: 
 
 ---
 
