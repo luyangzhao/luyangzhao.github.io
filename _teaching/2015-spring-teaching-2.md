@@ -1,5 +1,5 @@
 ---
-title: "Teaching Experience - Phd123"
+title: "Teaching Experience - Phd"
 collection: teaching
 type: "Teaching Assistant"
 permalink: /teaching/2015-spring-teaching-1
