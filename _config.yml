@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Luyang Zhao"
   avatar           : "pic.JPG"
-  bio              : 
-  location         : "https://www.google.com/maps/place/New+Computer+Science+Department/@43.7035897,-72.2950639,19z/data=!4m5!3m4!1s0x4cb4c9f71471c1ab:0xf0cfdbce1f27cc23!8m2!3d43.7035146!4d-72.2947484"
+  bio              : "Dartmouth College CS Phd"
+  location         : 
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=3E4UU-EAAAAJ&hl=en"
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
