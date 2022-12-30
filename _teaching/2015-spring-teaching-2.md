@@ -4,7 +4,6 @@ collection: teaching
 type: "Teaching Assistant"
 permalink: 
 venue: "Dartmouth College, CS Department"
-location: "Hanover, NH , US"
 ---
 
 ---
@@ -20,4 +19,4 @@ CS1: Introduction to Programming and Computation – 2019 Spring and 2020 Spring
 ======
 
 CS50: Software Design and Implementation – 2019 Summer
-
+======
