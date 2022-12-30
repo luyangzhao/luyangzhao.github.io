@@ -2,12 +2,13 @@
 title: "Teaching experience"
 collection: teaching
 type: "Teaching Assistant"
-permalink: 
+permalink: /teaching/2015-spring-teaching-1
 venue: "Dartmouth College, CS Department"
----
+date: 2015-01-01
 
 ---
 
+---
 
 CS81/281: Principles of Robot Design and Programming – 2018 Fall
 ======
