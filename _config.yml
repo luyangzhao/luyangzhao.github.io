@@ -77,7 +77,7 @@ analytics:
   google:
     tracking_id          :
 
-
+# pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
 # Site Author
 author:
   name             : "Luyang Zhao"
@@ -85,8 +85,8 @@ author:
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=3E4UU-EAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
