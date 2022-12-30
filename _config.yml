@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Luyang Zhao / Site Title"
+title                    : "Luyang Zhao"
 title_separator          : "-"
 name                     : &name "Luyang Zhao"
 description              : &description "personal description"
@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Luyang Zhao"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  avatar           : "pic.JPG"
+  bio              : 
+  location         : "15 Engineering Dr, Hanover, NH 03755"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=3E4UU-EAAAAJ&hl=en"
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "luyangzhao"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/luyang-zhao/"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
