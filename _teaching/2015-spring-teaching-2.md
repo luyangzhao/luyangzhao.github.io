@@ -1,7 +1,7 @@
 ---
-title: "Teaching experience"
+title: "Teaching Assistant"
 collection: teaching
-type: "Teaching Assistant"
+# type: "Teaching Assistant"
 permalink: /teaching/2015-spring-teaching-1
 venue: "Dartmouth College, CS Department"
 date: 2018-10-12
