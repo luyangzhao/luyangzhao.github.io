@@ -13,6 +13,7 @@ Education
 ======
 Dartmouth College 
 * Ph.D. in Computer Science, specialized in Robotics, advisor Prof. Devin Balkcom, Sep. 2018–Expected June 2023
+
 University of Minnesota
 * B.S. in Computer Science, research advisor Prof. Maria Gini, Graduated in 2018
 * B.A. in Mathematics, senior project advisor Prof. Karel Prikry, Graduated in 2018
