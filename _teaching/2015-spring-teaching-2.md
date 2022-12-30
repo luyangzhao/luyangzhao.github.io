@@ -1,22 +1,23 @@
 ---
-title: "Teaching experience 2"
+title: "Teaching experience"
 collection: teaching
-type: "Workshop"
+type: "Teaching Assistant"
 permalink: 
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "Dartmouth College, CS Department"
+location: "Hanover, NH , US"
 ---
 
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
+CS81/281: Principles of Robot Design and Programming – 2018 Fall
 ======
 
-Heading 2
+CS76/276: Artificial Intelligence – 2018 Winter and 2019 Fall
 ======
 
-Heading 3
+CS1: Introduction to Programming and Computation – 2019 Spring and 2020 Spring 
 ======
+
+CS50: Software Design and Implementation – 2019 Summer
+
