@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm **Luyang Zhao**, currently in my 5th year of Ph.D. study in Computer Science at Dartmouth College, mentored by **Professor Devin Balkcom**. I proudly earned a double major in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, during which I had the privilege to work on research projects with **Professor Maria Gini**. My research domain is diverse, encompassing Soft Robots, Motion Planning, Modular Robots, Multi-robot Systems, SLAM (Simultaneous Localization and Mapping), and Reinforcement Learning. Lately, I've been deeply involved in the design and analysis of **self-reconfigurable soft modular robots**. These robots have the unique capability to autonomously adapt and navigate across varied terrains, especially in challenging situations like crossing gaps, maneuvering over obstacles, and navigating through narrow passageways.
+Hello! I'm **Luyang Zhao**, currently in my 5th year of Ph.D. study in Computer Science at Dartmouth College, mentored by **Professor Devin Balkcom**. I earned a double major in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, during which I had the privilege to work on research projects with **Professor Maria Gini**. My research domain is diverse, encompassing Soft Robots, Modular Robots, Multi-robot Systems, Motion Planning, SLAM (Simultaneous Localization and Mapping), and Reinforcement Learning. 
+
+Lately, I've been deeply involved in the design and analysis of **self-reconfigurable soft modular robots**. These robots have the unique capability to autonomously adapt and navigate across varied terrains, especially in challenging situations like crossing gaps, maneuvering over obstacles, and navigating through narrow passageways.
 
 
 # Recent Highlights
