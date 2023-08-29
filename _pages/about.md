@@ -9,8 +9,41 @@ redirect_from:
 ---
 # About Me
 
-Hi, this is Luyang, a 5th year Phd student from Dartmouth College in Computer Science. My current research spans a range of different topics in Soft robots, Motion Planning, Modular robots, Multi-robot systems, SLAM and Machine Learning. I am recently investigating designing and analyzing Soft lattice modules that behave independently and collectively. I did research on localization, path planning and navigation for Amazon autonomous mobility robots during Summer 2020. Moreover, I have worked on designing, building and evaluating memory-efficient data structure for summarizing costs of crossing local regions to find the optimal paths. I also worked on developing an assistive device for memory loss people and did some related research on SLAM with object detection.
+Hello! I'm **Luyang Zhao**, a 5th year Ph.D. student from Dartmouth College specializing in Computer Science. I am fortunate to be under the guidance of Professor Devin Balkcom.
 
-# News
+## Education & Experience
+
+- Currently pursuing my Ph.D. in Computer Science at **Dartmouth College**.
+- Completed my undergraduate studies at **University of Minnesota**, where I had the opportunity to research under Professor Maria Gini. I proudly graduated with a double major in Computer Science and Mathematics.
+
+## Research Interests
+
+My research covers a diverse range of topics including:
+- Soft Robots
+- Motion Planning
+- Modular Robots
+- Multi-robot Systems
+- SLAM (Simultaneous Localization and Mapping)
+- Machine Learning
+
+I have recently delved into the design and analysis of **Soft Lattice Modules**, focusing on their independent and collective functionalities.
+
+Some notable projects and research experiences include:
+- Exploring localization, path planning, and navigation for **Amazon's autonomous mobility robots** during Summer 2020.
+- Designing, building, and evaluating **memory-efficient data structures** to summarize the costs of crossing local regions for optimal pathfinding.
+- Developing an **assistive device** for individuals with memory loss, incorporating SLAM with object detection.
+
+# Recent Highlights
+
+- **8/14**: Delighted to announce that my recent research work was spotlighted on Dartmouth College's [official website](#https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots).
+- **6/6**: Honored to have tied for 2nd place in the **2023 Neukom Outstanding Graduate Research Prize**, receiving an award of $750.00.
+- **5/12**: Thrilled to share that a paper I led has been accepted for publication in **RA-L** (Robotics and Automation Letters).
+- **1/11**: Had the privilege of visiting **Yale University** to discuss collaborations and share insights.
+
+---
+
+For inquiries and collaborations, feel free to [contact me](mailto:luyang.zhao.gr@dartmouth.edu).
+
+
 
 
