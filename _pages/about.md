@@ -8,29 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm **Luyang Zhao**, a 5th year Ph.D. student from Dartmouth College specializing in Computer Science. I am fortunate to be under the guidance of Professor Devin Balkcom.
+Hello! I'm **Luyang Zhao**, currently in my 5th year of Ph.D. study in Computer Science at Dartmouth College, mentored by **Professor Devin Balkcom**. I proudly earned a double major in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, during which I had the privilege to work on research projects with **Professor Maria Gini**. My research domain is diverse, encompassing Soft Robots, Motion Planning, Modular Robots, Multi-robot Systems, SLAM (Simultaneous Localization and Mapping), and Reinforcement Learning. Lately, I've been deeply involved in the design and analysis of **self-reconfigurable soft modular robots**. These robots have the unique capability to autonomously adapt and navigate across varied terrains, especially in challenging situations like crossing gaps, maneuvering over obstacles, and navigating through narrow passageways.
 
-## Education & Experience
-
-- Currently pursuing my Ph.D. in Computer Science at **Dartmouth College**.
-- Completed my undergraduate studies at **University of Minnesota**, where I had the opportunity to research under Professor Maria Gini. I proudly graduated with a double major in Computer Science and Mathematics.
-
-## Research Interests
-
-My research covers a diverse range of topics including:
-- Soft Robots
-- Motion Planning
-- Modular Robots
-- Multi-robot Systems
-- SLAM (Simultaneous Localization and Mapping)
-- Machine Learning
-
-I have recently delved into the design and analysis of **Soft Lattice Modules**, focusing on their independent and collective functionalities.
-
-Some notable projects and research experiences include:
-- Exploring localization, path planning, and navigation for **Amazon's autonomous mobility robots** during Summer 2020.
-- Designing, building, and evaluating **memory-efficient data structures** to summarize the costs of crossing local regions for optimal pathfinding.
-- Developing an **assistive device** for individuals with memory loss, incorporating SLAM with object detection.
 
 # Recent Highlights
 
@@ -41,10 +20,7 @@ Some notable projects and research experiences include:
 
 ---
 
-For inquiries and collaborations, feel free to [contact me](mailto:luyang.zhao.gr@dartmouth.edu).
-
-
-<!-- {% include_relative publications.md %} -->
+{% include_relative publications.md %}
 
 # Visitors
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=86988e&w=300&t=n&d=2m_nrbYNSsYJOZa9TgwIJgyXixu5GbzjtmXs1Sp4MZo&co=e8dbc9&cmo=ed3838&cmn=32d622&ct=000000'></script>
