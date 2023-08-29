@@ -43,8 +43,6 @@ Some notable projects and research experiences include:
 
 For inquiries and collaborations, feel free to [contact me](mailto:luyang.zhao.gr@dartmouth.edu).
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=2m_nrbYNSsYJOZa9TgwIJgyXixu5GbzjtmXs1Sp4MZo&cl=ffffff&w=a"></script>
-
-
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=86988e&w=200&t=n&d=2m_nrbYNSsYJOZa9TgwIJgyXixu5GbzjtmXs1Sp4MZo&co=e8dbc9&cmo=ed3838&cmn=32d622&ct=000000'></script>
 
 
