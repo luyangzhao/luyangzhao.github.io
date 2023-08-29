@@ -19,7 +19,7 @@ Hello! I'm **Luyang Zhao**, currently in my 5th year of Ph.D. study in Computer 
 - **1/11**: Had the privilege of visiting **Yale University** to discuss collaborations and share insights.
 
 ---
-
+# Research and Publications
 {% include_relative publications.md %}
 
 # Visitors
