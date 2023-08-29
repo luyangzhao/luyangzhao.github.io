@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Luyang Zhao"
-  avatar           : "pic.JPG"
-  bio              : "Dartmouth College CS Phd"
+  avatar           : "luyang.png"
+  bio              : "Dartmouth College CS Phd Candidate"
   location         : 
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=3E4UU-EAAAAJ&hl=en"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  email            : luyang.zhao.gr@dartmouth.edu
+  researchgate     : https://www.researchgate.net/profile/Luyang-Zhao
   uri              :
   bitbucket        :
   codepen          :
