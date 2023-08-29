@@ -12,6 +12,7 @@ Hello! I'm **Luyang Zhao**, currently in my 5th year of Ph.D. study in Computer 
 
 Lately, I've been deeply involved in the design and analysis of **self-reconfigurable soft modular robots**. These robots have the unique capability to autonomously adapt and navigate across varied terrains, especially in challenging situations like crossing gaps, maneuvering over obstacles, and navigating through narrow passageways.
 
+---
 
 # Recent Highlights
 
