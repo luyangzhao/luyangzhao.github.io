@@ -18,9 +18,10 @@ Lately, I've been deeply involved in the design and analysis of **self-reconfigu
 - **8/15**： My recent research got picked up by [tech xplore](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp)!
 techxplore.comtechx
 - **8/14**: Delighted to announce that my recent research work was spotlighted on Dartmouth College's [official website](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots).
-- **6/6**: Honored to have tied for 2nd place in the **2023 Neukom Outstanding Graduate Research Prize**, receiving an award of $750.00.
-- **5/12**: Thrilled to share that a paper I led has been accepted for publication in **RA-L** (Robotics and Automation Letters).
-- **1/11**: Had the privilege of visiting **Yale University** to discuss collaborations and share insights.
+- **6/6**: Honored to have tied for 2nd place in the [**2023 Neukom Outstanding Graduate Research Prize**](https://neukom.dartmouth.edu/research/neukom-research-prizes/2023-research-prize-winners), receiving an award of $750.00.
+- **5/12**: Thrilled to share that a [paper](https://ieeexplore.ieee.org/document/10146508) I led has been accepted for publication in **RA-L** (Robotics and Automation Letters).
+- **4/28**:  Delighted to announce that our [**Tensegrity workshop**](https://www.eng.yale.edu/faboratory/tensegrityworkshop/) proposal for IROS has been accepted. I'm proud to serve as a co-organizer.
+- **1/11**: Visited Professor Rebecca Kramer-Bottiglio(https://www.eng.yale.edu/faboratory/)'s lab in **Yale University** with Professor Kostas Bekris(https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/)'s team from **Rutgers University** to discuss collaborations and share insights.
 
 ---
 <!-- # Research and Publications
