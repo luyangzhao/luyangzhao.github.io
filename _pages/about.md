@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Luyang</strong> Zhao
-description: Graduate Student Phd student ... | Department of Mechanical Engineering, ETH Zurich
+description: PhD Candidate | Department of Computer Science, Dartmouth College
 
 profile:
   align: right
@@ -14,45 +14,46 @@ social: true
 years: [2023, 2022, 2021, 2020, 2019, 2018]
 ---
 
-_How can a robot learn from its own interactions?_  
-_What abstractions are necessary to describe a task?_  
-_When does a robot even know that the task is now completed?_  
+Hello! I'm **Luyang Zhao**, currently in my 6th year of Ph.D. study in Computer Science at Dartmouth College, mentored by **Professor Devin Balkcom**. I earned a double major in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, during which I had the privilege to work on research projects with **Professor Maria Gini**. My research domain is diverse, encompassing Soft Robots, Modular Robots, Multi-robot Systems, Motion Planning, SLAM (Simultaneous Localization and Mapping), and Reinforcement Learning. 
 
-In a quest to find answers to the above questions, I fefeeaefafam currently a PhD student at [ETH Zurich](https://ethz.ch/en.html) advised by [Marco Hutter](http://www.rsl.ethz.ch/the-lab/people/person-detail.html?persid=121911), and a Research Scientist at [NVIDIA Research](https://www.nvidia.com/en-us/research/). I also closely collaborate with [Animesh Garg](https://animesh.garg.tech/) at the [University of Toronto](https://web.cs.toronto.edu/).
+Lately, I've been deeply involved in the design and analysis of **self-reconfigurable soft modular robots**. These robots have the unique capability to autonomously adapt and navigate across varied terrains, especially in challenging situations like crossing gaps, maneuvering over obstacles, and navigating through narrow passageways.
 
-Over the past few years, I have had the opportunity to work with some amazing robotic groups.
-I have been a visiting student researcher at [Vector Institute](https://vectorinstitute.ai/),
-a research intern at [NNAISENSE](https://nnaisense.com/), and a part-time research engineer
-at [ETH Zurich](https://ethz.ch/en.html). During my undergrad at [IIT Kanpur](http://www.iitk.ac.in/ee/), I was a visiting student at
-University of Freiburg, Germany, working closely with [Abhinav Valada](http://www2.informatik.uni-freiburg.de/~valada/) and [Wolfram Burgard](http://www2.informatik.uni-freiburg.de/~burgard/).
-
-I am incredibly thankful to my collaborators and mentors, and enjoy exploring new domains through collaborations. If you have questions or would like to work together, feel free to reach out through
-[email](mailto:mittalma@ethz.ch)!
 
 <!-- _Shameless promotion:_  
 For undergrad/graduate students at [ETH Zurich](https://ethz.ch/en.html): In case you are looking for semester projects or master thesis, please check [here](https://rsl.ethz.ch/education-students.html) for available projects with me and other amazing people in our group! -->
 
-<div class="post">
+<!-- <div class="post"> #put each news inside the post?
 
   {% if page.news %}
     {% include news.html %}
   {% endif %}
 
-</div>
+</div> -->
 
 ---
 
-## __research interests__
+## __Recent Highlights__
+- **8/15**: My recent research got picked up by [tech xplore](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp)!
+- **8/14**: Delighted to announce that my recent research work was spotlighted on Dartmouth College's [official website](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots).
+- **6/6**: Honored to have tied for 2nd place in the [**2023 Neukom Outstanding Graduate Research Prize**](https://neukom.dartmouth.edu/research/neukom-research-prizes/2023-research-prize-winners).
+- **5/12**: Thrilled to share that a [paper](https://ieeexplore.ieee.org/document/10146508) I led has been accepted for publication in **RA-L** (Robotics and Automation Letters).
+- **4/28**:  Delighted to announce that our [**Tensegrity workshop**](https://www.eng.yale.edu/faboratory/tensegrityworkshop/) proposal for IROS has been accepted. I'm proud to serve as a co-organizer.
+- **1/11**: Visited Professor [Rebecca Kramer-Bottiglio](https://www.eng.yale.edu/faboratory/)'s lab in **Yale University** with Professor [Kostas Bekris](https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/)'s team from **Rutgers University** to discuss collaborations and share insights.
 
-I am primarily interested in the decision-making and control of robots in human environments.
-These days, my efforts are focused on designing perception-based systems for contact-rich manipulation tasks, such as articulated object interaction with mobile manipulators and in-hand manipulation.
-Other areas of interest include hierarchical reinforcement learning, optimal control, and 3D vision.
 
 ---
 
 {: #publications}
-## __publications__
+## __Publications__
 
 {% for y in page.years %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
+
+---
+
+## __Visitors__
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=86988e&w=300&t=n&d=2m_nrbYNSsYJOZa9TgwIJgyXixu5GbzjtmXs1Sp4MZo&co=e8dbc9&cmo=ed3838&cmn=32d622&ct=000000'></script>
+
+
+
