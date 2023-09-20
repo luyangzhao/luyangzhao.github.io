@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Luyang</strong> Zhao
-description: Graduate Student | Department of Mechanical Engineering, ETH Zurich
+description: Graduate Student Phd student ... | Department of Mechanical Engineering, ETH Zurich
 
 profile:
   align: right
