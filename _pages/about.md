@@ -6,7 +6,7 @@ description: Graduate Student Phd student ... | Department of Mechanical Enginee
 
 profile:
   align: right
-  image: /assets/img/prof_pic2.jpg
+  image: luyang.png
   address: #mention address
 
 news: true
