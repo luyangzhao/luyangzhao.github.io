@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source "http://rubygems.org"
 group :jekyll_plugins do
     gem 'github-pages'
     gem 'jekyll'
@@ -7,4 +7,5 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
 end
+
 

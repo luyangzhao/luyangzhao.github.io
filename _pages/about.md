@@ -50,9 +50,9 @@ Other areas of interest include hierarchical reinforcement learning, optimal con
 
 ---
 
-{: #publications}
+<!-- {: #publications}
 ## __publications__
 
 {% for y in page.years %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+{% endfor %} -->
