@@ -41,7 +41,7 @@ For undergrad/graduate students at [ETH Zurich](https://ethz.ch/en.html): In cas
 </div>
 
 ---
-
+<!-- 
 ## __research interests__
 
 I am primarily interested in the decision-making and control of robots in human environments.
@@ -55,4 +55,4 @@ Other areas of interest include hierarchical reinforcement learning, optimal con
 
 {% for y in page.years %}
   {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+{% endfor %} -->
