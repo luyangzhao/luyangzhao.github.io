@@ -383,7 +383,7 @@ footer a:hover { color: #00369f; }
 
 .post-link { display: block; font-size: 42px; }
 
-.project { box-sizing: border-box; float: left; margin-bottom: 20px; padding: 10px; vertical-align: middle; width: 100%; }
+.project { box-sizing: border-box; height: 650px; margin-bottom: 20px; padding: 10px; vertical-align: middle; width: 100%; }
 .project .thumbnail { overflow: hidden; height: 200px; width: 100%; }
 .project .thumbnail img { height: 210px; width: 210px; }
 .project .thumbnail a { float: left; height: 250px; position: relative; width: 100%; }
@@ -394,11 +394,7 @@ footer a:hover { color: #00369f; }
 
 .video-title { font-size: 10px; /* Adjust size as needed */ margin-bottom: 10px; /* Space between the title and video. Adjust as needed. */ text-align: center; /* Center the title. Remove if not needed. */ }
 
-.video-container { width: 100%; /* This will make the container take up the full width */ max-width: 560px; /* Or whatever maximum width you want for the video */ margin: 0 auto; /* This centers the video if the viewport width is larger than the video's width */ }
-
-iframe { display: block; width: 100%; height: auto; }
-
-.video-container { width: 100%; /* This will make the container take up the full width */ max-width: 560px; /* Or whatever maximum width you want for the video */ margin: 0 auto; /* This centers the video if the viewport width is larger than the video's width */ }
+.video-container { width: 100%; /* This will make the container take up the full width */ max-width: 800px; /* Or whatever maximum width you want for the video */ margin: 0 auto; /* This centers the video if the viewport width is larger than the video's width */ }
 
 iframe { display: block; width: 100%; height: auto; }
 
