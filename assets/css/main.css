@@ -383,7 +383,7 @@ footer a:hover { color: #00369f; }
 
 .post-link { display: block; font-size: 42px; }
 
-.project { box-sizing: border-box; float: left; height: 250px; padding: 10px; vertical-align: middle; width: 33.33%; }
+.project { box-sizing: border-box; float: left; margin-bottom: 20px; padding: 10px; vertical-align: middle; width: 100%; }
 .project .thumbnail { overflow: hidden; height: 200px; width: 100%; }
 .project .thumbnail img { height: 210px; width: 210px; }
 .project .thumbnail a { float: left; height: 250px; position: relative; width: 100%; }
@@ -391,6 +391,8 @@ footer a:hover { color: #00369f; }
 .project .thumbnail a span h1 { font-size: 1.2rem; margin: 0; }
 .project .thumbnail a span p { font-size: 0.8rem; color: #e8e8e8; }
 .project .thumbnail a:hover span { display: block; }
+
+.video-title { font-size: 10px; /* Adjust size as needed */ margin-bottom: 10px; /* Space between the title and video. Adjust as needed. */ text-align: center; /* Center the title. Remove if not needed. */ }
 
 .profile { float: right !important; }
 .profile img { box-shadow: 0 0 5px #828282; width: 100%; }
