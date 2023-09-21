@@ -394,6 +394,14 @@ footer a:hover { color: #00369f; }
 
 .video-title { font-size: 10px; /* Adjust size as needed */ margin-bottom: 10px; /* Space between the title and video. Adjust as needed. */ text-align: center; /* Center the title. Remove if not needed. */ }
 
+.video-container { width: 100%; /* This will make the container take up the full width */ max-width: 560px; /* Or whatever maximum width you want for the video */ margin: 0 auto; /* This centers the video if the viewport width is larger than the video's width */ }
+
+iframe { display: block; width: 100%; height: auto; }
+
+.video-container { width: 100%; /* This will make the container take up the full width */ max-width: 560px; /* Or whatever maximum width you want for the video */ margin: 0 auto; /* This centers the video if the viewport width is larger than the video's width */ }
+
+iframe { display: block; width: 100%; height: auto; }
+
 .profile { float: right !important; }
 .profile img { box-shadow: 0 0 5px #828282; width: 100%; }
 
