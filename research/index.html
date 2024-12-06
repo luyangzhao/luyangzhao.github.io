@@ -16,7 +16,7 @@
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <!-- <link rel="stylesheet" href="/assets/css/main.css"> -->
-  <link rel="stylesheet" href="/assets/css/main.css?v=20241205214701">
+  <link rel="stylesheet" href="/assets/css/main.css?v=20241206010151">
 
   <link rel="canonical" href="/research/">
 </head>
@@ -55,7 +55,7 @@
 
         <!-- Miscellarnous -->
         <a class="page-link" href="/#research">Research</a>
-        <a class="page-link" href="/#publications">Publications</a>
+        <!-- <a class="page-link" href="/#publications">Publications</a> -->
         <a class="page-link" href="/#teaching">Teaching</a>
 
         
@@ -87,115 +87,197 @@
   </header>
 
   <article class="post-content Research clearfix">
-    
-<div class="project">
-    <div class="video-description">
-        <!-- <h2 class="video-title">Title for the first video</h2> Changed from h1 to h2 for smaller size -->
+    <h4 id="main-research-projects"><strong>Main Research Projects</strong></h4>
+
+<div class="projects-grid">
+
+  <!-- Terrestrial Modular Soft Robots -->
+  <div class="project-item" onclick="toggleDetails(this)">
+    <div class="project-image-container">
+      <img src="../assets/img/teasers/proj1.png" alt="Terrestrial Modular Soft Robots" />
+      <div class="overlay-text">
+        <h4>Terrestrial Modular Soft Robots</h4>
+      </div>
     </div>
-    <div class="video-container">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/EYLYyijfzCg" frameborder="0" allowfullscreen=""></iframe>
-        <p>The soft lattice modules are capable of independent locomotion, and can also join with other modules to achieve collective, self-assembled, larger scale tasks such as collective locomotion and moving an object across the surface of the lattice assembly. This work represents a preliminary step toward soft modular systems capable of independent and collective behaviors, and provide a platform for future studies on distributed control.</p>
+    <div class="project-details">
+      <p>
+        <strong>Collaborating Professors:</strong> Rebecca Kramer-Bottiglio (Yale), Kostas Bekris (Rutgers), Xiaonan Huang (UMich), Joran Booth (Yale), Muhao Chen (UKentucky)<br />
+        <strong>Advisor:</strong> Devin Balkcom (Dartmouth)<br />
+      </p>
+      <div>
+        <strong>Related Papers:</strong>
+        <ul>
+          <li><a href="assets/documents/papers/Tensegrity-Blocks.pdf" target="_blank">Tensegrity-Blocks: Modular Shape-changing Blocks Enable Self-assembling Robotic Structures</a></li>
+          <li><a href="assets/documents/papers/soft1.pdf" target="_blank">Soft Lattice Modules That Behave Independently and Collectively</a></li>
+          <li><a href="assets/documents/papers/soft2.pdf" target="_blank">StarBlocks: Soft Actuated Self-Connecting Blocks for Building Deformable Lattice Structures</a></li>
+          
+        </ul>
+      </div>
+      <div>
+        <strong>Related Videos:</strong>
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1UQLBAeg2g2nPNQQg4n7eZhJCBn1EARRs/preview" target="_blank">Tensegrity-Blocks Video</a></li>
+          <li><a href="https://www.youtube.com/watch?v=EYLYyijfzCg" target="_blank">Soft Lattice Modules Video</a></li>
+          <li><a href="https://www.youtube.com/watch?v=xno0FBs3ZdQ" target="_blank">StarBlocks Video</a></li>
+        </ul>
+      </div>
     </div>
+  </div>
+
+  <!-- Bio-Inspired Robotics -->
+  <div class="project-item" onclick="toggleDetails(this)">
+    <div class="project-image-container">
+      <img src="../assets/img/teasers/proj2.png" alt="Flexible Bio-Inspired Robotics" />
+      <div class="overlay-text">
+        <h4>Flexible Bio-Inspired Robotics</h4>
+      </div>
+    </div>
+    <div class="project-details">
+      <p>
+        <strong>Collaborating Professors:</strong> Muhao Chen (UKentucky), Alberto Quattrini Li (Dartmouth), Haibo Dong (University of Virginia)<br />
+        <strong>Advisor:</strong> Devin Balkcom (Dartmouth)<br />
+      </p>
+      <div>
+        <strong>Related Papers:</strong>
+        <ul>
+          <li><a href="assets/documents/papers/dolphin.pdf" target="_blank">An Untethered Bioinspired Robotic Tensegrity Dolphin with Multi-Flexibility Design for Aquatic Locomotion</a></li>
+        </ul>
+      </div>
+      <div>
+        <strong>Related Videos:</strong>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=avUUYTJ178g" target="_blank">Robotic Tensegrity Dolphin Video</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Assembly Soft Robots -->
+  <div class="project-item" onclick="toggleDetails(this)">
+    <div class="project-image-container">
+      <img src="../assets/img/teasers/proj3.png" alt="Design for Soft Robots for Assembly" />
+      <div class="overlay-text">
+        <h4>Design for Soft Robots for Assembly</h4>
+      </div>
+    </div>
+    <div class="project-details">
+      <p>
+        <strong>Collaborating Professors:</strong> Muhao Chen (UKentucky)<br />
+        <strong>Advisor:</strong> Devin Balkcom (Dartmouth)<br />
+      </p>
+      <div>
+        <strong>Related Papers:</strong>
+        <ul>
+          <li><a href="assets/documents/papers/softsnap.pdf" target="_blank">SoftSnap: Rapid Prototyping of Untethered Soft Robots Using Snap-Together Modules</a></li>
+        </ul>
+      </div>
+      <div>
+        <strong>Related Videos:</strong>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=SWuYzo7xSno" target="_blank">SoftSnap Modules Video</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Aquatic Modular Soft Robots -->
+  <div class="project-item" onclick="toggleDetails(this)">
+    <div class="project-image-container">
+      <img src="../assets/img/teasers/m-word.png" alt="Aquatic Modular Soft Robots" />
+      <div class="overlay-text">
+        <h4>Aquatic Modular Soft Robots</h4>
+      </div>
+    </div>
+    <div class="project-details">
+      <p>
+        <strong>Collaborating Professors:</strong> Muhao Chen (UKentucky), Alberto Quattrini Li (Dartmouth), Haibo Dong (University of Virginia)<br />
+        <strong>Advisor:</strong> Devin Balkcom (Dartmouth)<br />
+      </p>
+      <div>
+        <strong>Related Papers:</strong>
+        <ul>
+          <li><a href="assets/documents/papers/SoftRaft.pdf" target="_blank">SoftRafts: Floating and Adaptive Soft Modular Robots</a></li>
+        </ul>
+      </div>
+      <div>
+        <strong>Related Videos:</strong>
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1fY3anskQE_okj0axE6tPutMyHkgNZe5w/preview" target="_blank">SoftRafts Video</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Learning-Based Robot Design -->
+  <div class="project-item" onclick="toggleDetails(this)">
+    <div class="project-image-container">
+      <img src="../assets/img/teasers/learning.png" alt="Learning-Based Robot Design" />
+      <div class="overlay-text">
+        <h4>Learning-Based Robot Design and Control</h4>
+      </div>
+    </div>
+    <div class="project-details">
+      <p>
+        <strong>Collaborating Professors:</strong> Soroush Vosoughi (Dartmouth), Bo Zhu (Gatech)<br />
+        <strong>Advisor:</strong> Devin Balkcom (Dartmouth)<br />
+      </p>
+      <div>
+        <strong>Related Papers:</strong>
+        <ul>
+          <li><a href="assets/documents/papers/learning.pdf" target="_blank">On the Exploration of LM-Based Soft Modular Robot Design</a></li>
+        </ul>
+      </div>
+      <div>
+        <!-- <strong>Related Videos:</strong>
+        <ul>
+          <li><a href="https://arxiv.org/pdf/2411.00345" target="_blank">Learning-Based Robot Design Video</a></li>
+        </ul> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Memory-Efficient Motion Planning -->
+  <div class="project-item" onclick="toggleDetails(this)">
+    <div class="project-image-container">
+      <img src="../assets/img/teasers/proj4.png" alt="Memory-Efficient Motion Planning" />
+      <div class="overlay-text">
+        <h4>Memory-Efficient Motion Planning</h4>
+      </div>
+    </div>
+    <div class="project-details">
+      <p>
+        <strong>Advisor:</strong> Devin Balkcom (Dartmouth)<br />
+      </p>
+      <div>
+        <strong>Related Papers:</strong>
+        <ul>
+          <li><a href="assets/documents/papers/plrc.pdf" target="_blank">PLRC*: A Piecewise Linear Regression Complex for Approximating Optimal Robot Motion</a></li>
+          <li><a href="assets/documents/papers/lldm.pdf" target="_blank">LLDM: Locally Linear Distance Maps for Robot Motion Planning</a></li>
+        </ul>
+      </div>
+      <div>
+        <!-- <strong>Related Videos:</strong>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=dummy_video_1" target="_blank">Motion Planning Video 1</a></li>
+        </ul> -->
+      </div>
+    </div>
+  </div>
+
 </div>
 
-<div class="project">
-    <div class="video-description">
-        <!-- <h2 class="video-title">Title for the second video</h2> Changed from h1 to h2 for smaller size -->
-    </div>
-    <div class="video-container">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/xno0FBs3ZdQ" frameborder="0" allowfullscreen=""></iframe>
-        <p>In this paper, we present a soft modular block inspired by tensegrity structures that can form load-bearing structures through self-assembly. The block comprises a stellated compliant skeleton, shape memory alloy muscles, and permanent magnet connectors. We classify five deformation primitives for individual blocks (bend, compress, stretch, stand, and shrink), which can be combined across modules to reason about full-lattice deformation. Hierarchical function is abundant in nature and in human-designed systems. Using multiple self-assembled lattices, we demonstrate the formation and actuation of 3-dimensional shapes, including a load-bearing pop-up tent, a self-assembled wheel, a quadruped, a block-based robotic arm with gripper, and non-prehensile manipulation. To our knowledge, this is the first example of active deformable modules (blocks) that can reconfigure into different load-bearing structures on-demand.</p>
-    </div>
-</div>
+<script>
+function toggleDetails(element) {
+  const projectItem = element.closest('.project-item');
+  const details = projectItem.querySelector('.project-details');
+  if (details.style.maxHeight) {
+    details.style.maxHeight = null;
+  } else {
+    details.style.maxHeight = details.scrollHeight + "px";
+  }
+}
+</script>
 
-<!-- 
-
-
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/0_deeprl_alma/">
-        
-        <img class="thumbnail" src="/assets/img/projects/rsl-alma/raisim_alma_rendered.png"/>
-            
-        <span>
-            <h1>Learning Locomotion-Manipulation Control</h1>
-            <br/>
-            <p>Semester Thesis</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-
-
-
-
-
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/1_deeplanding/">
-        
-        <img class="thumbnail" src="/assets/img/projects/deeplanding/outdoor_testrun.jpeg"/>
-            
-        <span>
-            <h1>Predicting Landing Sites from Aerial Images</h1>
-            <br/>
-            <p>DAAD Research Internship</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-
-
-
-
-
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="/projects/2_auviitk/">
-        
-        <img class="thumbnail" src="/assets/img/projects/auv/varun.jpg"/>
-            
-        <span>
-            <h1>Autonomous Underwater Vehicle (AUV)</h1>
-            <br/>
-            <p>Funded by DoRD, IIT Kanpur</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-
-
- -->
-
-<!-- ##### At ETH Zurich
-
-* Online Adaptation using Graph Networks in Model-based RL
-* Using Semantics to detect Camera Miscalibrations
-* Multi-camera DeepTAM ([report](/assets/documents/projects/Multicam_Deeptam.pdf), [code](https://github.com/surirohit/multi-camera-deeptam))
-* Verification of Neural Networks using Linear Programming ([report](/assets/documents/projects/RIAI_Manuel_Mayank.pdf), [code](https://github.com/luyangzhao/verify_neural_networks))
-* Monocular Odometry with Bundle Adjustment ([report](/assets/documents/projects/VA4MR_Mini_Project.pdf), [video](https://www.youtube.com/watch?v=trbBh8Rjc4s&feature=youtu.be), [code](https://github.com/luyangzhao/Mono-Odometry))
-
-##### At IIT Kanpur
-
-* Survey on Variational Autoencoders for Bayesian Inference ([report](/assets/documents/projects/cs698-report.pdf))
-* Multi- Robot System for Bomb Disposal ([poster](/assets/documents/projects/Abhyast_Plan.jpg), [code](https://github.com/Boeing-Abhyast/Phase-VII))
-* Visual Odometry using careful Feature Selection and Tracking ([report](/assets/documents/projects/ee698-report.pdf), [code](https://github.com/luyangzhao/Stereo-Odometry-SOFT))
-* MATLAB based GUI for Motion Planning ([code](https://github.com/luyangzhao/Motion-Planning-GUI))
-* Failure Handling in Swarm of Quadrotors ([report](/assets/documents/projects/cs637-report.pdf)) -->
-
-<!-- ### open source projects
-
-* ROS package for AirSim simulator- in C++ ([code](https://github.com/luyangzhao/airsim_img_publisher))
-* ROS package for AirSim simulator- in Python ([code](https://github.com/luyangzhao/airsim_ros_client))
-* ROS package for saving data published from Zed Camera ([code](https://github.com/luyangzhao/extract_zed_data))
-* ROS package for publishing data from Sparton AHRS8 sensor ([code](https://github.com/luyangzhao/sparton_ahrs8_driver))
-* Python project for reinforcement learning with Trifinger robot [code](https://github.com/pairlab/leibnizgym/) -->
 
   </article>
 
