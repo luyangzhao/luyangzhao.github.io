@@ -1,55 +1,86 @@
-.project {
-    box-sizing: border-box;
-    float: left;
-    height: 250px;
-    padding: 10px;
-    vertical-align: middle;
-    width: 33.33%;
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between each project */
+    justify-content: space-between;
+    width: 100%; /* Full width container */
+    margin: 0 auto;
+  }
+  
+  .project-item {
+    position: relative;
+    width: 30%; /* Each project takes up ~25% of the width with spacing */
+    max-width: 30vw;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
 
-    .thumbnail {
-        overflow: hidden;
-        height: 200px;
-        width: 100%;
+  
+  
+  .project-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .project-image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .project-image-container img {
+    width: 100%; /* Ensure the image fits the container */
+    height: auto; /* Keep original aspect ratio */
+    filter: brightness(50%); /* Darken image for text readability */
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay-text h4 {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap; /* Prevents title from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adds "..." if the title is too long */
+  }
 
-        img {
-            height: 210px;
-            width: 210px;
-        }
+  
+  
+//   .project-details {
+//     max-height: 0;
+//     overflow: hidden;
+//     transition: max-height 0.4s ease-out;
+//     padding: 10px;
+//     background-color: rgba(255, 255, 255, 0.9);
+//     text-align: left;
+//   }
 
-        a {
-            float: left;
-            height: 250px;
-            position: relative;
-            width: 100%;
 
-            span {
-                display: none;
-                position: absolute;
-                top: 0;
-                left: 0;
-                bottom: 0;
-                right: 0;
-                background: rgba(0,0,0,0.6);
-                color: $grey-color-light;
-                padding: 30px;
-                text-align: center;
-
-                h1 {
-                    font-size: 1.2rem;
-                    margin: 0;
-                }
-
-                p {
-                    font-size: 0.8rem;
-                    color: $grey-color-light;
-                }
-            }
-
-            &:hover {
-                span {
-                    display: block;
-                }
-            }
-        }
-    }
-}
+  .project-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+    padding: 0 10px; /* Padding to be applied only when expanded */
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: left;
+    border-top: 1px solid #ddd;
+  }
+  
+  
+  .project-details p {
+    font-size: 0.9em;
+    color: #333;
+    line-height: 1.4;
+    margin: 0;
+  }
+  

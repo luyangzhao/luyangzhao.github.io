@@ -31,14 +31,15 @@ figcaption {
   padding: $img-spacing;
 }
 .col {
-    width: 100%;
-    height: 100%;
+    // width: 100%;
+    // height: 100%;
     float: left;
     object-fit: cover;
     box-sizing:border-box;
     padding: $img-spacing;
 }
 .one {
+    // width:25%;
     width:33.33%;
 }
 .two {
