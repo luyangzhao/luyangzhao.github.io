@@ -233,6 +233,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.20.0)
     namae (1.1.1)
+    nio4r (2.7.4)
     nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -242,6 +243,8 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
+    puma (6.5.0)
+      nio4r (~> 2.0)
     racc (1.7.1)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
@@ -283,6 +286,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-scholar
   jemoji
+  puma (~> 6.5)
   unicode_utils
 
 BUNDLED WITH

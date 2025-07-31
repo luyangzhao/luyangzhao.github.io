@@ -1,23 +1,61 @@
-landing:
-  img: teasers/landing.png
+plrc:
+  img: teasers/plrc.png
 
-miscalib:
-  img: teasers/miscalib.png
+plr:
+  img: teasers/plr.gif
 
-vision_uav:
-  img: teasers/vision_uav.png
+soft1:
+  img: teasers/soft1.gif
+  url: https://www.youtube.com/watch?v=EYLYyijfzCg
 
-lyap_mpc:
-  img: teasers/lyap_mpc.png
+soft2:
+  img: teasers/soft2.gif
+  url: https://www.youtube.com/watch?v=xno0FBs3ZdQ
 
-articulated_mm:
-  img: teasers/alma_dishwasher.gif
+assistant:
+  img: teasers/assistant.png
+  
+lldm:
+  img: teasers/lldm.gif
 
-trifinger:
-  img: teasers/trifinger.gif
 
-alma_self_collision:
-  img: teasers/alma_self.gif
+flexblocks:
+  img: teasers/tensegrity-block.gif
 
-orbit:
-  img: teasers/orbit.jpg
+rl-design:
+  img: teasers/rl.png
+
+surface:
+  img: teasers/surface.gif
+
+softsnap:
+  img: teasers/softsnap.gif
+
+dolphin:
+  img: teasers/dolphin.gif
+
+learning:
+  img: teasers/learning.png
+
+
+syringe:
+  img: teasers/syringe.png
+
+seesea:
+  img: teasers/seesea.png
+
+airplane:
+  img: teasers/airplane.png
+
+llmswarm:
+  img: teasers/llmswarm.png
+
+
+seepersea:
+  img: teasers/seepersea.png
+
+
+
+
+
+
