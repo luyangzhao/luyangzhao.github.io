@@ -4,7 +4,9 @@
 name: Luyang Zhao
 email: luyang.zhao.gr@dartmouth.edu
 description: > # this means to ignore newlines until "url:"
-  A simple website for a Roboticist.
+  Luyang Zhao's personal webpage
+keyword: > # this means to ignore newlines until "url:"
+  Luyang, Zhao, Luyang Zhao, Dartmouth
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -14,17 +16,20 @@ baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: # leave blank if you don't want to display last updated
 
 # google-analytics
-google_analytics: UA-92958928-1
+google_analytics: 
 repo: http://github.com/luyangzhao
+
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: luyangzhao # put your github username
+github_username:  zhaox926 # put your github username
 twitter_username: luyangzhao # put your twitter username
 linkedin_username: luyang-zhao # put your linkedin username
-scholar_authorid: 3E4UU-EAAAAJ&hl # put your google scholar author id
-contact_note: #  You can even add a little note about which of these is the best way to reach you.
+scholar_authorid: e_Yfw84AAAAJ&hl # put your google scholar author id
+# contact_note: luyang.zhao.gr@dartmouth.edu
+
+google-site-verification: googlef8431719a248501b.html
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -43,10 +48,10 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: mayankm-96 # put your disqus shortname
+disqus_shortname: luyangzhao # put your disqus shortname
 
 # Optional features
-show_social_icons:  false
+show_social_icons:  true
 enable_anchorjs:    false
 enable_katex:       true
 
@@ -85,7 +90,7 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Mittal
+  last_name: Zhao
 
   style: apa
   locale: en

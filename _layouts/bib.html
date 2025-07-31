@@ -5,8 +5,14 @@
 <div id="{{entry.key}}"  class="col three">
   <div style="clear: both;">
     <div style="">
-        <img class="col bibone first" src="{{ site.data.teasers[entry.abbr].img| prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
-    </div>
+      {% if site.data.teasers[entry.abbr].url %}
+        <a href="{{ site.data.teasers[entry.abbr].url }}" target="_blank">
+          <img class="col bibone first" src="{{ site.data.teasers[entry.abbr].img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+        </a>
+      {% else %}
+        <img class="col bibone first" src="{{ site.data.teasers[entry.abbr].img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
+      {% endif %}
+  </div>  
   </div>
   <div class="col bibtwo last">
     {% if entry.type == "thesis" %}
@@ -16,14 +22,14 @@
       <span class="author">
         {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
-            {% if author.last == site.scholar.last_name %}
-              <em><b>{{author.first}} {{author.last}}</b></em>
+            {% if author.last contains site.scholar.last_name %}
+            <em><b>{{author.first}} {{author.last}}</b></em>
             {% else %}
               {{author.first}} {{author.last}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
-              {% if author.last == site.scholar.last_name %}
+              {% if author.last contains site.scholar.last_name %}
                 <em><b>{{author.first}} {{author.last}}</b></em>,
               {% else %}
                 {% if site.data.coauthors[author.last] %}
@@ -33,7 +39,7 @@
                 {% endif %}
               {% endif %}
             {% else %}
-              {% if author.last == site.scholar.last_name %}
+              {% if author.last contains site.scholar.last_name %}
                 and <em><b>{{author.first}} {{author.last}}</b></em>
               {% else %}
                 {% if site.data.coauthors[author.last] %}
@@ -48,20 +54,21 @@
       </span>
 
       <span class="periodical">
+      {% assign clr = "#000000" %}
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        <strong><em style="color:{{ clr }}">{{entry.journal}}</em></strong>
       {% elsif entry.type == "inproceedings" %}
-        <em>{{entry.booktitle}}</em>
+        <strong><em style="color:{{ clr }}">{{entry.booktitle}}</em></strong>
       {% elsif entry.type == "workshop" %}
-        <em>{{entry.booktitle}}</em>
+        <strong><em style="color:{{ clr }}">{{entry.booktitle}}</em></strong>
         <br>
-        <em>{{entry.maintitle}}</em>
+        <strong><em style="color:{{ clr }}">{{entry.maintitle}}</em></strong>
       {% elsif entry.type == "preprint" %}
-        <em> (Under Review) </em>
+        <strong><em style="color:{{ clr }}"> (Under Review) </em></strong>
       {% endif %}
       {% if entry.type != "preprint" %}
         {% if entry.year %}
-          {{entry.year}}
+          <strong><em style="color:{{ clr }}">{{entry.year}}</em></strong>
         {% endif %}
       {% endif %}
       </span>
@@ -69,22 +76,73 @@
 
     <span class="links">
     {% if entry.abstract %}
-      [<a class="abstract">Abs</a>]
+      [<a class="abstract">Abstract</a>]
     {% endif %}
     {% if entry.arxiv %}
       [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
-    {% else%}
-      [arXiv (available soon)]
-    {% endif %}
-    {% if entry.video %}
-      [<a href="{{ entry.video }}" target="_blank">Video</a>]
-    {% endif %}
-    {% if entry.html %}
-      [<a href="{{ entry.html }}" target="_blank">Website</a>]
     {% endif %}
     {% if entry.pdf %}
-      [<a href="{{ entry.pdf | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
+    [<a href="{{ entry.pdf | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
     {% endif %}
+
+    <!-- {% if entry.video %}
+      [<a href="{{ entry.video }}" target="_blank">Video</a>]
+    {% endif %} -->
+
+
+    <!-- {% if entry.video %}
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      {% if entry.video contains "youtube.com" %}
+        {% assign video_id = entry.video | split: "v=" | last | split: "&" | first %}
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video_id }}" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+      {% elsif entry.video contains "drive.google.com" %}
+        <iframe src="{{ entry.video }}" width="640" height="480" allow="autoplay"></iframe>
+      {% else %}
+        <a href="{{ entry.video }}" target="_blank">Watch Video</a>
+      {% endif %}
+    </details>
+    {% endif %} -->
+
+
+    {% if entry.code %}
+      [<a href="{{ entry.code }}" target="_blank">Code</a>]
+    {% endif %}
+
+    {% if entry.link %}
+      [<a href="{{ entry.link }}" target="_blank">Link</a>]
+    {% endif %}
+
+    {% if entry.video %}
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      <div>
+        {% if entry.video contains "drive.google.com" %}
+          {% assign file_id = entry.video | split: "/file/d/" | last | split: "/preview" | first %}
+          <iframe src="https://drive.google.com/file/d/{{ file_id }}/preview" 
+                  width="560" height="315" frameborder="0" allow="autoplay" allowfullscreen>
+          </iframe>
+        {% elsif entry.video contains "youtube.com" %}
+          {% assign video_id = entry.video | split: "v=" | last | split: "&" | first %}
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video_id }}" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen></iframe>
+        {% else %}
+          <a href="{{ entry.video }}" target="_blank">Watch Video</a>
+        {% endif %}
+      </div>
+    </details>
+  {% endif %}
+  
+
+
+
+
+    
+
+   
     {% if entry.supp %}
       [<a href="{{ entry.supp | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>]
     {% endif %}
@@ -94,9 +152,14 @@
     {% if entry.slides %}
       [<a href="{{ entry.slides | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Slides</a>]
     {% endif %}
-    {% if entry.code %}
-      [<a href="{{ entry.code }}" target="_blank">Code</a>]
-    {% endif %}
+
+    <!-- {% if entry.bibtex %}
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">{{ entry.bibtex | escape }}</code></pre>
+    </details>
+    {% endif %} -->
+
     </span>
 
     <!-- Hidden abstract block -->
