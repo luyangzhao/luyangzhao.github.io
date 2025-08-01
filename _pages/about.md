@@ -11,7 +11,7 @@ profile:
 
 news: true
 social: true
-years: [2024, 2023, 2022, 2021, 2020, 2019, 2018]
+years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
 ---
 
 <!-- <div class="profile-images">
@@ -66,7 +66,7 @@ I was honored with the **Neukom Outstanding Graduate Research Prize** for my con
 I have also mentored graduate and undergraduate students on various research projects. 
 Beyond academia, I gained industry experience through research internships at **Amazon Robotics**, where I worked on perception, localization, and path planning for Kiva robots in dynamic warehouse environments. At **TuSimple**, I optimized motion planning and decision-making algorithms for autonomous vehicles navigating local roads, addressing real-time navigation and safety challenges in urban and semi-structured environments.
 <!-- Beyond academia, I gained valuable industry experience through research internships at Amazon Robotics and TuSimple, where I worked on localization, path planning, and optimization for autonomous vehicles. -->
-Additionally, I co-organized the **Tensegrity Robotics Workshop at IROS 2023** and reviewed papers for journals and conferences, including RA-L, ICRA, IROS, RoboSoft, BioRob and Construction Robotics.
+Additionally, I co-organized the **Tensegrity Robotics Workshop at IROS 2023** and reviewed papers for journals and conferences, including RA-L, ICRA, IROS, RoboSoft, BioRob and *Construction Robotics*.
 
 
 
