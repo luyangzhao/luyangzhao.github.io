@@ -1,13 +1,8 @@
-source "http://rubygems.org"
-group :jekyll_plugins do
-    gem 'github-pages'
-    gem 'jekyll'
-    gem 'jekyll-paginate'
-    gem 'jekyll-scholar'
-    gem 'jemoji'
-    gem 'unicode_utils'
-end
+source "https://rubygems.org"
 
-
-
-gem "puma", "~> 6.5"
+gem 'jekyll', '~> 4.2.2'
+gem 'jekyll-scholar'
+gem 'jekyll-paginate'
+gem 'jemoji'
+gem 'unicode_utils'
+gem 'webrick'           # needed for local dev in Ruby >= 3
