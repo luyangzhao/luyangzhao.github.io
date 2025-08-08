@@ -47,7 +47,8 @@ As a **reviewer**, I have evaluated papers for Journal **RA-L** and conferences 
 Hello, I am **Luyang Zhao**, recently completed my PhD in Computer Science at Dartmouth College, mentored by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). I earned double majors in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, where I worked on research projects with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).  -->
 
 
-Hello, I am **Luyang Zhao**, an Assistant Professor in the Electrical and Computer Engineering Department at Clemson University (joined August 2025).
+Hello, I am **Luyang Zhao**.  
+<span style="color:#F56600"><strong>Assistant Professor</strong> in the Electrical and Computer Engineering Department at Clemson University (joined August 2025) — Go Tigers! 🐾</span>
 I recently completed my PhD in Computer Science at Dartmouth College, where I was advised by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). I earned double majors in Computer Science and Mathematics during my undergraduate studies at the University of Minnesota, where I conducted research with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).
 
 
