@@ -41,15 +41,13 @@ I have co-organized workshops, including the **Tensegrity Robotics Workshop at I
 
 As a **reviewer**, I have evaluated papers for Journal **RA-L** and conferences like **ICRA**, **IROS**, **RoboSoft**, and **BioRob**. I have also completed research internships at **Amazon** and **TuSimple**, where I worked on projects related to localization, path planning, and autonomous vehicle optimization.
 
-
-Feel free to connect with me via email at **luyang.zhao.gr@dartmouth.edu** or through the social media links provided at the bottom of this page.
  -->
 
 <!-- 
 Hello, I am **Luyang Zhao**, recently completed my PhD in Computer Science at Dartmouth College, mentored by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). I earned double majors in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, where I worked on research projects with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).  -->
 
-Hello, I am **Luyang Zhao**. <span style="color:red">I will be joining the Electrical and Computer Engineering Department at Clemson University as a tenure-track Assistant Professor starting August 2025.</span>
 
+Hello, I am **Luyang Zhao**, an Assistant Professor in the Electrical and Computer Engineering Department at Clemson University (joined August 2025).
 I recently completed my PhD in Computer Science at Dartmouth College, where I was advised by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). I earned double majors in Computer Science and Mathematics during my undergraduate studies at the University of Minnesota, where I conducted research with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).
 
 
@@ -70,7 +68,7 @@ Additionally, I co-organized the **Tensegrity Robotics Workshop at IROS 2023** a
 
 
 
-Feel free to connect with me via email at **luyang.zhao.gr@dartmouth.edu**.
+Feel free to connect with me via email at **luyangz@clemson.edu**.
 
 
 

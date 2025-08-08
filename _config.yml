@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: Luyang Zhao
-email: luyang.zhao.gr@dartmouth.edu
+email: luyangz@clemson.edu
 description: > # this means to ignore newlines until "url:"
   Luyang Zhao's personal webpage
 keyword: > # this means to ignore newlines until "url:"
@@ -29,7 +29,7 @@ github_username:  zhaox926 # put your github username
 twitter_username: luyangzhao # put your twitter username
 linkedin_username: luyang-zhao # put your linkedin username
 scholar_authorid: e_Yfw84AAAAJ&hl # put your google scholar author id
-# contact_note: luyang.zhao.gr@dartmouth.edu
+# contact_note: luyangz@clemson.edu
 
 google-site-verification: googlef8431719a248501b.html
 
