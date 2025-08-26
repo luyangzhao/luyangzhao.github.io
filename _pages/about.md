@@ -47,11 +47,11 @@ As a **reviewer**, I have evaluated papers for Journal **RA-L** and conferences 
 Hello, I am **Luyang Zhao**, recently completed my PhD in Computer Science at Dartmouth College, mentored by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). I earned double majors in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, where I worked on research projects with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).  -->
 
 
-Hello, I am **Luyang Zhao**, an Assistant Professor in the Electrical and Computer Engineering Department at <span style="color:#F56600"><strong><a href="https://www.clemson.edu" style="color:#F56600; text-decoration:none;">Clemson University</a></strong></span> (joined August 2025).
+Hello, I am **Luyang Zhao**, an Assistant Professor in the Electrical and Computer Engineering Department at <span style="color:#F56600"><strong><a href="https://www.clemson.edu" style="color:#F56600; text-decoration:none;">Clemson University</a></strong></span> (since August 2025).
 I recently completed my PhD in Computer Science at Dartmouth College, where I was advised by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). I earned double majors in Computer Science and Mathematics during my undergraduate studies at the University of Minnesota, where I conducted research with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).
 
 
-My research focuses on the areas include:
+My research focuses on:
 
 - <span style="color: black;">**Robotics**</span>: Soft Robotics, Modular Robotics, Swarm Robotics, and Bio-Inspired Systems.  
 - <span style="color: black;">**Artificial Intelligence**</span>: Machine Learning and Large Language Models (LLMs) for robotic design and decision-making.  
@@ -61,14 +61,15 @@ I was honored with the **Neukom Outstanding Graduate Research Prize** for my con
 [**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp),
 [**Dartmouth College's official website**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots),
  [**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/) and [**Communications of the ACM**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext). 
-I have also mentored graduate and undergraduate students on various research projects. 
-Beyond academia, I gained industry experience through research internships at **Amazon Robotics**, where I worked on perception, localization, and path planning for Kiva robots in dynamic warehouse environments. At **TuSimple**, I optimized motion planning and decision-making algorithms for autonomous vehicles navigating local roads, addressing real-time navigation and safety challenges in urban and semi-structured environments.
-<!-- Beyond academia, I gained valuable industry experience through research internships at Amazon Robotics and TuSimple, where I worked on localization, path planning, and optimization for autonomous vehicles. -->
+
+I have also mentored graduate and undergraduate students on various research projects. My research has been published in top journals and conferences, including Nature Communications, Soft Robotics, IEEE Transactions on Field Robotics, IEEE Robotics and Automation Letters (RA-L), IROS, and RoboSoft.
+Beyond academia, I gained industry experience through research internships at Amazon Robotics (perception, localization, and path planning for Kiva robots) and TuSimple (motion planning and decision-making for autonomous vehicles in urban environments).
+<!-- Beyond academia, I gained industry experience through research internships at **Amazon Robotics**, where I worked on perception, localization, and path planning for Kiva robots in dynamic warehouse environments. At **TuSimple**, I optimized motion planning and decision-making algorithms for autonomous vehicles navigating local roads, addressing real-time navigation and safety challenges in urban and semi-structured environments. -->
 Additionally, I co-organized the **Tensegrity Robotics Workshop at IROS 2023** and reviewed papers for journals and conferences, including RA-L, ICRA, IROS, RoboSoft, BioRob and *Construction Robotics*.
 
 
+I am looking for passionate and motivated PhD students — especially those who enjoy building and experimenting with robots, from hardware design to software for learning and perception. Feel free to reach out at luyangz@clemson.edu.
 
-Feel free to connect with me via email at **luyangz@clemson.edu**.
 
 
 
@@ -76,7 +77,7 @@ Feel free to connect with me via email at **luyangz@clemson.edu**.
 ### __Recent Highlights__  
 - **Aug 23, 2025**: Our paper, **"SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles,"** has been accepted by **IEEE Transactions on Field Robotics**. [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11142348)  
 - **Aug 25, 2025**: Our paper, **"Design of a Lightweight Robotic Tensegrity Morphing Airfoil,"** has been accepted for presentation at the **2026 AIAA SciTech Forum**.  
-- **Aug 2025**: Featured in Dartmouth news and international media:  
+- **Aug 20 2025**: Featured in Dartmouth news and international media:  
   - [Dartmouth News: Multipurpose Robots Take Shape](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape)  
   - [Interesting Engineering: Modular Robots Build Bridges and Shelters](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters)  
 - **June 15, 2025**: Our paper, **"Exploring Spontaneous Social Interaction Swarm Robotics Powered by Large Language Models,"** has been accepted by IROS 2025.
