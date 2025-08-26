@@ -72,8 +72,13 @@ Feel free to connect with me via email at **luyangz@clemson.edu**.
 
 
 
-### __Recent Highlights__  
 
+### __Recent Highlights__  
+- **Aug 23, 2025**: Our paper, **"SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles,"** has been accepted by **IEEE Transactions on Field Robotics**. [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11142348)  
+- **Aug 25, 2025**: Our paper, **"Design of a Lightweight Robotic Tensegrity Morphing Airfoil,"** has been accepted for presentation at the **2026 AIAA SciTech Forum**.  
+- **Aug 2025**: Featured in Dartmouth news and international media:  
+  - [Dartmouth News: Multipurpose Robots Take Shape](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape)  
+  - [Interesting Engineering: Modular Robots Build Bridges and Shelters](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters)  
 - **June 15, 2025**: Our paper, **"Exploring Spontaneous Social Interaction Swarm Robotics Powered by Large Language Models,"** has been accepted by IROS 2025.
 - **Apr 30, 2025**: Our paper, **"SoftSnap: Rapid Prototyping of Untethered Soft Robots Using Snap-Together Modules,"** has been accepted for publication in **Soft Robotics**.  
 - **Apr 30, 2025**: Our paper, **"Modular Shape-changing Tensegrity-Blocks Enable Self-assembling Robotic Structures,"** has been accepted in principle by **Nature Communications**.  
@@ -87,7 +92,6 @@ Feel free to connect with me via email at **luyangz@clemson.edu**.
 - **Feb 3, 2025**: Delivered a seminar talk at **Clemson University** on **"Soft Modular Robots: From Modular Tensegrity Structures to Bioinspired Sea Robots."**  
 - **Jan 28, 2025**: Invited as a guest lecturer in **Professor Xiaonan Huang's Soft Robotics** course at the **University of Michigan**, where I presented my work on **Soft Modular Robots**.
 - **Jan 5, 2025**: Our **Tensegrity dolphin** paper got accepted in **RoboSoft 2025**.  
-<!-- - **Aug 26, 2024**: Our **Tensegrity Morphing Airfoil** got accepted in **2025 AIAA SciTech**.   -->
 - **May 31, 2024**: Selected for a talk about **"Self-Assembling Soft Modular Robots for Manipulation"** for [**NEMS 2024**](https://nems2024.khoury.northeastern.edu/).  
 - **April 14, 2024**: Presented own work at **RoboSoft 2024**.  
 - **December, 2023**: Became **Admissions Ambassador** for Dartmouth College.  
