@@ -57,18 +57,22 @@ My research focuses on:
 - <span style="color: black;">**Artificial Intelligence**</span>: Machine Learning and Large Language Models (LLMs) for robotic design and decision-making.  
 - <span style="color: black;">**Robotic Systems and Simulation**</span>: Multi-Robot Systems, Motion Planning, SLAM, Robot Simulation, and Robotic Perception for real-world applications.  
 
-I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to research. My work has garnered attention in the media, with coverage from 
+<!-- I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to research. My work has garnered attention in the media, with coverage from 
+[**Dartmouth College's official website (2023)**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots), [**(2025)**](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape)
 [**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp),
-[**Dartmouth College's official website**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots),
- [**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/) and [**Communications of the ACM**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext). 
+[**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/) and [**Communications of the ACM**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext).  -->
 
-I have also mentored graduate and undergraduate students on various research projects. My research has been published in top journals and conferences, including Nature Communications, Soft Robotics, IEEE Transactions on Field Robotics, IEEE Robotics and Automation Letters (RA-L), IROS, and RoboSoft.
-Beyond academia, I gained industry experience through research internships at Amazon Robotics (perception, localization, and path planning for Kiva robots) and TuSimple (motion planning and decision-making for autonomous vehicles in urban environments).
+
+I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to research. My work has also been featured in the media, including [**Dartmouth College's official website (2025)**](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape), [**Interesting Engineering**](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters), [**Dartmouth College's official website (2023)**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots), [**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp), [**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/), and [**Communications of the ACM**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext).
+
+
+I have also mentored graduate and undergraduate students on various research projects. My research has been published in top journals and conferences, including **Nature Communications**, **Soft Robotics**, **IEEE Transactions on Field Robotics**, **IEEE Robotics and Automation Letters (RA-L)**, **IROS**, and **RoboSoft**.
+Beyond academia, I gained industry experience through research internships at **Amazon Robotics** (perception, localization, and path planning for Kiva robots) and **TuSimple** (motion planning and decision-making for autonomous vehicles in urban environments).
 <!-- Beyond academia, I gained industry experience through research internships at **Amazon Robotics**, where I worked on perception, localization, and path planning for Kiva robots in dynamic warehouse environments. At **TuSimple**, I optimized motion planning and decision-making algorithms for autonomous vehicles navigating local roads, addressing real-time navigation and safety challenges in urban and semi-structured environments. -->
-Additionally, I co-organized the **Tensegrity Robotics Workshop at IROS 2023** and reviewed papers for journals and conferences, including RA-L, ICRA, IROS, RoboSoft, BioRob and *Construction Robotics*.
+Additionally, I co-organized the Tensegrity Robotics Workshop at IROS 2023 and reviewed papers for journals and conferences, including RA-L, ICRA, IROS, RoboSoft, BioRob and *Construction Robotics*.
 
 
-I am looking for passionate and motivated PhD students — especially those who enjoy building and experimenting with robots, from hardware design to software for learning and perception. Feel free to reach out at luyangz@clemson.edu.
+<span style="color:#FF0000">I am looking for passionate and motivated PhD students</span>— especially those who enjoy building and experimenting with robots, from hardware design to software for learning and perception. Feel free to reach out at luyangz@clemson.edu.
 
 
 

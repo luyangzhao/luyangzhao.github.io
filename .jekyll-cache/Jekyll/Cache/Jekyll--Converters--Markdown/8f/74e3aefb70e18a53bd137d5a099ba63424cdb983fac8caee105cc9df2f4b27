@@ -1,0 +1,2776 @@
+I"L<!-- <div class="profile-images">
+  <img src="/assets/img/0.jpeg" alt="Luyang Zhao Profile Image 1" class="profile-img">
+</div> -->
+
+<!-- 
+Hello, I am Luyang Zhao, a PhD candidate in Computer Science at Dartmouth College, mentored by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). 
+My research domain is diverse, encompassing **soft robots**, **modular robots**, **reinforcement learning**, **large language models (LLMs)**, **multi-robot systems**, **motion planning**, and **Simultaneous Localization and Mapping (SLAM)**. My work integrates machine learning techniques with robotics design, application, and planning to develop adaptive, intelligent systems capable of complex behaviors and interactions in dynamic environments.
+
+
+
+I earned double majors in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, where I worked on research projects with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).
+
+Lately, I've been deeply involved in the design and analysis of **self-assembling soft modular robots**. For the terrestrial project, I am collaborating with [**Professor Kostas Bekris**](https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/) from Rutgers University, [**Professor Rebecca Kramer-Bottiglio**](https://www.eng.yale.edu/faboratory/) from Yale University, [**Professor Xiaonan Huang**](https://robotics.umich.edu/profile/xiaonan-sean-huang/) from the University of Michigan, and [**Professor Muhao Chen**](https://muhao-chen.github.io/) from the University of Kentucky. These robots have the unique capability to autonomously adapt and navigate across varied terrains, especially in challenging situations like crossing gaps, maneuvering over obstacles, and navigating through narrow passageways. Additionally, they can build active human-scale structures such as tents and scaffolding with the help of drones. 
+
+My aquatic project is focused on building an aquatic platform for exploring locomotion, manipulation, and structure formation tasks, where I am using reinforcement learning to generate gaits for different configurations. This project is now collaborating with [**Professor Alberto Quattrini Li**](https://rlab.cs.dartmouth.edu/albertoq/) from Dartmouth College, [**Professor Muhao Chen**](https://muhao-chen.github.io/) from the University of Kentucky and  [**Professor Haibo Dong**](https://engineering.virginia.edu/faculty/haibo-dong) from the University of Virginia.
+
+I am also investigating flexible, bio-inspired robotics, with a focus on designs like dolphin-inspired robots and morphing wings. Our research on morphing wings has been accepted by AIAA, and our work on the dolphin-inspired robot has been submitted to RoboSoft 2025.
+
+I have also utilized **generative models, such as large language models (e.g., GPT)**, to design soft modular robots for various tasks. This work was done in collaboration with [**Professor Soroush Vosoughi**](https://www.cs.dartmouth.edu/~soroush/) from Dartmouth College and [**Professor Bo Zhu**](https://faculty.cc.gatech.edu/~bozhu/) from Georgia Tech.
+
+In addition to these projects, I am also interested in theoretical motion planning problems, aiming to develop memory-efficient motion planning algorithms that maintain high-quality path-finding while minimizing resource usage.
+
+I have co-organized workshops, including the **Tensegrity Robotics Workshop at IROS 2023**, and have mentored several graduate and undergraduate students. I have received the **Neukom Outstanding Graduate Research Prize** in 2023.
+
+
+As a **reviewer**, I have evaluated papers for Journal **RA-L** and conferences like **ICRA**, **IROS**, **RoboSoft**, and **BioRob**. I have also completed research internships at **Amazon** and **TuSimple**, where I worked on projects related to localization, path planning, and autonomous vehicle optimization.
+
+ -->
+
+<!-- 
+Hello, I am **Luyang Zhao**, recently completed my PhD in Computer Science at Dartmouth College, mentored by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). I earned double majors in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, where I worked on research projects with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).  -->
+
+<p>Hello, I am <strong>Luyang Zhao</strong>, an Assistant Professor in the Electrical and Computer Engineering Department at <span style="color:#F56600"><strong><a href="https://www.clemson.edu" style="color:#F56600; text-decoration:none;">Clemson University</a></strong></span> (since August 2025).
+I recently completed my PhD in Computer Science at Dartmouth College, where I was advised by <a href="https://rlab.cs.dartmouth.edu/devin/"><strong>Professor Devin Balkcom</strong></a>. I earned double majors in Computer Science and Mathematics during my undergraduate studies at the University of Minnesota, where I conducted research with <a href="https://www-users.cse.umn.edu/~gini/"><strong>Professor Maria Gini</strong></a>.</p>
+
+<p>My research focuses on:</p>
+
+<ul>
+  <li><span style="color: black;"><strong>Robotics</strong></span>: Soft Robotics, Modular Robotics, Swarm Robotics, and Bio-Inspired Systems.</li>
+  <li><span style="color: black;"><strong>Artificial Intelligence</strong></span>: Machine Learning and Large Language Models (LLMs) for robotic design and decision-making.</li>
+  <li><span style="color: black;"><strong>Robotic Systems and Simulation</strong></span>: Multi-Robot Systems, Motion Planning, SLAM, Robot Simulation, and Robotic Perception for real-world applications.</li>
+</ul>
+
+<!-- I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to research. My work has garnered attention in the media, with coverage from 
+[**Dartmouth College's official website (2023)**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots), [**(2025)**](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape)
+[**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp),
+[**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/) and [**Communications of the ACM**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext).  -->
+
+<p>I was honored with the <strong>Neukom Outstanding Graduate Research Prize</strong> for my contributions to research. My work has also been featured in the media, including <a href="https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots"><strong>Dartmouth College’s official website (2025)</strong></a>, <a href="https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape"><strong>(2025)</strong></a>, <a href="https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp"><strong>Tech Xplore</strong></a>, <a href="https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/"><strong>ScienceSprings</strong></a>, <a href="https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext"><strong>Communications of the ACM</strong></a>, and <a href="https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters"><strong>Interesting Engineering</strong></a>.</p>
+
+<p>I was honored with the <strong>Neukom Outstanding Graduate Research Prize</strong> for my contributions to research. My work has also been featured in the media, including:</p>
+<ul>
+  <li><a href="https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots"><strong>Dartmouth College News (2023)</strong></a></li>
+  <li><a href="https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape"><strong>Dartmouth College News (2025)</strong></a></li>
+  <li><a href="https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp"><strong>Tech Xplore</strong></a></li>
+  <li><a href="https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/"><strong>ScienceSprings</strong></a></li>
+  <li><a href="https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext"><strong>Communications of the ACM</strong></a></li>
+  <li><a href="https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters"><strong>Interesting Engineering</strong>: Modular Robots Build Bridges and Shelters</a></li>
+</ul>
+
+<p>I have also mentored graduate and undergraduate students on various research projects. My research has been published in top journals and conferences, including Nature Communications, Soft Robotics, IEEE Transactions on Field Robotics, IEEE Robotics and Automation Letters (RA-L), IROS, and RoboSoft.
+Beyond academia, I gained industry experience through research internships at Amazon Robotics (perception, localization, and path planning for Kiva robots) and TuSimple (motion planning and decision-making for autonomous vehicles in urban environments).
+<!-- Beyond academia, I gained industry experience through research internships at **Amazon Robotics**, where I worked on perception, localization, and path planning for Kiva robots in dynamic warehouse environments. At **TuSimple**, I optimized motion planning and decision-making algorithms for autonomous vehicles navigating local roads, addressing real-time navigation and safety challenges in urban and semi-structured environments. -->
+Additionally, I co-organized the <strong>Tensegrity Robotics Workshop at IROS 2023</strong> and reviewed papers for journals and conferences, including RA-L, ICRA, IROS, RoboSoft, BioRob and <em>Construction Robotics</em>.</p>
+
+<p><strong>I am looking for passionate and motivated PhD students</strong> — especially those who enjoy building and experimenting with robots, from hardware design to software for learning and perception. Feel free to reach out at luyangz@clemson.edu.</p>
+
+<h3 id="recent-highlights"><strong>Recent Highlights</strong></h3>
+<ul>
+  <li><strong>Aug 23, 2025</strong>: Our paper, <strong>“SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles,”</strong> has been accepted by <strong>IEEE Transactions on Field Robotics</strong>. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=11142348">link</a></li>
+  <li><strong>Aug 25, 2025</strong>: Our paper, <strong>“Design of a Lightweight Robotic Tensegrity Morphing Airfoil,”</strong> has been accepted for presentation at the <strong>2026 AIAA SciTech Forum</strong>.</li>
+  <li><strong>Aug 20 2025</strong>: Featured in Dartmouth news and international media:
+    <ul>
+      <li><a href="https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape">Dartmouth News: Multipurpose Robots Take Shape</a></li>
+      <li><a href="https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters">Interesting Engineering: Modular Robots Build Bridges and Shelters</a></li>
+    </ul>
+  </li>
+  <li><strong>June 15, 2025</strong>: Our paper, <strong>“Exploring Spontaneous Social Interaction Swarm Robotics Powered by Large Language Models,”</strong> has been accepted by IROS 2025.</li>
+  <li><strong>Apr 30, 2025</strong>: Our paper, <strong>“SoftSnap: Rapid Prototyping of Untethered Soft Robots Using Snap-Together Modules,”</strong> has been accepted for publication in <strong>Soft Robotics</strong>.</li>
+  <li><strong>Apr 30, 2025</strong>: Our paper, <strong>“Modular Shape-changing Tensegrity-Blocks Enable Self-assembling Robotic Structures,”</strong> has been accepted by <strong>Nature Communications</strong>.</li>
+  <li><strong>Apr 23, 2025</strong>: Invited speaker at the <strong>RoboSoft 2025 Tensegrity Workshop</strong> (<a href="https://tensegrity-robotics.github.io/workshop">workshop link</a>).</li>
+  <li><strong>Apr 14, 2025</strong>: Invited research talk on <strong>Soft Modular Robots</strong> at <strong>NC State University</strong>, hosted by <strong>Professor Peng Gao</strong>.</li>
+  <li><strong>Mar 25, 2025</strong>: Delivered a seminar talk on <strong>Soft Modular Robots</strong> at the <strong>University of Virginia (UVA)</strong>.</li>
+  <li><strong>Feb 18, 2025</strong>: Our ICRA art exhibition proposal, <strong>“SMILE: Soft Modular Intelligent Lattice for Entertainment,”</strong> has been accepted for the <strong>2025 International Conference on Robotics and Automation (ICRA)</strong>.</li>
+  <li><strong>Feb 10, 2025</strong>: Delivered a seminar talk on <strong>Soft Modular Robots</strong> at <strong>Worcester Polytechnic Institute (WPI)</strong>.</li>
+  <li><strong>Feb 5, 2025</strong>: Our paper, <strong>“A Numerical and Experimental Tensegrity Robot Platform for Space Landing and Locomotion,”</strong> has been accepted for presentation at <strong>EMI 2025</strong>.</li>
+  <li><strong>Feb 5, 2025</strong>: Delivered a seminar talk at <strong>The University of Tulsa</strong>.</li>
+  <li><strong>Feb 3, 2025</strong>: Delivered a seminar talk at <strong>Clemson University</strong> on <strong>“Soft Modular Robots: From Modular Tensegrity Structures to Bioinspired Sea Robots.”</strong></li>
+  <li><strong>Jan 28, 2025</strong>: Invited as a guest lecturer in <strong>Professor Xiaonan Huang’s Soft Robotics</strong> course at the <strong>University of Michigan</strong>, where I presented my work on <strong>Soft Modular Robots</strong>.</li>
+  <li><strong>Jan 5, 2025</strong>: Our <strong>Tensegrity dolphin</strong> paper got accepted in <strong>RoboSoft 2025</strong>.</li>
+  <li><strong>May 31, 2024</strong>: Selected for a talk about <strong>“Self-Assembling Soft Modular Robots for Manipulation”</strong> for <a href="https://nems2024.khoury.northeastern.edu/"><strong>NEMS 2024</strong></a>.</li>
+  <li><strong>April 14, 2024</strong>: Presented own work at <strong>RoboSoft 2024</strong>.</li>
+  <li><strong>December, 2023</strong>: Became <strong>Admissions Ambassador</strong> for Dartmouth College.</li>
+  <li><strong>October 5, 2023</strong>: Presented my new work in our <a href="https://www.eng.yale.edu/faboratory/tensegrityworkshop/"><strong>Tensegrity workshop</strong></a> at <strong>IROS</strong>.</li>
+  <li><strong>August 15, 2023</strong>: My research was featured by <a href="https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp"><strong>Tech Xplore</strong></a> and <a href="https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/"><strong>ScienceSprings</strong></a>.</li>
+  <li><strong>August 14, 2023</strong>: My recent research was spotlighted on <strong>Dartmouth College’s</strong> <a href="https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots"><strong>official website</strong></a>.</li>
+</ul>
+
+<!-- {: #publications} -->
+
+<hr />
+<!-- <div style="padding-top: 5px;"></div> -->
+<h3 id="research"><strong>Research</strong></h3>
+
+<!-- learning, -->
+
+<ol class="bibliography"><li><div id="zhaosci" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/tensegrity-block.gif" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">Modular shape-changing tensegrity-blocks enable self-assembling robotic structures</span>
+      <span class="author">
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yitao Jiang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Muhao Chen,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kostas Bekris,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Devin Balkcom
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">Nature Communications</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2025</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/Tensegrity-Blocks.pdf" target="_blank">PDF</a>]
+    
+
+    <!-- 
+      [<a href="https://drive.google.com/file/d/1uXKiN8vLOl9HqY2GBoFJa2bTcPd5-sz7/preview" target="_blank">Video</a>]
+     -->
+
+
+    <!-- 
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      
+        <iframe src="https://drive.google.com/file/d/1uXKiN8vLOl9HqY2GBoFJa2bTcPd5-sz7/preview" width="640" height="480" allow="autoplay"></iframe>
+      
+    </details>
+     -->
+
+
+    
+
+    
+      [<a href="https://www.nature.com/articles/s41467-025-60982-0" target="_blank">Link</a>]
+    
+
+    
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      <div>
+        
+          
+          <iframe src="https://drive.google.com/file/d/1uXKiN8vLOl9HqY2GBoFJa2bTcPd5-sz7/preview" width="560" height="315" frameborder="0" allow="autoplay" allowfullscreen="">
+          </iframe>
+        
+      </div>
+    </details>
+  
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{zhaosci,
+  author = {Zhao, Luyang and Jiang, Yitao and Chen, Muhao and Bekris, Kostas and Balkcom, Devin},
+  journal = {Nature Communications},
+  title = {Modular shape-changing tensegrity-blocks enable self-assembling robotic structures},
+  year = {2025},
+  abbr = {flexblocks},
+  pdf = {papers/Tensegrity-Blocks.pdf},
+  video = {https://drive.google.com/file/d/1uXKiN8vLOl9HqY2GBoFJa2bTcPd5-sz7/preview},
+  link = {https://www.nature.com/articles/s41467-025-60982-0}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>Modular robots are currently designed to perform a variety of tasks, primarily focusing on locomotion or manipulation through the reconfiguration of rigid modules. However, the potential to integrate multiple functions, such as making each robot deployable and capable of building lattice structures for self-construction and infrastructure creation, remains largely unexplored. To advance the field, we hypothesize that combining tensegrity principles with modular robotics can create lightweight, deformable units capable of integrating three critical functions within a single design: navigating varied terrains, manipulating arbitrary shape objects, and assembling weight-sustainable, active large infrastructures. Here, we designed untethered modular robots that are deformable, lightweight, deployable, outdoor-scale, capable of bearing loads, and capable of 3D attachment and detachment. With these characteristics, the system can form various 3D structures using different assembly methods, such as walking into position or being transported by rotorcraft. The deformability and lightweight nature of each block enable the assembled structures to dynamically change shape, providing new capabilities such as added compliance during locomotion and manipulation and the ability to interact with the environment in tasks like tent and bridge assemblies. In summary, we suggest that integrating lightweight and deformable properties into modular robot design offers potential improvements in their adaptability and multi-functionality.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="softsnap" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/softsnap.gif" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">SoftSnap: Rapid Prototyping of Untethered Soft Robots Using Snap-Together Modules</span>
+      <span class="author">
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yitao Jiang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Chun-Yi She,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Muhao Chen,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Devin Balkcom
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000"> Soft Robotics</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2025</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+      [<a href="http://arxiv.org/abs/2410.19169" target="_blank">arXiv</a>]
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/softsnap.pdf" target="_blank">PDF</a>]
+    
+
+    <!-- 
+      [<a href="https://www.youtube.com/watch?v=SWuYzo7xSno" target="_blank">Video</a>]
+     -->
+
+
+    <!-- 
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SWuYzo7xSno" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+      
+    </details>
+     -->
+
+
+    
+      [<a href="https://github.com/luyangzhao/SoftSnap.git" target="_blank">Code</a>]
+    
+
+    
+      [<a href="https://www.liebertpub.com/doi/10.1089/soro.2024.0170" target="_blank">Link</a>]
+    
+
+    
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      <div>
+        
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SWuYzo7xSno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        
+      </div>
+    </details>
+  
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{softsnap,
+  title = {SoftSnap: Rapid Prototyping of Untethered Soft Robots Using Snap-Together Modules},
+  author = {Zhao, Luyang and Jiang, Yitao and She, Chun-Yi and Chen, Muhao and Balkcom, Devin},
+  journal = { Soft Robotics},
+  year = {2025},
+  code = {https://github.com/luyangzhao/SoftSnap.git},
+  video = {https://www.youtube.com/watch?v=SWuYzo7xSno},
+  link = {https://www.liebertpub.com/doi/10.1089/soro.2024.0170},
+  pdf = {papers/softsnap.pdf},
+  doi = {10.1089/soro.2024.0170},
+  arxiv = {2410.19169},
+  abbr = {softsnap}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>Soft robots offer adaptability and safe interaction with complex environments.
+Rapid prototyping kits that allow soft robots to be assembled easily will allow
+different geometries to be explored quickly to suit different environments or to
+mimic the motion of biological organisms. We introduce SoftSnap modules: snaptogether components that enable the rapid assembly of a class of untethered soft
+robots. Each SoftSnap module includes embedded computation, motor-driven
+string actuation, and a flexible thermoplastic polyurethane (TPU) printed structure capable of deforming into various shapes based on the string configuration.
+These modules can be easily connected with other SoftSnap modules or customizable connectors. We demonstrate the versatility of the SoftSnap system through
+four configurations: a starfish-like robot, a brittle star robot, a snake robot, a
+3D gripper, and a ring-shaped robot. These configurations highlight the ease of
+assembly, adaptability, and functional diversity of the SoftSnap modules. The
+SoftSnap modular system offers a scalable, snap-together approach to simplifying soft robot prototyping, making it easier for researchers to explore untethered
+soft robotic systems rapidly.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="llmswarm" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/llmswarm.png" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">Exploring Spontaneous Social Interaction Swarm Robotics Powered by Large Language Models</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Yitao Jiang,
+                
+              
+            
+          
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Alberto Quattrini Li,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Muhao Chen,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Devin Balkcom
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">IROS (Accepted) 2025</em></strong>
+      
+      
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/llmswarm.pdf" target="_blank">PDF</a>]
+    
+
+    <!-- 
+      [<a href="https://drive.google.com/file/d/14bz-UbZI_IxojBwJtlQ1MuGJati8-cCm/preview" target="_blank">Video</a>]
+     -->
+
+
+    <!-- 
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      
+        <iframe src="https://drive.google.com/file/d/14bz-UbZI_IxojBwJtlQ1MuGJati8-cCm/preview" width="640" height="480" allow="autoplay"></iframe>
+      
+    </details>
+     -->
+
+
+    
+
+    
+
+    
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      <div>
+        
+          
+          <iframe src="https://drive.google.com/file/d/14bz-UbZI_IxojBwJtlQ1MuGJati8-cCm/preview" width="560" height="315" frameborder="0" allow="autoplay" allowfullscreen="">
+          </iframe>
+        
+      </div>
+    </details>
+  
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{llmswarm,
+  title = {Exploring Spontaneous Social Interaction Swarm Robotics Powered by Large Language Models},
+  author = {Jiang, Yitao and Zhao, Luyang and Li, Alberto Quattrini and Chen, Muhao and Balkcom, Devin},
+  journal = {IROS (Accepted) 2025},
+  url = {https://www.researchgate.net/profile/Yitao-Jiang/publication/389490353_Exploring_Spontaneous_Social_Interaction_Swarm_Robotics_Powered_by_Large_Language_Models/links/67c4066af5cb8f70d5c49e37/Exploring-Spontaneous-Social-Interaction-Swarm-Robotics-Powered-by-Large-Language-Models.pdf},
+  pdf = {papers/llmswarm.pdf},
+  video = {https://drive.google.com/file/d/14bz-UbZI_IxojBwJtlQ1MuGJati8-cCm/preview},
+  abbr = {llmswarm}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>Traditional swarm robots rely on specific communication and planning strategies to coordinate particular tasks. Human swarms exhibit distinctive characteristics due to their capacity for language-based communication and active reasoning. This paper presents an exploratory approach to robotic swarm intelligence that leverages Large Language Models (LLMs) to emulate human-like active problem-solving behaviors. We introduce a decentralized multi-robot system where each robot initially only has its local information and does not know others’ existence. The robots utilize LLMs for reasoning and natural language for inter-robot communication, enabling them to discover peers, share information, and coordinate actions dynamically. In a series of experiments in zero-shot settings, we observed human-like social behaviors, including mutual discovery, identification, information exchange, collaboration, negotiation, and error correction. While the technical approach is straightforward, the main contribution lies in exploring the interactive societies that LLM-driven robots form—a form of “robot anthropology” that examines emergent collaborative structures.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="surface" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/surface.gif" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">SoftRafts: Floating and Adaptive Soft Modular Robots</span>
+      <span class="author">
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yitao Jiang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Chun-Yi She,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Alberto Quattrini Li,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Muhao Chen,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Devin Balkcom
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">npj Robotics (under revision)</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2025</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/SoftRaft.pdf" target="_blank">PDF</a>]
+    
+
+    <!-- 
+      [<a href="https://drive.google.com/file/d/1fY3anskQE_okj0axE6tPutMyHkgNZe5w/preview" target="_blank">Video</a>]
+     -->
+
+
+    <!-- 
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      
+        <iframe src="https://drive.google.com/file/d/1fY3anskQE_okj0axE6tPutMyHkgNZe5w/preview" width="640" height="480" allow="autoplay"></iframe>
+      
+    </details>
+     -->
+
+
+    
+      [<a href="https://github.com/luyangzhao/SoftRafts" target="_blank">Code</a>]
+    
+
+    
+
+    
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      <div>
+        
+          
+          <iframe src="https://drive.google.com/file/d/1fY3anskQE_okj0axE6tPutMyHkgNZe5w/preview" width="560" height="315" frameborder="0" allow="autoplay" allowfullscreen="">
+          </iframe>
+        
+      </div>
+    </details>
+  
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{surface,
+  author = {Zhao, Luyang and Jiang, Yitao and She, Chun-Yi and Li, Alberto Quattrini and Chen, Muhao and Balkcom, Devin},
+  journal = {npj Robotics (under revision)},
+  title = {SoftRafts: Floating and Adaptive Soft Modular Robots},
+  pdf = {papers/SoftRaft.pdf},
+  video = {https://drive.google.com/file/d/1fY3anskQE_okj0axE6tPutMyHkgNZe5w/preview},
+  year = {2025},
+  code = {https://github.com/luyangzhao/SoftRafts},
+  abbr = {surface}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>Modular robots possess great potential due to their adaptability and reconfigurability, yet their use in aquatic environments and dynamic multi-tasking scenarios—particularly for complex manipulation—remains largely underexplored. To address the need for versatile and multifunctional systems in such settings, we hypothesize that integrating soft-bending capabilities into modular robots can create a platform capable of navigating complex environments, performing diverse manipulation tasks, and assembling deformable lattices. In this work, we present a variable-stiffness soft modular robot that combines rigid 3D printed components with soft foam, utilizing a cable-actuated mechanism and a propeller. This modular robot can locomote, bend, steer, connect with other modules, and assemble into various larger active structures for different applications. For instance, when configured as a gripper, the robot can collect trash from the water’s surface. When assembled into a raft, it functions as a movable platform for drone landings. In a chain configuration, the robot moves like a snake on land and transitions seamlessly to aquatic locomotion using a propeller. Additionally, these robots can operate collectively like swarm robots, such as transporting boxes collaboratively across surfaces. Our findings highlight that incorporating deformable features into modular robot designs significantly enhances their adaptability and multifunctionality in aquatic environments.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="dolphin" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/dolphin.gif" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">An Untethered Bioinspired Robotic Tensegrity Dolphin with
+Multi-Flexibility Design for Aquatic Locomotion</span>
+      <span class="author">
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yitao Jiang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Chun-Yi She,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Mingi Jeong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Haibo Dong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Alberto Quattrini Li,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Muhao Chen,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Devin Balkcom
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">RoboSoft</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2025</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+      [<a href="http://arxiv.org/abs/2411.00347" target="_blank">arXiv</a>]
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/dolphin.pdf" target="_blank">PDF</a>]
+    
+
+    <!-- 
+      [<a href="https://www.youtube.com/watch?v=avUUYTJ178g" target="_blank">Video</a>]
+     -->
+
+
+    <!-- 
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/avUUYTJ178g" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+      
+    </details>
+     -->
+
+
+    
+
+    
+      [<a href="https://ieeexplore.ieee.org/abstract/document/11020959" target="_blank">Link</a>]
+    
+
+    
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      <div>
+        
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/avUUYTJ178g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        
+      </div>
+    </details>
+  
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{dolphin,
+  title = {An Untethered Bioinspired Robotic Tensegrity Dolphin with
+  Multi-Flexibility Design for Aquatic Locomotion},
+  author = {Zhao, Luyang and Jiang, Yitao and She, Chun-Yi and Jeong, Mingi and Dong, Haibo and Li, Alberto Quattrini and Chen, Muhao and Balkcom, Devin},
+  journal = {RoboSoft},
+  year = {2025},
+  eprint = {2410.19169},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.RO},
+  video = {https://www.youtube.com/watch?v=avUUYTJ178g},
+  link = {https://ieeexplore.ieee.org/abstract/document/11020959},
+  arxiv = {2411.00347},
+  pdf = {papers/dolphin.pdf},
+  abbr = {dolphin}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>This paper presents the first steps toward a soft
+dolphin robot using a bio-inspired approach to mimic dolphin
+flexibility. The current dolphin robot uses a minimalist approach, with only two actuated cable-driven degrees of freedom
+actuated by a pair of motors. The actuated tail moves up and
+down in a swimming motion, but this first proof of concept does
+not permit controlled turns of the robot. While existing robotic
+dolphins typically use revolute joints to articulate rigid bodies,
+our design – which will be made opensource – incorporates a
+flexible tail with tunable silicone skin and actuation flexibility
+via a cable-driven system, which mimics muscle dynamics and
+design flexibility with a tunable skeleton structure. The design is
+also tunable since the backbone can be easily printed in various
+geometries. The paper provides insights into how a few such
+variations affect robot motion and efficiency, measured by speed
+and cost of transport (COT). This approach demonstrates the
+potential of achieving dolphin-like motion through enhanced
+flexibility in bio-inspired robotics.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="starblocks" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <a href="https://www.youtube.com/watch?v=xno0FBs3ZdQ" target="_blank">
+          <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/soft2.gif" />
+        </a>
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">StarBlocks: Soft Actuated Self-Connecting Blocks for Building Deformable Lattice Structures</span>
+      <span class="author">
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yijia Wu,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Wenzhong Yan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Weishu Zhan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Xiaonan Huang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Joran Booth,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Ankur Mehta,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kostas Bekris,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Rebecca Kramer-Bottiglio,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Devin Balkcom
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">IEEE Robotics and Automation Letters</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2023</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/soft2.pdf" target="_blank">PDF</a>]
+    
+
+    <!-- 
+      [<a href="https://www.youtube.com/watch?v=xno0FBs3ZdQ" target="_blank">Video</a>]
+     -->
+
+
+    <!-- 
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xno0FBs3ZdQ" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+      
+    </details>
+     -->
+
+
+    
+
+    
+      [<a href="https://ieeexplore.ieee.org/abstract/document/10146508" target="_blank">Link</a>]
+    
+
+    
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      <div>
+        
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xno0FBs3ZdQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        
+      </div>
+    </details>
+  
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{starblocks,
+  author = {Zhao, Luyang and Wu, Yijia and Yan, Wenzhong and Zhan, Weishu and Huang, Xiaonan and Booth, Joran and Mehta, Ankur and Bekris, Kostas and Kramer-Bottiglio, Rebecca and Balkcom, Devin},
+  journal = {IEEE Robotics and Automation Letters},
+  title = {StarBlocks: Soft Actuated Self-Connecting Blocks for Building Deformable Lattice Structures},
+  year = {2023},
+  volume = {8},
+  number = {8},
+  pages = {4521-4528},
+  doi = {10.1109/LRA.2023.3284361},
+  video = {https://www.youtube.com/watch?v=xno0FBs3ZdQ},
+  link = {https://ieeexplore.ieee.org/abstract/document/10146508},
+  pdf = {papers/soft2.pdf},
+  abbr = {soft2}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>In this paper, we present a soft modular block inspired by tensegrity structures that can form load-bearing structures through self-assembly. The block comprises a stellated compliant
+skeleton, shape memory alloy muscles, and permanent magnet connectors. We classify five deformation primitives for individual blocks: bend, compress, stretch, stand, and shrink, which can be
+combined across modules to reason about full-lattice deformation. Hierarchical function is abundant in nature and in human-designed
+systems. Using multiple self-assembled lattices, we demonstrate the formation and actuation of 3-dimensional shapes, including a
+load-bearing pop-up tent, a self-assembled wheel, a quadruped, a block-based robotic arm with gripper, and non-prehensile manipulation. To our knowledge, this is the first example of active deformable modules (blocks) that can reconfigure into different
+load-bearing structures on-demand.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="9738480" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <a href="https://www.youtube.com/watch?v=EYLYyijfzCg" target="_blank">
+          <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/soft1.gif" />
+        </a>
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">Soft Lattice Modules That Behave Independently and Collectively</span>
+      <span class="author">
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yijia Wu,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Julien Blanchet,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Maxine Perroni-Scharf,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Xiaonan Huang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Joran Booth,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Rebecca Kramer-Bottiglio,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Devin Balkcom
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">IEEE Robotics and Automation Letters</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2022</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+      [<a href="http://arxiv.org/abs/2110.11485" target="_blank">arXiv</a>]
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/soft1.pdf" target="_blank">PDF</a>]
+    
+
+    <!-- 
+      [<a href="https://www.youtube.com/watch?v=EYLYyijfzCg" target="_blank">Video</a>]
+     -->
+
+
+    <!-- 
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EYLYyijfzCg" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+      
+    </details>
+     -->
+
+
+    
+
+    
+      [<a href="https://ieeexplore.ieee.org/abstract/document/9738480" target="_blank">Link</a>]
+    
+
+    
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      <div>
+        
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/EYLYyijfzCg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        
+      </div>
+    </details>
+  
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{9738480,
+  author = {Zhao, Luyang and Wu, Yijia and Blanchet, Julien and Perroni-Scharf, Maxine and Huang, Xiaonan and Booth, Joran and Kramer-Bottiglio, Rebecca and Balkcom, Devin},
+  journal = {IEEE Robotics and Automation Letters},
+  title = {Soft Lattice Modules That Behave Independently and Collectively},
+  year = {2022},
+  volume = {7},
+  number = {3},
+  pages = {5942-5949},
+  doi = {10.1109/LRA.2022.3160611},
+  arxiv = {2110.11485},
+  link = {https://ieeexplore.ieee.org/abstract/document/9738480},
+  video = {https://www.youtube.com/watch?v=EYLYyijfzCg},
+  pdf = {papers/soft1.pdf},
+  abbr = {soft1}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>Natural systems integrate the work of many sub-units (cells) toward a large-scale unified goal (morphological and behav- ioral), which can counteract the effects of unexpected experiences, damage, or simply changes in tasks demands. In this letter, we exploit the opportunities presented by soft, modular, and tensegrity robots to introduce soft lattice modules that parallel the sub-units seen in biological systems. The soft lattice modules are comprised of 3D printed plastic “skeletons,” linear contracting shape mem- ory alloy spring actuators, and permanent magnets that enable adhesion between modules. The soft lattice modules are capable of independent locomotion, and can also join with other modules to achieve collective, self-assembled, larger scale tasks such as collective locomotion and moving an object across the surface of the lattice assembly. This work represents a preliminary step toward soft modular systems capable of independent and collective behaviors, and provide a platform for future studies on distributed control.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="learning" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/learning.png" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">On the Exploration of LM-Based Soft Modular Robot Design</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Weicheng Ma*,
+                
+              
+            
+          
+        
+          
+            
+              
+                <em><b>Luyang Zhao*</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Chun-Yi She*,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yitao Jiang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Alan Sun,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Bo Zhu,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Devin Balkcom,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Soroush Vosoughi
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000"> * means equal contribution</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2024</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+      [<a href="http://arxiv.org/abs/2411.00345" target="_blank">arXiv</a>]
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/learning.pdf" target="_blank">PDF</a>]
+    
+
+    <!--  -->
+
+
+    <!--  -->
+
+
+    
+
+    
+
+    
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{learning,
+  title = {On the Exploration of LM-Based Soft Modular Robot Design},
+  author = {Ma*, Weicheng and Zhao*, Luyang and She*, Chun-Yi and Jiang, Yitao and Sun, Alan and Zhu, Bo and Balkcom, Devin and Vosoughi, Soroush},
+  journal = { * means equal contribution},
+  eprint = {2410.19169},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.RO},
+  url = {https://arxiv.org/pdf/2411.00345},
+  pdf = {papers/learning.pdf},
+  arxiv = {2411.00345},
+  year = {2024},
+  abbr = {learning}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>Recent large language models (LLMs) have demonstrated
+promising capabilities in modeling real-world knowledge and
+enhancing knowledge-based generation tasks. In this paper,
+we further explore the potential of using LLMs to aid in
+the design of soft modular robots, taking into account both
+user instructions and physical laws, to reduce the reliance
+on extensive trial-and-error experiments typically needed to
+achieve robot designs that meet specific structural or task
+requirements. Specifically, we formulate the robot design
+process as a sequence generation task and find that LLMs
+are able to capture key requirements expressed in natural
+language and reflect them in the construction sequences
+of robots. To simplify, rather than conducting real-world
+experiments to assess design quality, we utilize a simulation
+tool to provide feedback to the generative model, allowing
+for iterative improvements without requiring extensive human annotations. Furthermore, we introduce five evaluation
+metrics to assess the quality of robot designs from multiple
+angles including task completion and adherence to instructions, supporting an automatic evaluation process. Our model
+performs well in evaluations for designing soft modular
+robots with uni- and bi-directional locomotion and stairdescending capabilities, highlighting the potential of using
+natural language and LLMs for robot design. However, we
+also observe certain limitations that suggest areas for further
+improvement.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="airplane" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/airplane.png" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">Design and Experiment of a Lightweight Robotic Tensegrity
+Morphing Wing</span>
+      <span class="author">
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yitao Jiang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Chun-Yi She She,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Devin Balkcom,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Haibo Dong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Muhao Chen
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000"></em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2024</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+
+    <!--  -->
+
+
+    <!--  -->
+
+
+    
+
+    
+
+    
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{airplane,
+  author = {Zhao, Luyang and Jiang, Yitao and She, Chun-Yi She and Balkcom, Devin and Dong, Haibo and Chen, Muhao},
+  journal = {},
+  title = {Design and Experiment of a Lightweight Robotic Tensegrity
+  Morphing Wing},
+  year = {2024},
+  abbr = {airplane}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="9341312" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/plrc.png" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">PLRC*: A piecewise linear regression complex for approximating optimal robot motion</span>
+      <span class="author">
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Josiah Putman,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Weifu Wang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Devin Balkcom
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2020</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/plrc.pdf" target="_blank">PDF</a>]
+    
+
+    <!--  -->
+
+
+    <!--  -->
+
+
+    
+
+    
+      [<a href="https://ieeexplore.ieee.org/abstract/document/9341312" target="_blank">Link</a>]
+    
+
+    
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@inproceedings{9341312,
+  author = {Zhao, Luyang and Putman, Josiah and Wang, Weifu and Balkcom, Devin},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  title = {PLRC*: A piecewise linear regression complex for approximating optimal robot motion},
+  year = {2020},
+  volume = {},
+  number = {},
+  pages = {6681-6688},
+  doi = {10.1109/IROS45743.2020.9341312},
+  link = {https://ieeexplore.ieee.org/abstract/document/9341312},
+  pdf = {papers/plrc.pdf},
+  abbr = {plrc}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>Discrete graphs are commonly used to approximately represent configuration spaces used in robot motion planning. This paper explores a representation in which the costs of crossing local regions of the configuration space are represented using piecewise linear regression (PLR). We explore a few simple motion planning problems, and show that for these problems, the memory required to store the representation compares favorably to that required for standard discrete vertex-and-edge models, while preserving the quality of paths returned from searches.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="8901071" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/lldm.gif" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">LLDM: Locally linear distance maps for robot motion planning: Extended Abstract</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Josiah Putman,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Lisa Oh,
+                
+              
+            
+          
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Evan Honnold,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Galen Brown,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Weifu Wang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Devin Balkcom
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">International Symposium on Multi-Robot and Multi-Agent Systems (MRS)</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2019</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/lldm.pdf" target="_blank">PDF</a>]
+    
+
+    <!--  -->
+
+
+    <!--  -->
+
+
+    
+
+    
+      [<a href="https://ieeexplore.ieee.org/abstract/document/8901071" target="_blank">Link</a>]
+    
+
+    
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@inproceedings{8901071,
+  author = {Putman, Josiah and Oh, Lisa and Zhao, Luyang and Honnold, Evan and Brown, Galen and Wang, Weifu and Balkcom, Devin},
+  booktitle = {International Symposium on Multi-Robot and Multi-Agent Systems (MRS)},
+  title = {LLDM: Locally linear distance maps for robot motion planning: Extended Abstract},
+  year = {2019},
+  volume = {},
+  number = {},
+  pages = {13-15},
+  doi = {10.1109/MRS.2019.8901071},
+  pdf = {papers/lldm.pdf},
+  link = {https://ieeexplore.ieee.org/abstract/document/8901071},
+  abbr = {lldm}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>This paper presents a data structure that summarizes distances between configurations across a robot configuration space, using a binary space partition whose cells contain parameters used for a locally linear approximation of the distance function. Querying the data structure is extremely fast, particularly when compared to graph search required for querying Probabilistic Roadmaps, and memory requirements are promising. The paper explores the use of the data structure constructed for a single robot to provide a heuristic for challenging multi-robot motion planning problems. Potential applications also include the use of remote computation to analyze the space of robot motions, which then might be transmitted on-demand to robots with fewer computational resources.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="Putman2020PiecewiseLR" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/plr.gif" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">Piecewise linear regressions for approximating distance metrics</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Josiah Putman,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Lisa Oh,
+                
+              
+            
+          
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Evan Honnold,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Galen Brown,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Weifu Wang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Devin J. Balkcom
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">ArXiv</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2020</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+      [<a href="http://arxiv.org/abs/2002.12466" target="_blank">arXiv</a>]
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/plr.pdf" target="_blank">PDF</a>]
+    
+
+    <!--  -->
+
+
+    <!--  -->
+
+
+    
+
+    
+      [<a href="https://api.semanticscholar.org/CorpusID:211572750" target="_blank">Link</a>]
+    
+
+    
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{Putman2020PiecewiseLR,
+  title = {Piecewise linear regressions for approximating distance metrics},
+  author = {Putman, Josiah and Oh, Lisa and Zhao, Luyang and Honnold, Evan and Brown, Galen and Wang, Weifu and Balkcom, Devin J.},
+  journal = {ArXiv},
+  year = {2020},
+  volume = {abs/2002.12466},
+  arxiv = {2002.12466},
+  link = {https://api.semanticscholar.org/CorpusID:211572750},
+  pdf = {papers/plr.pdf},
+  abbr = {plr}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="jeong2024multimodal" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/seesea.png" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Mingi Jeong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Arihant Chadda,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Ziang Ren,
+                
+              
+            
+          
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Haowen Liu,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Monika Roznere,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Aiwei Zhang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yitao Jiang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sabriel Achong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Samuel Lensgraf,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Alberto Quattrini Li
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000"> IEEE ICRA Workshop on Field Robotics</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2024</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+      [<a href="http://arxiv.org/abs/2404.18411" target="_blank">arXiv</a>]
+    
+    
+
+    <!--  -->
+
+
+    <!--  -->
+
+
+    
+
+    
+
+    
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@inproceedings{jeong2024multimodal,
+  title = {Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles},
+  author = {Jeong, Mingi and Chadda, Arihant and Ren, Ziang and Zhao, Luyang and Liu, Haowen and Roznere, Monika and Zhang, Aiwei and Jiang, Yitao and Achong, Sabriel and Lensgraf, Samuel and Li, Alberto Quattrini},
+  year = {2024},
+  arxiv = {2404.18411},
+  booktitle = { IEEE ICRA Workshop on Field Robotics},
+  abbr = {seesea}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>This paper introduces the first publicly accessible labeled multi-modal perception dataset for autonomous maritime navigation, focusing on in-water obstacles within the aquatic environment to enhance situational awareness for Autonomous Surface Vehicles (ASVs). This dataset, collected over 4 years and consisting of diverse objects encountered under varying environmental conditions, aims to bridge the research gap in autonomous surface vehicles by providing a multi-modal, annotated, and ego-centric perception dataset, for object detection and classification. We also show the applicability of the proposed dataset by training deep learning-based open-source perception algorithms that have shown success. We expect that our dataset will contribute to development of the marine autonomy pipelines and marine (field) robotics. This dataset is opensource and can be found at this https URL.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="seepersea" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/seepersea.png" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Mingi Jeong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Arihant Chadda,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Ziang Ren,
+                
+              
+            
+          
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  Haowen Liu,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Monika Roznere,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Aiwei Zhang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Yitao Jiang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sabriel Achong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Samuel Lensgraf,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Alberto Quattrini Li
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">2025</em></strong>
+      
+      
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+      [<a href="http://arxiv.org/abs/2404.18411" target="_blank">arXiv</a>]
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/seepersea.pdf" target="_blank">PDF</a>]
+    
+
+    <!--  -->
+
+
+    <!--  -->
+
+
+    
+
+    
+
+    
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@article{seepersea,
+  title = {SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles},
+  author = {Jeong, Mingi and Chadda, Arihant and Ren, Ziang and Zhao, Luyang and Liu, Haowen and Roznere, Monika and Zhang, Aiwei and Jiang, Yitao and Achong, Sabriel and Lensgraf, Samuel and Li, Alberto Quattrini},
+  journal = {2025},
+  eprint = {2404.18411},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.RO},
+  url = {https://arxiv.org/abs/2404.18411},
+  pdf = {papers/seepersea.pdf},
+  arxiv = {2404.18411},
+  abbr = {seepersea}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>This paper introduces the first publicly accessible labeled multi-modal perception dataset for autonomous maritime navigation, focusing on in-water obstacles within the aquatic environment to enhance situational awareness for Autonomous Surface Vehicles (ASVs). This dataset, collected over 4 years and consisting of diverse objects encountered under varying environmental conditions, aims to bridge the research gap in autonomous surface vehicles by providing a multimodal, annotated, and ego-centric perception dataset, for object detection and classification. We also show the applicability of the proposed dataset by training deep learning-based open-source perception algorithms that have shown success. We expect that our dataset will contribute to development of the marine autonomy pipelines and marine (field) robotics. This dataset is opensource and can be found at https://seepersea.github.io/.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<ol class="bibliography"><li><div id="Ferland2018AssistiveAF" class="col three">
+  <div style="clear: both;">
+    <div style="">
+      
+        <img class="col bibone first" src="http://localhost:4000/assets/img/teasers/assistant.png" />
+      
+  </div>  
+  </div>
+  <div class="col bibtwo last">
+    
+      <span class="title">Assistive AI for Coping with Memory Loss</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Libby Ferland,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Ziwei Li,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Shridhar Sukhani,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Joan Zheng,
+                
+              
+            
+          
+        
+          
+            
+              
+                <em><b>Luyang Zhao</b></em>,
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Maria L. Gini
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        <strong><em style="color:#000000">AAAI Workshops</em></strong>
+      
+      
+        
+          <strong><em style="color:#000000">2018</em></strong>
+        
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abstract</a>]
+    
+    
+    
+    [<a href="http://localhost:4000/assets/documents/papers/assistant.pdf" target="_blank">PDF</a>]
+    
+
+    <!--  -->
+
+
+    <!--  -->
+
+
+    
+
+    
+      [<a href="https://cdn.aaai.org/ocs/ws/ws0528/17360-76000-1-PB.pdf" target="_blank">Link</a>]
+    
+
+    
+  
+
+
+
+
+    
+
+   
+    
+    
+    
+
+    <!-- 
+    <details class="bibtex-block" style="margin-top:0.4em">
+      <summary style="color:rgb(0, 247, 255);text-decoration:underline;cursor:pointer;">Cite&nbsp;this&nbsp;article</summary>
+      <pre><code class="language-bibtex">@inproceedings{Ferland2018AssistiveAF,
+  title = {Assistive AI for Coping with Memory Loss},
+  author = {Ferland, Libby and Li, Ziwei and Sukhani, Shridhar and Zheng, Joan and Zhao, Luyang and Gini, Maria L.},
+  booktitle = {AAAI Workshops},
+  year = {2018},
+  link = {https://cdn.aaai.org/ocs/ws/ws0528/17360-76000-1-PB.pdf},
+  pdf = {papers/assistant.pdf},
+  abbr = {assistant}
+}
+</code></pre>
+    </details>
+     -->
+
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>Living with memory loss presents many challenges for patients and caregivers alike. Intelligent assistive technology can help address care gaps. Our core objective is to develop an assistive device that can be used at home by individuals experiencing memory impairment. We propose an assistant, based on existing and widely used voice activated consumer technology, as a tool to help patients and caregivers cope with issues common to cognitive impairment. Our long term objective is to develop a cognitive assistant that can do what is told to do, but also reason and be proactive in interacting with its users.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+<hr />
+
+<!-- Adding some space before the Teaching section -->
+<div style="padding-top: 2400px;"></div>
+
+<h3 id="teaching"><strong>Teaching</strong></h3>
+
+<ul>
+  <li><strong>Teaching Assistant</strong>: Dartmouth College (Sep. 2018 - Now)
+    <ul>
+      <li><a href="https://www.cs.dartmouth.edu/devin/cs89/contents/">CS89/189: Robot Motion Planning</a> - 2024 Fall</li>
+      <li><a href="https://dartmouth.smartcatalogiq.com/en/2023s/supplement/new-undergraduate-courses/computer-science/cosc-89-33/">CS89/189: The Dark Side of AI/ML</a> - 2024 Spring</li>
+      <li><a href="https://dartmouth.smartcatalogiq.com/en/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-81/">CS81/281: Principles of Robot Design and Programming</a> – 2018 Fall and 2025 Spring</li>
+      <li><a href="https://www.cs.dartmouth.edu/devin/cs76/syllabus/index.html">CS76/276: Artificial Intelligence</a> – 2018 Winter, 2019 Fall and 2023 Fall</li>
+      <li><a href="https://www.cs.dartmouth.edu/~kvasanta/cs1/syllabus/">CS1: Introduction to Programming and Computation</a> – 2019 Spring and 2020 Spring</li>
+      <li><a href="https://www.cs.dartmouth.edu/~cs50/Lectures/01-gettingstarted.html">CS50: Software Design and Implementation</a> – 2019 Summer</li>
+      <li><a href="https://cosc59.gitlab.io/syllabus.pdf">CS59: Principles of Programming Languages</a> – 2024 Summer</li>
+      <li><a href="https://dartmouth.smartcatalogiq.com/en/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-70/">CS70: Foundations of Applied Computer Science</a> – 2025 Winter</li>
+    </ul>
+  </li>
+  <li><strong>Mentor</strong>: <a href="https://www-users.cse.umn.edu/~gini/computingacademy/2017/program-1w.html">Summer Computing Academy</a>, University of Minnesota (June 2017)
+    <ul>
+      <li>Assisted senior high school students in developing programs for Scribbler robots, image processing, video, 3D printing, and other applications.</li>
+    </ul>
+  </li>
+  <li><strong>Lab Mentor</strong>: Dartmouth Reality and Robotics Lab (Sep. 2018 - Now)
+    <ul>
+      <li>Master students: <strong>Chun-Yi She</strong> (2023-now), <a href="https://yitaojiang.net/"><strong>Yitao Jiang</strong></a> (2022-now, incoming PhD student at Dartmouth), <a href="https://sixer51.github.io/"><strong>Yijia Wu</strong></a> (2021-2022, now PhD student at WPI),  <strong>Weishu Zhan</strong> (2022-2023, incoming PhD student at The University of Manchester)</li>
+      <li>Undergraduate students: <strong>Josiah Putman</strong> (now in Google), <a href="https://maxineps.com/"><strong>Maxine Perroni-Scharf</strong></a> (now PhD student at MIT)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<!-- - **June 6, 2023**: Tied for **2nd place** in the [**2023 Neukom Outstanding Graduate Research Prize**](https://neukom.dartmouth.edu/research/neukom-research-prizes/2023-research-prize-winners).  
+- **May 12, 2023**: A [**paper**](https://ieeexplore.ieee.org/document/10146508) I led was accepted for publication in **RA-L** (Robotics and Automation Letters).  
+- **April 28, 2023**: Co-organized our [**Tensegrity workshop**](https://www.eng.yale.edu/faboratory/tensegrityworkshop/) for **IROS**.  
+- **Jan 11, 2023**: Visited Professor [**Rebecca Kramer-Bottiglio**](https://www.eng.yale.edu/faboratory/)'s lab at **Yale University** with Professor [**Kostas Bekris**](https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/)’s team from **Rutgers University** to discuss collaborations.  
+ -->
+
+<!-- ---
+#### __Visitors__
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=86988e&w=300&t=n&d=2m_nrbYNSsYJOZa9TgwIJgyXixu5GbzjtmXs1Sp4MZo&co=e8dbc9&cmo=ed3838&cmn=32d622&ct=000000'></script>
+
+ -->
+
+:ET
