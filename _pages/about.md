@@ -81,7 +81,7 @@ Feel free to connect with me via email at **luyangz@clemson.edu**.
   - [Interesting Engineering: Modular Robots Build Bridges and Shelters](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters)  
 - **June 15, 2025**: Our paper, **"Exploring Spontaneous Social Interaction Swarm Robotics Powered by Large Language Models,"** has been accepted by IROS 2025.
 - **Apr 30, 2025**: Our paper, **"SoftSnap: Rapid Prototyping of Untethered Soft Robots Using Snap-Together Modules,"** has been accepted for publication in **Soft Robotics**.  
-- **Apr 30, 2025**: Our paper, **"Modular Shape-changing Tensegrity-Blocks Enable Self-assembling Robotic Structures,"** has been accepted in principle by **Nature Communications**.  
+- **Apr 30, 2025**: Our paper, **"Modular Shape-changing Tensegrity-Blocks Enable Self-assembling Robotic Structures,"** has been accepted by **Nature Communications**.  
 - **Apr 23, 2025**: Invited speaker at the **RoboSoft 2025 Tensegrity Workshop** ([workshop link](https://tensegrity-robotics.github.io/workshop)).
 - **Apr 14, 2025**: Invited research talk on **Soft Modular Robots** at **NC State University**, hosted by **Professor Peng Gao**. 
 - **Mar 25, 2025**: Delivered a seminar talk on **Soft Modular Robots** at the **University of Virginia (UVA)**.  
