@@ -79,8 +79,8 @@ Additionally, I co-organized the Tensegrity Robotics Workshop at IROS 2023 and r
 
 
 ### __Recent Highlights__  
-- **Aug 23, 2025**: Our paper, **"SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles,"** has been accepted by **IEEE Transactions on Field Robotics**. [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11142348)  
 - **Aug 25, 2025**: Our paper, **"Design of a Lightweight Robotic Tensegrity Morphing Airfoil,"** has been accepted for presentation at the **2026 AIAA SciTech Forum**.  
+- **Aug 23, 2025**: Our paper, **"SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles,"** has been accepted by **IEEE Transactions on Field Robotics**. [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11142348)  
 - **Aug 20 2025**: Featured in Dartmouth news and international media:  
   - [Dartmouth News: Multipurpose Robots Take Shape](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape)  
   - [Interesting Engineering: Modular Robots Build Bridges and Shelters](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters)  
