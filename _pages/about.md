@@ -69,7 +69,7 @@ I was honored with the **Neukom Outstanding Graduate Research Prize** for my con
 I have also mentored graduate and undergraduate students on various research projects. My research has been published in top journals and conferences, including **Nature Communications**, **Soft Robotics**, **IEEE Transactions on Field Robotics**, **IEEE Robotics and Automation Letters (RA-L)**, **IROS**, and **RoboSoft**.
 Beyond academia, I gained industry experience through research internships at **Amazon Robotics** (perception, localization, and path planning for Kiva robots) and **TuSimple** (motion planning and decision-making for autonomous vehicles in urban environments).
 <!-- Beyond academia, I gained industry experience through research internships at **Amazon Robotics**, where I worked on perception, localization, and path planning for Kiva robots in dynamic warehouse environments. At **TuSimple**, I optimized motion planning and decision-making algorithms for autonomous vehicles navigating local roads, addressing real-time navigation and safety challenges in urban and semi-structured environments. -->
-Additionally, I co-organized the Tensegrity Robotics Workshop at IROS 2023 and reviewed papers for journals and conferences, including RA-L, ICRA, IROS, RoboSoft, BioRob and *Construction Robotics*.
+Additionally, I serve as an Associate Editor for ICRA 2026 and co-organized the Tensegrity Robotics Workshop at IROS 2023 and reviewed papers for journals and conferences, including RA-L, ICRA, IROS, RoboSoft, BioRob and *Construction Robotics*.
 
 
 <span style="color:#FF0000">I am looking for passionate and motivated PhD students</span>— especially those who enjoy building and experimenting with robots, from hardware design to software for learning and perception. Feel free to reach out at luyangz@clemson.edu.
@@ -78,7 +78,9 @@ Additionally, I co-organized the Tensegrity Robotics Workshop at IROS 2023 and r
 
 
 
-### __Recent Highlights__  
+### __Recent Highlights__ 
+
+- **Sept 2025**: Appointed **Associate Editor** for the **IEEE International Conference on Robotics and Automation (ICRA) 2026**.  
 - **Aug 25, 2025**: Our paper, **"Design of a Lightweight Robotic Tensegrity Morphing Airfoil,"** has been accepted for presentation at the **2026 AIAA SciTech Forum**.  
 - **Aug 23, 2025**: Our paper, **"SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles,"** has been accepted by **IEEE Transactions on Field Robotics**. [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11142348)  
 - **Aug 20 2025**: Featured in Dartmouth news and international media:  
