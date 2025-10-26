@@ -80,7 +80,7 @@ Additionally, I serve as an Associate Editor for ICRA 2026 and co-organized the 
 
 ### __Recent Highlights__ 
 
-- **Oct 24, 2025**: Delivered invited talk, **"Soft Modular Robots,"** at the **IROS 2025 Workshop: Challenges and Application Prospects for Reconfigurable Modular Robots** ([link](https://sites.google.com/view/reconfigurable-robots-workshop)), 09:20 – 09:45 am.
+- **Oct 24, 2025**: Delivered invited talk, **"Soft Modular Robots,"** at the **IROS 2025 Workshop: Challenges and Application Prospects for Reconfigurable Modular Robots** ([workshop link](https://sites.google.com/view/reconfigurable-robots-workshop)), 09:20 – 09:45 am.
 - **Sept 2025**: Appointed **Associate Editor** for the **IEEE International Conference on Robotics and Automation (ICRA) 2026**.  
 - **Aug 25, 2025**: Our paper, **"Design of a Lightweight Robotic Tensegrity Morphing Airfoil,"** has been accepted for presentation at the **2026 AIAA SciTech Forum**.  
 - **Aug 23, 2025**: Our paper, **"SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles,"** has been accepted by **IEEE Transactions on Field Robotics**. [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11142348)  
