@@ -124,12 +124,12 @@
           <iframe src="https://drive.google.com/file/d/{{ file_id }}/preview" 
                   width="560" height="315" frameborder="0" allow="autoplay" allowfullscreen>
           </iframe>
-        <!-- {% elsif entry.video contains "youtube.com" %}
+        {% elsif entry.video contains "youtube.com" %}
           {% assign video_id = entry.video | split: "v=" | last | split: "&" | first %}
           <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video_id }}" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen></iframe> -->
-        {% elsif entry.video contains "youtube.com" or entry.video contains "youtube-nocookie.com" %}
+                  allowfullscreen></iframe>
+        <!-- {% elsif entry.video contains "youtube.com" or entry.video contains "youtube-nocookie.com" %}
           {% if entry.video contains "/embed/" %}
             {# If the link is already an embed URL, use it directly #}
             {% assign embed_url = entry.video %}
@@ -140,7 +140,7 @@
           {% endif %}
           <iframe width="560" height="315" src="{{ embed_url | escape }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
-          </iframe>
+          </iframe> -->
 
         
         {% else %}
