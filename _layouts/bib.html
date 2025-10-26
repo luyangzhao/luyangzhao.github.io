@@ -124,11 +124,42 @@
           <iframe src="https://drive.google.com/file/d/{{ file_id }}/preview" 
                   width="560" height="315" frameborder="0" allow="autoplay" allowfullscreen>
           </iframe>
-        {% elsif entry.video contains "youtube.com" %}
+        <!-- {% elsif entry.video contains "youtube.com" %}
           {% assign video_id = entry.video | split: "v=" | last | split: "&" | first %}
           <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video_id }}" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen></iframe>
+                  allowfullscreen></iframe> -->
+        {% elsif entry.video contains "youtube.com" or entry.video contains "youtube-nocookie.com" or entry.video contains "youtu.be" %}
+          {% assign v = entry.video %}
+
+          {%- comment -%} Build a clean embed URL on the nocookie domain {%- endcomment -%}
+          {% if v contains "youtu.be/" %}
+            {% assign video_id = v | split: "youtu.be/" | last | split: "?" | first %}
+            {% assign embed_url = "https://www.youtube-nocookie.com/embed/" | append: video_id %}
+          {% elsif v contains "/embed/" %}
+            {# already an embed link; normalize host to nocookie #}
+            {% assign embed_url = v | replace: "www.youtube.com", "www.youtube-nocookie.com" %}
+          {% elsif v contains "watch?v=" %}
+            {% assign video_id = v | split: "v=" | last | split: "&" | first %}
+            {% assign embed_url = "https://www.youtube-nocookie.com/embed/" | append: video_id %}
+          {% else %}
+            {% assign embed_url = v %}
+          {% endif %}
+
+          {%- comment -%} Add clean player params {%- endcomment -%}
+          {% if embed_url contains "?" %}
+            {% assign embed_url = embed_url | append: "&rel=0&modestbranding=1" %}
+          {% else %}
+            {% assign embed_url = embed_url | append: "?rel=0&modestbranding=1" %}
+          {% endif %}
+
+           <iframe width="560" height="315"
+            src="{{ embed_url | escape }}"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="origin"
+            allowfullscreen></iframe>
+
         {% else %}
           <a href="{{ entry.video }}" target="_blank">Watch Video</a>
         {% endif %}
