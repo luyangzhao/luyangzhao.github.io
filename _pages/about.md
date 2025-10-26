@@ -57,11 +57,6 @@ My research focuses on:
 - <span style="color: black;">**Artificial Intelligence**</span>: Machine Learning and Large Language Models (LLMs) for robotic design and decision-making.  
 - <span style="color: black;">**Robotic Systems and Simulation**</span>: Multi-Robot Systems, Motion Planning, SLAM, Robot Simulation, and Robotic Perception for real-world applications.  
 
-<!-- I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to research. My work has garnered attention in the media, with coverage from 
-[**Dartmouth College's official website (2023)**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots), [**(2025)**](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape)
-[**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp),
-[**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/) and [**Communications of the ACM**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext).  -->
-
 
 I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to research. My work has also been featured in the media, including [**Dartmouth College's official website (2025)**](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape), [**Interesting Engineering**](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters), [**Dartmouth College's official website (2023)**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots), [**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp), [**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/), and [**Communications of the ACM**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext).
 
@@ -72,7 +67,8 @@ Beyond academia, I gained industry experience through research internships at **
 Additionally, I serve as an Associate Editor for ICRA 2026 and co-organized the Tensegrity Robotics Workshop at IROS 2023 and reviewed papers for journals and conferences, including IJRR, IEEE/ASME Transactions on Mechatronics, RA-L, ICRA, IROS, RoboSoft, BioRob and *Construction Robotics*.
 
 
-<span style="color:#FF0000">I am looking for passionate and motivated PhD students</span>— especially those who enjoy building and experimenting with robots, from hardware design to software for learning and perception. Feel free to reach out at luyangz@clemson.edu.
+<!-- <span style="color:#FF0000">I am looking for passionate and motivated PhD students</span>— especially those who enjoy building and experimenting with robots, from hardware design to software for learning and perception.  -->
+Feel free to reach out at luyangz@clemson.edu.
 
 
 
