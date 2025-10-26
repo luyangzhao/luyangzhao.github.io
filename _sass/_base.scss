@@ -48,7 +48,7 @@ body {
 /* Make "Home" look balanced with the image */
 .page-link {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 0.3px;
   margin-right: 8px;  /* slight spacing after Home */
 }
@@ -56,5 +56,6 @@ body {
 
 .divider {
   color: #aaa;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 20px;      /* increase size */
 }
