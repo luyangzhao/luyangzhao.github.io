@@ -85,6 +85,28 @@
     [<a href="{{ entry.pdf | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]
     {% endif %}
 
+    <!-- {% if entry.video %}
+      [<a href="{{ entry.video }}" target="_blank">Video</a>]
+    {% endif %} -->
+
+
+    <!-- {% if entry.video %}
+    <details>
+      <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
+      {% if entry.video contains "youtube.com" %}
+        {% assign video_id = entry.video | split: "v=" | last | split: "&" | first %}
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video_id }}" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+      {% elsif entry.video contains "drive.google.com" %}
+        <iframe src="{{ entry.video }}" width="640" height="480" allow="autoplay"></iframe>
+      {% else %}
+        <a href="{{ entry.video }}" target="_blank">Watch Video</a>
+      {% endif %}
+    </details>
+    {% endif %} -->
+
+
     {% if entry.code %}
       [<a href="{{ entry.code }}" target="_blank">Code</a>]
     {% endif %}
@@ -97,63 +119,22 @@
     <details>
       <summary style="color: blue; text-decoration: underline; cursor: pointer;">[Video]</summary>
       <div>
-        {% assign v = entry.video | strip %}
-
-        {% if v contains "drive.google.com" %}
-          {% assign file_id = v | split: "/file/d/" | last | split: "/preview" | first %}
-          <iframe
-            src="https://drive.google.com/file/d/{{ file_id }}/preview"
-            width="560" height="315" frameborder="0"
-            allow="autoplay"
-            allowfullscreen>
+        {% if entry.video contains "drive.google.com" %}
+          {% assign file_id = entry.video | split: "/file/d/" | last | split: "/preview" | first %}
+          <iframe src="https://drive.google.com/file/d/{{ file_id }}/preview" 
+                  width="560" height="315" frameborder="0" allow="autoplay" allowfullscreen>
           </iframe>
-
-        {% elsif v contains "youtube.com" or v contains "youtube-nocookie.com" or v contains "youtu.be" %}
-          {% assign embed_url = v %}
-
-          {% if embed_url contains "youtu.be/" %}
-            {% assign video_id = embed_url | split: "youtu.be/" | last | split: "?" | first %}
-            {% assign embed_url = "https://www.youtube-nocookie.com/embed/" | append: video_id %}
-          {% elsif embed_url contains "/embed/" %}
-            {% assign embed_url = embed_url
-                | replace: "https://www.youtube.com/", "https://www.youtube-nocookie.com/"
-                | replace: "http://www.youtube.com/", "https://www.youtube-nocookie.com/"
-            %}
-          {% elsif embed_url contains "watch?v=" %}
-            {% assign video_id = embed_url | split: "v=" | last | split: "&" | first %}
-            {% assign embed_url = "https://www.youtube-nocookie.com/embed/" | append: video_id %}
-          {% endif %}
-
-          {% assign base_and_query = embed_url | split: "?" %}
-          {% assign base_only = base_and_query[0] %}
-          {% assign embed_url = base_only %}
-          {% assign embed_url = embed_url | append: "?rel=0&modestbranding=1" %}
-
-          <iframe
-            width="560" height="315"
-            src="{{ embed_url | escape }}"
-            title="Video"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="origin"
-            allowfullscreen>
-          </iframe>
-
-        {% else %}
-          <a href="{{ v | escape }}" target="_blank" rel="noopener">Watch Video</a>
-        {% endif %}
-      </div>
-    </details>
-
-  {% endif %}
-
-
-<!-- 
-          {% elsif entry.video contains "youtube.com" %}
+        {% elsif entry.video contains "youtube.com" %}
           {% assign video_id = entry.video | split: "v=" | last | split: "&" | first %}
           <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video_id }}" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen></iframe> -->
+                  allowfullscreen></iframe>
+        {% else %}
+          <a href="{{ entry.video }}" target="_blank">Watch Video</a>
+        {% endif %}
+      </div>
+    </details>
+  {% endif %}
   
 
 
