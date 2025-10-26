@@ -161,12 +161,12 @@ Ferland2018AssistiveAF
     - [CS70: Foundations of Applied Computer Science](https://dartmouth.smartcatalogiq.com/en/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-70/) – 2025 Winter
     
 
-- **Mentor**: [Summer Computing Academy](https://www-users.cse.umn.edu/~gini/computingacademy/2017/program-1w.html), University of Minnesota (June 2017)
+<!-- - **Mentor**: [Summer Computing Academy](https://www-users.cse.umn.edu/~gini/computingacademy/2017/program-1w.html), University of Minnesota (June 2017)
     - Assisted senior high school students in developing programs for Scribbler robots, image processing, video, 3D printing, and other applications.
 
 - **Lab Mentor**: Dartmouth Reality and Robotics Lab (Sep. 2018 - Now)
     - Master students: **Chun-Yi She** (2023-now), [**Yitao Jiang**](https://yitaojiang.net/) (2022-now, incoming PhD student at Dartmouth), [**Yijia Wu**](https://sixer51.github.io/) (2021-2022, now PhD student at WPI),  **Weishu Zhan** (2022-2023, incoming PhD student at The University of Manchester)
-    - Undergraduate students: **Josiah Putman** (now in Google), [**Maxine Perroni-Scharf**](https://maxineps.com/) (now PhD student at MIT)
+    - Undergraduate students: **Josiah Putman** (now in Google), [**Maxine Perroni-Scharf**](https://maxineps.com/) (now PhD student at MIT) -->
 
 
 ---
