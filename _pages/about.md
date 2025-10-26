@@ -103,9 +103,7 @@ Additionally, I serve as an Associate Editor for ICRA 2026 and co-organized the 
 - **August 14, 2023**: My recent research was spotlighted on **Dartmouth College's** [**official website**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots).  
 
 
-{: #research}
-
-<!-- {: #publications} -->
+<!-- {: #research} -->
 
 ---
 <!-- <div style="padding-top: 5px;"></div> -->
@@ -141,7 +139,7 @@ Ferland2018AssistiveAF
 <div style="padding-top: 2400px;"></div>
 
 ### __Teaching__ 
-{: #teaching}
+<!-- {: #teaching} -->
 
 
 - **Instructor**: Clemson University  
