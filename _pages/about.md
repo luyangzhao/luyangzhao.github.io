@@ -67,8 +67,7 @@ Beyond academia, I gained industry experience through research internships at **
 Additionally, I serve as an Associate Editor for ICRA 2026 and co-organized the Tensegrity Robotics Workshop at IROS 2023 and reviewed papers for journals and conferences, including IJRR, IEEE/ASME Transactions on Mechatronics, RA-L, ICRA, IROS, RoboSoft, BioRob and *Construction Robotics*.
 
 
-<!-- <span style="color:#FF0000">I am looking for passionate and motivated PhD students</span>— especially those who enjoy building and experimenting with robots, from hardware design to software for learning and perception.  -->
-Feel free to reach out at luyangz@clemson.edu.
+<span style="color:#FF0000">I am looking for passionate and motivated PhD students</span>— especially those who enjoy building and experimenting with robots, from hardware design to software for learning and perception. Feel free to reach out at luyangz@clemson.edu.
 
 
 
