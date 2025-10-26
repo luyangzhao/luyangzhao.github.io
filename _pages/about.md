@@ -148,7 +148,13 @@ Ferland2018AssistiveAF
 {: #teaching}
 
 
-- **Teaching Assistant**: Dartmouth College (Sep. 2018 - Now)
+- **Instructor**: Clemson University  
+    - **ECE 6830: Advanced Robotics** (Spring 2026) 
+
+
+<!-- Creative Inquiry: Design and Fabrication of Soft Robots – (Spring 2026, approval in progress) A hands-on, project-based course introducing students to soft robotics through rapid prototyping, modular design, and experimental testing of soft actuators, grippers, and self-assembling structures. -->
+
+- **Teaching Assistant**: Dartmouth College (Sep. 2018 - June 2025)
     - [CS89/189: Robot Motion Planning](https://www.cs.dartmouth.edu/devin/cs89/contents/) - 2024 Fall
     - [CS89/189: The Dark Side of AI/ML](https://dartmouth.smartcatalogiq.com/en/2023s/supplement/new-undergraduate-courses/computer-science/cosc-89-33/) - 2024 Spring
     - [CS81/281: Principles of Robot Design and Programming](https://dartmouth.smartcatalogiq.com/en/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-81/) – 2018 Fall and 2025 Spring
