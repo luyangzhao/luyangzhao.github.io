@@ -62,7 +62,7 @@ body {
 
 .lab-logo-link {
   display: inline-flex;
-  align-items: center;
+  align-items: center; /* 垂直居中 */
   gap: 6px;
 }
 
@@ -71,4 +71,3 @@ body {
   font-weight: 600;
   color: #333;
 }
-
