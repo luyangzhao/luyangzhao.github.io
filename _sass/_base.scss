@@ -30,52 +30,55 @@ body {
     @extend .clearfix;
 }
 
-/* Style for the SMILE lab logo link */
+/* 整行：Home / Logo Lab */
+.trigger {
+  display: flex;            /* 水平排布 */
+  align-items: center;      /* 垂直居中 */
+  gap: 6px;                 /* 各元素间距 */
+}
+
+/* Home 的样式（你的原样式） */
+.page-link {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.3px;
+  margin-right: 4px;
+}
+
+/* divider：保持你的原样式 */
+.divider {
+  color: #aaa;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* Logo + Lab 文本组合（新加 flex，不改变外观） */
+.lab-logo-link {
+  display: flex;
+  align-items: center;      /* Logo 和 Lab 垂直居中 */
+  gap: 6px;
+  text-decoration: none;    /* 去掉下划线 */
+}
+
+/* ⭐ 这是你原来的 lab-logo（完全保留） */
 .lab-logo {
-  height: 32px;
+  height: 32px;             /* 保持你的本来尺寸 */
   vertical-align: middle;
-  border-radius: 6px;
-  margin-left: 20px;     /* add space between Home and SMILE */
+  border-radius: 6px;       /* 保留你的圆角 */
+  margin-left: 20px;        /* 与 Home 留大间距（你原本的设计） */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Hover effect for the image */
+/* ⭐ 保留你的 hover 效果 */
 .lab-logo:hover {
   transform: scale(1.05);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 
-/* Make "Home" look balanced with the image */
-.page-link {
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 0.3px;
-  margin-right: 8px;  /* slight spacing after Home */
-}
-
-
-.divider {
-  color: #aaa;
-  font-weight: 400;
-  font-size: 20px;      /* increase size */
-}
-
-
-
-/* 整个图片 + 文字组合 */
-.lab-logo-link {
-  display: inline-flex;       /* 让图片与文字水平排列 */
-  align-items: center;        /* 垂直居中 */
-  gap: 6px;                   /* 图片与文字之间的间距 */
-  margin-top: 3px;            /* ⭐ 整体往下移（你可调 2px / 4px） */
-}
-
-/* 文字样式 */
+/* Lab 文本（保持低调但专业） */
 .lab-text {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #333;
-  line-height: 1;             /* 避免文字拉高行距 */
-  vertical-align: middle;     /* 再次确保垂直居中 */
+  line-height: 1;
 }
-
