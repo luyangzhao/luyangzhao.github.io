@@ -60,14 +60,22 @@ body {
   font-size: 20px;      /* increase size */
 }
 
+
+
+/* 整个图片 + 文字组合 */
 .lab-logo-link {
-  display: inline-flex;
-  align-items: center; /* 垂直居中 */
-  gap: 6px;
+  display: inline-flex;       /* 让图片与文字水平排列 */
+  align-items: center;        /* 垂直居中 */
+  gap: 6px;                   /* 图片与文字之间的间距 */
+  margin-top: 3px;            /* ⭐ 整体往下移（你可调 2px / 4px） */
 }
 
+/* 文字样式 */
 .lab-text {
   font-size: 16px;
   font-weight: 600;
   color: #333;
+  line-height: 1;             /* 避免文字拉高行距 */
+  vertical-align: middle;     /* 再次确保垂直居中 */
 }
+
