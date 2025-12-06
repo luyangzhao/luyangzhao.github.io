@@ -59,3 +59,16 @@ body {
   font-weight: 400;
   font-size: 20px;      /* increase size */
 }
+
+.lab-logo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.lab-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
