@@ -106,14 +106,15 @@
     </details>
     {% endif %} -->
 
-
-    {% if entry.code %}
-      [<a href="{{ entry.code }}" target="_blank">Code</a>]
-    {% endif %}
-
     {% if entry.link %}
-      [<a href="{{ entry.link }}" target="_blank">Link</a>]
+      [<a href="{{ entry.link }}" target="_blank">Paper Publication Link</a>]
     {% endif %}
+    
+    {% if entry.code %}
+      [<a href="{{ entry.code }}" target="_blank">Open-source hardware & code</a>]
+    {% endif %}
+
+
 
     {% if entry.video %}
     <details>
