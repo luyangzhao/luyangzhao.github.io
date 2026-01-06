@@ -14,65 +14,66 @@ social: true
 years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
 ---
 
-<!-- <div class="profile-images">
-  <img src="{{ site.baseurl }}/assets/img/0.jpeg" alt="Luyang Zhao Profile Image 1" class="profile-img">
-</div> -->
+Hello, I am **Luyang Zhao**, an Assistant Professor in the Department of Electrical and Computer Engineering at <span style="color:#F56600"><strong><a href="https://www.clemson.edu" style="color:#F56600; text-decoration:none;">Clemson University</a></strong></span>. I direct the **[SMILE Robotics Lab](https://smile-robotics-lab.github.io/)** (Soft, Modular, Intelligent, Learning, Embodied).
 
-<!-- 
-Hello, I am Luyang Zhao, a PhD candidate in Computer Science at Dartmouth College, mentored by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). 
-My research domain is diverse, encompassing **soft robots**, **modular robots**, **reinforcement learning**, **large language models (LLMs)**, **multi-robot systems**, **motion planning**, and **Simultaneous Localization and Mapping (SLAM)**. My work integrates machine learning techniques with robotics design, application, and planning to develop adaptive, intelligent systems capable of complex behaviors and interactions in dynamic environments.
+Before joining Clemson in 2025, I completed my PhD in Computer Science from **Dartmouth College** (advised by [Prof. Devin Balkcom](https://rlab.cs.dartmouth.edu/devin/)) and my BS from the **University of Minnesota** (advised by [Prof. Maria Gini](https://www-users.cse.umn.edu/~gini/)).
 
+My research focuses on **Soft**, **Modular**, and **Bio-inspired Robotics**, integrating **Artificial Intelligence** (LLMs, Reinforcement Learning) to build adaptive systems for real-world environments.
 
+<span style="color:#FF0000"><strong>I am actively recruiting motivated PhD students!</strong></span> If you are passionate about building robots and coding intelligence, please email me at `luyangz@clemson.edu`.
 
-I earned double majors in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, where I worked on research projects with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).
+---
 
-Lately, I've been deeply involved in the design and analysis of **self-assembling soft modular robots**. For the terrestrial project, I am collaborating with [**Professor Kostas Bekris**](https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/) from Rutgers University, [**Professor Rebecca Kramer-Bottiglio**](https://www.eng.yale.edu/faboratory/) from Yale University, [**Professor Xiaonan Huang**](https://robotics.umich.edu/profile/xiaonan-sean-huang/) from the University of Michigan, and [**Professor Muhao Chen**](https://muhao-chen.github.io/) from the University of Kentucky. These robots have the unique capability to autonomously adapt and navigate across varied terrains, especially in challenging situations like crossing gaps, maneuvering over obstacles, and navigating through narrow passageways. Additionally, they can build active human-scale structures such as tents and scaffolding with the help of drones. 
-
-My aquatic project is focused on building an aquatic platform for exploring locomotion, manipulation, and structure formation tasks, where I am using reinforcement learning to generate gaits for different configurations. This project is now collaborating with [**Professor Alberto Quattrini Li**](https://rlab.cs.dartmouth.edu/albertoq/) from Dartmouth College, [**Professor Muhao Chen**](https://muhao-chen.github.io/) from the University of Kentucky and  [**Professor Haibo Dong**](https://engineering.virginia.edu/faculty/haibo-dong) from the University of Virginia.
-
-I am also investigating flexible, bio-inspired robotics, with a focus on designs like dolphin-inspired robots and morphing wings. Our research on morphing wings has been accepted by AIAA, and our work on the dolphin-inspired robot has been submitted to RoboSoft 2025.
-
-I have also utilized **generative models, such as large language models (e.g., GPT)**, to design soft modular robots for various tasks. This work was done in collaboration with [**Professor Soroush Vosoughi**](https://www.cs.dartmouth.edu/~soroush/) from Dartmouth College and [**Professor Bo Zhu**](https://faculty.cc.gatech.edu/~bozhu/) from Georgia Tech.
-
-In addition to these projects, I am also interested in theoretical motion planning problems, aiming to develop memory-efficient motion planning algorithms that maintain high-quality path-finding while minimizing resource usage.
-
-I have co-organized workshops, including the **Tensegrity Robotics Workshop at IROS 2023**, and have mentored several graduate and undergraduate students. I have received the **Neukom Outstanding Graduate Research Prize** in 2023.
-
-
-As a **reviewer**, I have evaluated papers for Journal **RA-L** and conferences like **ICRA**, **IROS**, **RoboSoft**, and **BioRob**. I have also completed research internships at **Amazon** and **TuSimple**, where I worked on projects related to localization, path planning, and autonomous vehicle optimization.
-
- -->
-
-<!-- 
-Hello, I am **Luyang Zhao**, recently completed my PhD in Computer Science at Dartmouth College, mentored by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). I earned double majors in Computer Science and Mathematics during my undergraduate years at the University of Minnesota, where I worked on research projects with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).  -->
-
-
-Hello, I am **Luyang Zhao**, an Assistant Professor in the Electrical and Computer Engineering Department at <span style="color:#F56600"><strong><a href="https://www.clemson.edu" style="color:#F56600; text-decoration:none;">Clemson University</a></strong></span> (since August 2025).
-I recently completed my PhD in Computer Science at Dartmouth College, where I was advised by [**Professor Devin Balkcom**](https://rlab.cs.dartmouth.edu/devin/). I earned double majors in Computer Science and Mathematics during my undergraduate studies at the University of Minnesota, where I conducted research with [**Professor Maria Gini**](https://www-users.cse.umn.edu/~gini/).
-
-
-My research focuses on:
+<!-- My research focuses on:
 
 - <span style="color: black;">**Robotics**</span>: Soft Robotics, Modular Robotics, Swarm Robotics, and Bio-Inspired Systems.  
 - <span style="color: black;">**Artificial Intelligence**</span>: Machine Learning and Large Language Models (LLMs) for robotic design and decision-making.  
-- <span style="color: black;">**Robotic Systems and Simulation**</span>: Multi-Robot Systems, Motion Planning, SLAM, Robot Simulation, and Robotic Perception for real-world applications.  
+- <span style="color: black;">**Robotic Systems and Simulation**</span>: Multi-Robot Systems, Motion Planning, SLAM, Robot Simulation, and Robotic Perception for real-world applications.   -->
 
 
-I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to research. My work has also been featured in the media, including [**Dartmouth College's official website (2025)**](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape), [**Interesting Engineering**](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters), [**Dartmouth College's official website (2023)**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots), [**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp), [**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/), and [**Communications of the ACM**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext).
+<!-- ### __Research Highlights__
+
+I was honored with the **Neukom Outstanding Graduate Research Prize**. My work has also been featured in the media, including [**Dartmouth College's official website (2025)**](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape), [**Interesting Engineering**](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters), [**Dartmouth College's official website (2023)**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots), [**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp), [**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/), and [**Communications of the ACM**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext).
+
+I publish in top venues including **Nature Communications**, **Soft Robotics**, **IEEE T-RO/T-FR**, **npj Robotics**, **RA-L**, **IROS**, and **RoboSoft**. I also serve as an **Associate Editor** for **ICRA 2026**. Before academia, I gained industry experience at **Amazon Robotics** (perception, localization, and path planning for Kiva robots)  and **TuSimple** (motion planning and decision-making for autonomous vehicles in urban environments).
+ -->
+
+### __Research Highlights__
+
+I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to soft modular robotics. My research is published in top-tier venues including **Nature Communications**, **npj Robotics**, **Soft Robotics**, **IEEE T-RO/T-FR**, **RA-L**, **IROS**, and **RoboSoft**. 
+
+Previously, I gained R&D experience at **Amazon Robotics** (perception, localization & planning for Kiva robots) and **TuSimple** (motion planning and decision-making for autonomous trucks in urban environments).
+
+---
+
+### __Media Coverage__
+
+My research has been featured in major technology and science outlets:
+
+- **[2025] Multipurpose Robots Take Shape** [**Dartmouth News**](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape)
+
+- **[2025] Modular Robots Build Bridges and Shelters** [**Interesting Engineering**](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters)
+
+- **[2025] This Modular Robot Could Create Bridges, Rescue Tools, and Temporary Shelters** [**Knowridge**](https://knowridge.com/2025/08/this-modular-robot-could-create-bridges-rescue-tools-and-temporary-shelters/)
+
+- **[2023] Computer Science Researchers Create Modular, Flexible Robots** [**ACM News**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext)
+
+- **[2023] Computer Science Researcher Creates Flexible Robots** [**Dartmouth News**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots) | [**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp) | [**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/)
+
+- **[2023] Scientists Develop Shape-Shifting Robot Helpers Inspired by Ants** [**Knowridge Science Report**](https://knowridge.com/2023/08/scientists-develop-shape-shifting-robot-helpers-inspired-by-ants/#google_vignette)
+
+- **[2023] Computer Science Students Win Neukom Research Prizes** [**Dartmouth CS News**](https://web.cs.dartmouth.edu/news/2023/06/computer-science-students-win-neukom-research-prizes)
+
+<!-- I have also mentored graduate and undergraduate students on various research projects. My research has been published in top journals and conferences, including **Nature Communications**, **Soft Robotics**, **IEEE Transactions on Field Robotics**, **IEEE Robotics and Automation Letters (RA-L)**, **IROS**, and **RoboSoft**. -->
+<!-- Beyond academia, I gained industry experience through research internships at **Amazon Robotics** (perception, localization, and path planning for Kiva robots) and **TuSimple** (motion planning and decision-making for autonomous vehicles in urban environments). -->
+
+<!-- Additionally, I currently serve as an **Associate Editor** for the IEEE International Conference on Robotics and Automation (ICRA) 2026 and previously co-organized the Tensegrity Robotics Workshop at IROS 2023. I also actively contribute to the peer-review community, having reviewed manuscripts for leading journals and conferences, including **Science Advances**, The International Journal of Robotics Research (**IJRR**), IEEE/ASME Transactions on Mechatronics (**TMECH**), IEEE Robotics and Automation Letters (**RA-L**), ICRA, IROS, RoboSoft, BioRob, and Construction Robotics. -->
 
 
-I have also mentored graduate and undergraduate students on various research projects. My research has been published in top journals and conferences, including **Nature Communications**, **Soft Robotics**, **IEEE Transactions on Field Robotics**, **IEEE Robotics and Automation Letters (RA-L)**, **IROS**, and **RoboSoft**.
-Beyond academia, I gained industry experience through research internships at **Amazon Robotics** (perception, localization, and path planning for Kiva robots) and **TuSimple** (motion planning and decision-making for autonomous vehicles in urban environments).
-<!-- Beyond academia, I gained industry experience through research internships at **Amazon Robotics**, where I worked on perception, localization, and path planning for Kiva robots in dynamic warehouse environments. At **TuSimple**, I optimized motion planning and decision-making algorithms for autonomous vehicles navigating local roads, addressing real-time navigation and safety challenges in urban and semi-structured environments. -->
-Additionally, I currently serve as an **Associate Editor** for the IEEE International Conference on Robotics and Automation (ICRA) 2026 and previously co-organized the Tensegrity Robotics Workshop at IROS 2023. I also actively contribute to the peer-review community, having reviewed manuscripts for leading journals and conferences, including **Science Advances**, The International Journal of Robotics Research (**IJRR**), IEEE/ASME Transactions on Mechatronics (**TMECH**), IEEE Robotics and Automation Letters (**RA-L**), ICRA, IROS, RoboSoft, BioRob, and Construction Robotics.
-
-<span style="color:#FF0000">I am looking for passionate and motivated PhD students</span>— especially those who enjoy building and experimenting with robots, from hardware design to software for learning and perception. Feel free to reach out at luyangz@clemson.edu.
 
 
 
-
-
-### __Recent Highlights__ 
+### __News__ 
 - **Dec 18, 2025**: “SoftRafts: Floating and Adaptive Soft Modular Robots” has been accepted for publication in npj Robotics.
 - **Oct 24, 2025**: Delivered invited talk, **"Soft Modular Robots,"** at the **IROS 2025 Workshop: Challenges and Application Prospects for Reconfigurable Modular Robots** ([link](https://sites.google.com/view/reconfigurable-robots-workshop)), 09:20 – 09:45 am.
 - **Sept 2025**: Appointed **Associate Editor** for the **IEEE International Conference on Robotics and Automation (ICRA) 2026**.  
@@ -94,19 +95,20 @@ Additionally, I currently serve as an **Associate Editor** for the IEEE Internat
 - **Feb 3, 2025**: Delivered a seminar talk at **Clemson University** on **"Soft Modular Robots: From Modular Tensegrity Structures to Bioinspired Sea Robots."**  
 - **Jan 28, 2025**: Invited as a guest lecturer in **Professor Xiaonan Huang's Soft Robotics** course at the **University of Michigan**, where I presented my work on **Soft Modular Robots**.
 - **Jan 5, 2025**: Our **Tensegrity dolphin** paper got accepted in **RoboSoft 2025**.  
-- **May 31, 2024**: Selected for a talk about **"Self-Assembling Soft Modular Robots for Manipulation"** for [**NEMS 2024**](https://nems2024.khoury.northeastern.edu/).  
+<!-- - **May 31, 2024**: Selected for a talk about **"Self-Assembling Soft Modular Robots for Manipulation"** for [**NEMS 2024**](https://nems2024.khoury.northeastern.edu/).  
 - **April 14, 2024**: Presented own work at **RoboSoft 2024**.  
 - **December, 2023**: Became **Admissions Ambassador** for Dartmouth College.  
 - **October 5, 2023**: Presented my new work in our [**Tensegrity workshop**](https://www.eng.yale.edu/faboratory/tensegrityworkshop/) at **IROS**.  
 - **August 15, 2023**: My research was featured by [**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp) and [**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/).  
-- **August 14, 2023**: My recent research was spotlighted on **Dartmouth College's** [**official website**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots).  
+- **August 14, 2023**: My recent research was spotlighted on **Dartmouth College's** [**official website**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots).   -->
 
 
 <!-- {: #research} -->
 
 ---
 <!-- <div style="padding-top: 5px;"></div> -->
-### __Research__
+<!-- ### __Selected Publications__ -->
+### __Publications__
 
 <!-- learning, -->
 
@@ -134,53 +136,24 @@ Ferland2018AssistiveAF
 
 ---
 
-<!-- Adding some space before the Teaching section -->
-<div style="padding-top: 2400px;"></div>
-
-### __Teaching__ 
-<!-- {: #teaching} -->
-
-
-- **Instructor**: Clemson University  
-    - **ECE 6830: Advanced Robotics** (Spring 2026) 
-
-
-<!-- Creative Inquiry: Design and Fabrication of Soft Robots – (Spring 2026, approval in progress) A hands-on, project-based course introducing students to soft robotics through rapid prototyping, modular design, and experimental testing of soft actuators, grippers, and self-assembling structures. -->
-
-<!-- - **Teaching Assistant**: Dartmouth College (Sep. 2018 - June 2025)
-    - [CS89/189: Robot Motion Planning](https://www.cs.dartmouth.edu/devin/cs89/contents/) - 2024 Fall
-    - [CS89/189: The Dark Side of AI/ML](https://dartmouth.smartcatalogiq.com/en/2023s/supplement/new-undergraduate-courses/computer-science/cosc-89-33/) - 2024 Spring
-    - [CS81/281: Principles of Robot Design and Programming](https://dartmouth.smartcatalogiq.com/en/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-81/) – 2018 Fall and 2025 Spring
-    - [CS76/276: Artificial Intelligence](https://www.cs.dartmouth.edu/devin/cs76/syllabus/index.html) – 2018 Winter, 2019 Fall and 2023 Fall
-    - [CS1: Introduction to Programming and Computation](https://www.cs.dartmouth.edu/~kvasanta/cs1/syllabus/) – 2019 Spring and 2020 Spring
-    - [CS50: Software Design and Implementation](https://www.cs.dartmouth.edu/~cs50/Lectures/01-gettingstarted.html) – 2019 Summer
-    - [CS59: Principles of Programming Languages](https://cosc59.gitlab.io/syllabus.pdf) – 2024 Summer
-    - [CS70: Foundations of Applied Computer Science](https://dartmouth.smartcatalogiq.com/en/current/orc/departments-programs-undergraduate/computer-science/cosc-computer-science-undergraduate/cosc-70/) – 2025 Winter
-     -->
-
-<!-- - **Mentor**: [Summer Computing Academy](https://www-users.cse.umn.edu/~gini/computingacademy/2017/program-1w.html), University of Minnesota (June 2017)
-    - Assisted senior high school students in developing programs for Scribbler robots, image processing, video, 3D printing, and other applications.
-
-- **Lab Mentor**: Dartmouth Reality and Robotics Lab (Sep. 2018 - Now)
-    - Master students: **Chun-Yi She** (2023-now), [**Yitao Jiang**](https://yitaojiang.net/) (2022-now, incoming PhD student at Dartmouth), [**Yijia Wu**](https://sixer51.github.io/) (2021-2022, now PhD student at WPI),  **Weishu Zhan** (2022-2023, incoming PhD student at The University of Manchester)
-    - Undergraduate students: **Josiah Putman** (now in Google), [**Maxine Perroni-Scharf**](https://maxineps.com/) (now PhD student at MIT) -->
-
+<br style="clear:both;">
+<div style="padding-top: 50px;"></div>
 
 ---
 
+### __Teaching__ 
+
+- **Instructor**: Clemson University  
+    - **ECE 8930: Advanced Robotics** (Spring 2026) 
+    - **ECE 1990–4990: Creative Inquiry – LLM-Driven Robotics** (Spring 2026)  
+      *Project: "From Vision-Language Understanding to Physical Action"*
+    - **ECE 1990–4990: Creative Inquiry – Soft Modular Robotic Hand** (Spring 2026)  
+      *Project: "Designing and Building a Cable-Driven Soft Modular Robotic Hand"*
 
 
 
+### __Service__
 
-<!-- - **June 6, 2023**: Tied for **2nd place** in the [**2023 Neukom Outstanding Graduate Research Prize**](https://neukom.dartmouth.edu/research/neukom-research-prizes/2023-research-prize-winners).  
-- **May 12, 2023**: A [**paper**](https://ieeexplore.ieee.org/document/10146508) I led was accepted for publication in **RA-L** (Robotics and Automation Letters).  
-- **April 28, 2023**: Co-organized our [**Tensegrity workshop**](https://www.eng.yale.edu/faboratory/tensegrityworkshop/) for **IROS**.  
-- **Jan 11, 2023**: Visited Professor [**Rebecca Kramer-Bottiglio**](https://www.eng.yale.edu/faboratory/)'s lab at **Yale University** with Professor [**Kostas Bekris**](https://robotics.cs.rutgers.edu/pracsys/members/kostas-bekris/)’s team from **Rutgers University** to discuss collaborations.  
- -->
-
-<!-- ---
-#### __Visitors__
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=86988e&w=300&t=n&d=2m_nrbYNSsYJOZa9TgwIJgyXixu5GbzjtmXs1Sp4MZo&co=e8dbc9&cmo=ed3838&cmn=32d622&ct=000000'></script>
-
- -->
-
+- **Associate Editor**: IEEE International Conference on Robotics and Automation (**ICRA**), 2026
+- **Workshop Organizer**: "Tensegrity Robotics Workshop" at **IROS 2023** ([link](https://www.eng.yale.edu/faboratory/tensegrityworkshop/))
+- **Reviewer**: Science Advances, IJRR, T-MECH, RA-L, ICRA, IROS, RoboSoft, BioRob, Construction Robotics, AAMAS.
