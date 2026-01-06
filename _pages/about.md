@@ -16,11 +16,13 @@ years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
 
 Hello, I am **Luyang Zhao**, an Assistant Professor in the Department of Electrical and Computer Engineering at <span style="color:#F56600"><strong><a href="https://www.clemson.edu" style="color:#F56600;">Clemson University</a></strong></span>. I direct the **[SMILE Robotics Lab](https://smile-robotics-lab.github.io/)** (Soft, Modular, Intelligent, Learning, Embodied).
 
-Before joining Clemson in 2025, I completed my PhD in Computer Science from **Dartmouth College** (advised by [Prof. Devin Balkcom](https://rlab.cs.dartmouth.edu/devin/)) and my BS from the **University of Minnesota** (advised by [Prof. Maria Gini](https://www-users.cse.umn.edu/~gini/)).
+Before joining Clemson in 2025, I completed my PhD in Computer Science from **Dartmouth College** (advised by [Prof. Devin Balkcom](https://rlab.cs.dartmouth.edu/devin/)). I earned double majors in **Computer Science** and **Mathematics** from the **University of Minnesota**, where I conducted undergraduate research with [Prof. Maria Gini](https://www-users.cse.umn.edu/~gini/).
+
 
 My research focuses on **Soft**, **Modular**, and **Bio-inspired Robotics**, integrating **Artificial Intelligence** (LLMs, Reinforcement Learning) to build adaptive systems for real-world environments.
 
-<span style="color:#FF0000"><strong>I am actively recruiting motivated PhD students!</strong></span> If you are passionate about building robots and coding intelligence, please email me at `luyangz@clemson.edu`.
+<span style="color:#FF0000">I am actively recruiting motivated PhD students!</span> If you are passionate about building robots and coding intelligence, please email me at `luyangz@clemson.edu`.
+
 
 ---
 
