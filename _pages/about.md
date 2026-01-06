@@ -148,17 +148,10 @@ Ferland2018AssistiveAF
 ### __Media Coverage__
 
 My research has been featured in major technology and science outlets:
-
 - **[2025] Multipurpose Robots Take Shape** – [**Dartmouth News**](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape)
-
 - **[2025] Modular Robots Build Bridges and Shelters** – [**Interesting Engineering**](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters)
-
 - **[2025] This Modular Robot Could Create Bridges, Rescue Tools, and Temporary Shelters** – [**Knowridge**](https://knowridge.com/2025/08/this-modular-robot-could-create-bridges-rescue-tools-and-temporary-shelters/)
-
 - **[2023] Computer Science Researchers Create Modular, Flexible Robots** – [**ACM News**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext)
-
 - **[2023] Computer Science Researcher Creates Flexible Robots** – Featured in [**Dartmouth News**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots), [**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp), and [**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/)
-
 - **[2023] Scientists Develop Shape-Shifting Robot Helpers Inspired by Ants** – [**Knowridge Science Report**](https://knowridge.com/2023/08/scientists-develop-shape-shifting-robot-helpers-inspired-by-ants/#google_vignette)
-
 - **[2023] Computer Science Students Win Neukom Research Prizes** – [**Dartmouth CS News**](https://web.cs.dartmouth.edu/news/2023/06/computer-science-students-win-neukom-research-prizes)
