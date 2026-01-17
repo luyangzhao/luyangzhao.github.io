@@ -106,7 +106,7 @@ dolphin,
 seepersea,
 llmswarm,
 learning,
-<!-- jeong2024multimodal, -->
+jeong2024multimodal,
 starblocks,
 9738480,
 9341312,
