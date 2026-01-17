@@ -103,6 +103,7 @@ airfoil,
 zhaosci,
 softsnap,
 dolphin,
+seepersea,
 llmswarm,
 learning,
 starblocks,
@@ -111,7 +112,6 @@ starblocks,
 8901071,
 Putman2020PiecewiseLR, 
 jeong2024multimodal,
-seepersea,
 Ferland2018AssistiveAF
 " | split: "," %}
 {% for paper_id in papers %}
