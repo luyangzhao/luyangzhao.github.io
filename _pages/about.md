@@ -98,15 +98,15 @@ Previously, I gained industrial experience at **Amazon Robotics** (perception, l
 <!-- learning, -->
 
 {% assign papers = "
+surface,
+airfoil,
 zhaosci,
 softsnap,
-llmswarm,
-surface,
 dolphin,
-airfoil,
+llmswarm,
+learning,
 starblocks,
 9738480,
-learning,
 9341312,
 8901071,
 Putman2020PiecewiseLR, 
