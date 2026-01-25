@@ -6,5 +6,6 @@ gem 'jekyll-paginate'
 gem 'jemoji'
 gem 'unicode_utils'
 gem 'webrick'           # needed for local dev in Ruby >= 3
+gem "jekyll-sitemap"
 
 
