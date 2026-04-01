@@ -18,8 +18,8 @@ Hello, I am **Luyang Zhao**, an Assistant Professor in the Department of Electri
 
 Before joining Clemson in 2025, I completed my PhD in Computer Science from **Dartmouth College** (advised by [Prof. Devin Balkcom](https://rlab.cs.dartmouth.edu/devin/)). I earned double majors in **Computer Science** and **Mathematics** from the **University of Minnesota**, where I conducted undergraduate research with [Prof. Maria Gini](https://www-users.cse.umn.edu/~gini/).
 
+My research focuses on soft and modular robotic systems, using AI to co-design robot morphology and control policies, and to enable adaptive decision-making in real-world environments.
 
-My research focuses on **Soft**, **Modular**, and **Bio-inspired Robotics**, integrating **Artificial Intelligence** (LLMs, Reinforcement Learning) to build adaptive systems for real-world environments.
 
 <span style="color:#FF0000">I am actively recruiting motivated PhD students!</span> If you are passionate about building robots and coding intelligence, please email me at `luyangz@clemson.edu`.
 
