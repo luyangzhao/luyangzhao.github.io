@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Luyang</strong> Zhao
-description: PhD in Computer Science, Dartmouth College
+description: 
 
 profile:
   align: right
