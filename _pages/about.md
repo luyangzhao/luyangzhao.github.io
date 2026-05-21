@@ -11,7 +11,7 @@ profile:
 
 news: true
 social: true
-years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
+years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
 ---
 
 Hello, I am **Luyang Zhao**, an Assistant Professor in the Department of Electrical and Computer Engineering at <span style="color:#F56600"><strong><a href="https://www.clemson.edu" style="color:#F56600;">Clemson University</a></strong></span>. I direct the **[SMILE Robotics Lab](https://smile-robotics-lab.github.io/)** (Soft, Modular, Intelligent, Learning, Embodied).
@@ -44,10 +44,9 @@ I publish in top venues including **Nature Communications**, **Soft Robotics**, 
 
 ### __Research Highlights__
 
-I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to soft modular robotics. My research is published in top-tier venues including **Nature Communications**, **npj Robotics**, **Soft Robotics**, **IEEE Transactions on Field Robotics**, **IEEE RA-L**, **IROS**, **RoboSoft**, and **AIAA**. 
+I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to soft modular robotics. I am also a **Faculty Scholar** in the **Clemson University School of Health Research (CUSHR)**. My research is published in top-tier venues including **Nature Communications**, **npj Robotics**, **Soft Robotics**, **IEEE Transactions on Field Robotics**, **IEEE RA-L**, **IROS**, **RoboSoft**, and **AIAA**. 
 
 Previously, I gained industrial experience at **Amazon Robotics** (perception, localization & planning for Kiva robots) and **TuSimple** (motion planning and decision-making for autonomous trucks in urban environments).
-
 
 
 <!-- I have also mentored graduate and undergraduate students on various research projects. My research has been published in top journals and conferences, including **Nature Communications**, **Soft Robotics**, **IEEE Transactions on Field Robotics**, **IEEE Robotics and Automation Letters (RA-L)**, **IROS**, and **RoboSoft**. -->
@@ -60,6 +59,9 @@ Previously, I gained industrial experience at **Amazon Robotics** (perception, l
 
 ### __News__
 
+- **May 2026**: Our proposal for the **2nd Workshop on Challenges and Application Prospects for Reconfigurable Modular Robots** has been accepted for **IROS 2026**. Looking forward to seeing everyone there!
+- **Apr 2026**: Completed my newly developed graduate course, **ECE 8930: Advanced Robotics**, where final projects explored **VLA-based robot manipulation** using **SO-101 robotic arms**. I also concluded two **Creative Inquiry** projects with about 20 undergraduate students, who built four soft robotic hands and explored VLA-based manipulation.
+- **Apr 2026**: Appointed as a **Faculty Scholar** in the **Clemson University School of Health Research (CUSHR)**.
 - **Dec 18, 2025**: “SoftRafts: Floating and Adaptive Soft Modular Robots” has been accepted for publication in npj Robotics.
 - **Oct 24, 2025**: Delivered invited talk, **"Soft Modular Robots,"** at the **IROS 2025 Workshop: Challenges and Application Prospects for Reconfigurable Modular Robots** ([link](https://sites.google.com/view/reconfigurable-robots-workshop)), 09:20 – 09:45 am.
 - **Sept 2025**: Appointed **Associate Editor** for the **IEEE International Conference on Robotics and Automation (ICRA) 2026**.  
