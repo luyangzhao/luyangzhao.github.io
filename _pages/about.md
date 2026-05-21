@@ -139,9 +139,12 @@ Ferland2018AssistiveAF
 
 ### __Service__
 
+- **Guest Editor**: Special Issue on "Design, Motion Planning, and Control of Morphology-Rich Bio-Inspired Systems", *Biomimetic Intelligence and Robotics* ([link](https://www.sciencedirect.com/special-issue/331531/special-issue-on-design-motion-planning-and-control-of-morphology-rich-bio-inspired-systems))
 - **Associate Editor**: IEEE International Conference on Robotics and Automation (**ICRA**), 2026
-- **Workshop Organizer**: "Tensegrity Robotics Workshop" at **IROS 2023** ([link](https://www.eng.yale.edu/faboratory/tensegrityworkshop/))
-- **Reviewer**: Science Advances, IJRR, T-MECH, RA-L, ICRA, IROS, RoboSoft, BioRob, Construction Robotics, AAMAS.
+- **Workshop Organizer**:
+  - "2nd Workshop: Challenges and Applications Prospects for Reconfigurable Modular Robots" at **IROS 2026** (**accepted**, forthcoming)
+  - "Tensegrity Robotics Workshop" at **IROS 2023** ([link](https://www.eng.yale.edu/faboratory/tensegrityworkshop/))
+- **Reviewer**: Science Advances, IEEE T-RO, IJRR, Soft Robotics, IEEE/ASME T-MECH, IEEE RA-L, ICRA, IROS, RoboSoft, BioRob, Construction Robotics, AAMAS.
 
 
 ---
