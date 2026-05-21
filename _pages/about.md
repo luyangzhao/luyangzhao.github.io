@@ -64,6 +64,7 @@ Previously, I gained industrial experience at **Amazon Robotics** (perception, l
 - **Apr 2026**: Appointed as a **Faculty Scholar** in the **Clemson University School of Health Research (CUSHR)**.
 - **Dec 18, 2025**: “SoftRafts: Floating and Adaptive Soft Modular Robots” has been accepted for publication in npj Robotics.
 - **Oct 24, 2025**: Delivered invited talk, **"Soft Modular Robots,"** at the **IROS 2025 Workshop: Challenges and Application Prospects for Reconfigurable Modular Robots** ([link](https://sites.google.com/view/reconfigurable-robots-workshop)), 09:20 – 09:45 am.
+- **Oct 20, 2025**: Led a hands-on workshop, **"Introduction to Soft Robotics,"** at Clemson University, introducing students to soft robotics and future opportunities in robotics research. ([link](https://events.clemson.edu/event/21822-introduction-to-soft-robotics))
 - **Sept 2025**: Appointed **Associate Editor** for the **IEEE International Conference on Robotics and Automation (ICRA) 2026**.  
 - **Aug 25, 2025**: Our paper, **"Design of a Lightweight Robotic Tensegrity Morphing Airfoil,"** has been accepted for presentation at the **2026 AIAA SciTech Forum**.  
 - **Aug 23, 2025**: Our paper, **"SeePerSea: Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles,"** has been accepted by **IEEE Transactions on Field Robotics**. [link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11142348)  
