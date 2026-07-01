@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Luyang</strong> Zhao
+title: Luyang Zhao
 description: 
 
 profile:
@@ -39,8 +39,6 @@ Prospective students interested in building robots and coding intelligence are w
     </div>
   </div>
 </div>
-
----
 
 <!-- My research focuses on:
 
