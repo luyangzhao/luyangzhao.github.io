@@ -28,6 +28,13 @@ article.post-content.home-post-content p {
     line-height: 1.58;
 }
 
+article.post-content.home-post-content hr {
+    clear: both;
+    margin: 1.9rem 0 1.6rem;
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+}
+
 .home-post-header .post-title {
     margin: 0 0 1.4rem;
     font-size: 2rem;
@@ -62,11 +69,37 @@ article.post-content.home-post-content h2 {
 
 article.post-content.home-post-content h3 {
     font-size: 1.25rem;
-    margin-top: 2rem;
+    margin: 0 0 1rem;
 }
 
 article.post-content.home-post-content h4 {
     font-size: 1rem;
+}
+
+article.post-content.home-post-content ul {
+    margin: 0 0 1.35rem;
+    padding-left: 1.15rem;
+}
+
+article.post-content.home-post-content li {
+    color: #222;
+    font-size: 1rem;
+    line-height: 1.58;
+    margin-bottom: 0.62rem;
+}
+
+article.post-content.home-post-content li > ul {
+    margin-top: 0.48rem;
+    margin-bottom: 0.2rem;
+}
+
+article.post-content.home-post-content li li {
+    margin-bottom: 0.42rem;
+}
+
+article.post-content.home-post-content strong {
+    color: #222;
+    font-weight: 700;
 }
 
 article.post-content.home-post-content a {
@@ -83,6 +116,35 @@ article.post-content.home-post-content a.plain-link,
 article.post-content.home-post-content a.plain-link:hover {
     color: #222;
     font-weight: 400;
+}
+
+article.post-content.home-post-content .more-news {
+    display: none;
+    margin-top: -0.2rem;
+}
+
+article.post-content.home-post-content .more-news.is-open {
+    display: block;
+}
+
+article.post-content.home-post-content .home-show-more {
+    display: inline-flex;
+    align-items: center;
+    min-height: 1.85rem;
+    margin: -0.15rem 0 0.25rem;
+    padding: 0.28rem 0.68rem;
+    border: 1px solid rgba(245, 102, 0, 0.35);
+    border-radius: 999px;
+    color: #F56600;
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+article.post-content.home-post-content .home-show-more:hover {
+    border-color: #F56600;
+    text-decoration: none;
 }
 
 article a.plain-strong-link {

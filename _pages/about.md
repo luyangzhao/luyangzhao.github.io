@@ -56,7 +56,7 @@ I was honored with the **Neukom Outstanding Graduate Research Prize**. My work h
 I publish in top venues including **Nature Communications**, **Soft Robotics**, **IEEE T-RO/T-FR**, **npj Robotics**, **RA-L**, **IROS**, and **RoboSoft**. I also serve as an **Associate Editor** for **ICRA 2026**. Before academia, I gained industry experience at **Amazon Robotics** (perception, localization, and path planning for Kiva robots)  and **TuSimple** (motion planning and decision-making for autonomous vehicles in urban environments).
  -->
 
-### __Research Highlights__
+### Research Highlights
 
 I was honored with the **Neukom Outstanding Graduate Research Prize** for my contributions to soft modular robotics. I am also a **Faculty Scholar** in the **Clemson University School of Health Research (CUSHR)**. My research is published in top-tier venues including **Nature Communications**, **npj Robotics**, **Soft Robotics**, **IEEE Transactions on Field Robotics**, **IEEE RA-L**, **IROS**, **RoboSoft**, and **AIAA**. 
 
@@ -71,7 +71,7 @@ Previously, I gained industrial experience at **Amazon Robotics** (perception, l
 
 ---
 
-### __News__
+### News
 
 - **May 2026**: Our proposal for the **2nd Workshop on Challenges and Application Prospects for Reconfigurable Modular Robots** has been accepted for **IROS 2026**. Looking forward to seeing everyone there!
 - **Apr 2026**: Completed my newly developed graduate course, **ECE 8930: Advanced Robotics**, where final projects explored **VLA-based robot manipulation** using **SO-101 robotic arms**. I also concluded two **Creative Inquiry** projects with about 20 undergraduate students, who built four soft robotic hands and explored VLA-based manipulation.
@@ -85,7 +85,8 @@ Previously, I gained industrial experience at **Amazon Robotics** (perception, l
 - **Aug 20 2025**: Featured in Dartmouth news and international media:  
   - [Dartmouth News: Multipurpose Robots Take Shape](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape)  
   - [Interesting Engineering: Modular Robots Build Bridges and Shelters](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters)  
-<div id="more-news" style="display: none;">
+
+<div id="more-news" class="more-news">
   <ul>
     <li><strong>June 15, 2025</strong>: Our paper, <strong>"Exploring Spontaneous Social Interaction Swarm Robotics Powered by Large Language Models,"</strong> has been accepted by IROS 2025.</li>
     <li><strong>Apr 30, 2025</strong>: Our paper, <strong>"SoftSnap: Rapid Prototyping of Untethered Soft Robots Using Snap-Together Modules,"</strong> has been accepted for publication in <strong>Soft Robotics</strong>.</li>  
@@ -103,7 +104,7 @@ Previously, I gained industrial experience at **Amazon Robotics** (perception, l
   </ul>
 </div>
 
-<a href="javascript:void(0);" onclick="var x = document.getElementById('more-news'); if (x.style.display === 'none') { x.style.display = 'block'; this.innerText = 'Show Less'; } else { x.style.display = 'none'; this.innerText = 'Show More'; }" style="font-weight: bold; text-decoration: none; color: #F56600;">
+<a class="home-show-more" href="javascript:void(0);" onclick="var x = document.getElementById('more-news'); x.classList.toggle('is-open'); this.innerText = x.classList.contains('is-open') ? 'Show Less' : 'Show More...';">
   Show More...
 </a>
 
@@ -112,7 +113,7 @@ Previously, I gained industrial experience at **Amazon Robotics** (perception, l
 ---
 <!-- <div style="padding-top: 5px;"></div> -->
 <!-- ### __Selected Publications__ -->
-### __Publications__
+### Publications
 
 <!-- learning, -->
 
@@ -142,12 +143,7 @@ Ferland2018AssistiveAF
 
 ---
 
-<br style="clear:both;">
-<div style="padding-top: 50px;"></div>
-
----
-
-### __Teaching__ 
+### Teaching
 
 - **Instructor**: Clemson University  
     - **ECE 8930: Advanced Robotics** (Spring 2026) 
@@ -158,7 +154,7 @@ Ferland2018AssistiveAF
 
 ---
 
-### __Service__
+### Service
 
 - **Guest Editor**: Special Issue on "Design, Motion Planning, and Control of Morphology-Rich Bio-Inspired Systems", *Biomimetic Intelligence and Robotics* ([link](https://www.sciencedirect.com/special-issue/331531/special-issue-on-design-motion-planning-and-control-of-morphology-rich-bio-inspired-systems))
 - **Associate Editor**: IEEE International Conference on Robotics and Automation (**ICRA**), 2026
@@ -167,12 +163,9 @@ Ferland2018AssistiveAF
   - "Tensegrity Robotics Workshop" at **IROS 2023** ([link](https://www.eng.yale.edu/faboratory/tensegrityworkshop/))
 - **Reviewer**: Science Advances, IEEE T-RO, IJRR, Soft Robotics, IEEE/ASME T-MECH, IEEE RA-L, ICRA, IROS, RoboSoft, BioRob, Construction Robotics, AAMAS.
 
-
 ---
 
-
-
-### __Media Coverage__
+### Media Coverage
 
 My research has been featured in major technology and science outlets:
 - **[2025] Modular Robots Assemble into Bridges, Shelters and Tools for Outdoor Tasks** – [**Tech Xplore**](https://techxplore.com/news/2025-08-modular-robots-bridges-tools-outdoor.html)
