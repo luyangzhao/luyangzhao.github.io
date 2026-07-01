@@ -191,8 +191,8 @@ article.post-content.home-post-content .publication-links a:hover,
 
 .publication-video-frame iframe {
     display: block;
-    width: min(100%, 560px);
-    max-width: 100%;
+    width: 100%;
+    max-width: 560px;
     aspect-ratio: 16 / 9;
     height: auto;
     border: 0;
