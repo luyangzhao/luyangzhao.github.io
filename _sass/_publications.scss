@@ -1,88 +1,240 @@
 .publications {
     h2 {
-        color: $theme-color;
-        // border-bottom: 1px solid $theme-color;
-        // border-top: 1px solid $theme-color;
-        font-size: 32px;
-        margin-bottom: 30px;
-        // padding: 20px 0;
-        text-align: center;
+        color: #222;
+        font-size: 1.45rem;
+        font-weight: 700;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+        text-align: left;
     }
 }
-.year {
-    border-top: 1px solid $light-gray;
-    color: $light-gray;
-    margin: 0 -3em -2.5ex -2em;
-    padding-top: 1ex;
-    text-align: right;
+
+.publication-list {
+    clear: both;
+    margin: 1.1rem 0 2rem;
 }
+
 .bibliography {
-    margin-bottom: 50px;
-    margin-top: 20px;
-    list-style-type: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
     li {
-        margin: 10px 0;
+        margin: 0;
+        padding: 0;
         position: relative;
-
-        span { display: block; }
-        .title { font-weight: bolder; }
-        .author {
-            a {
-                border-bottom: 1px dashed $theme-color;
-                &:hover {
-                    border-bottom-style: solid;
-                    text-decoration: none;
-                }
-            }
-            > em {
-                border-bottom: 1px solid;
-                font-style: normal;
-            }
-        }
-        a.abstract, a.bibtex { cursor: pointer; }
-        .hidden {
-            font-size: $small-font-size;
-            max-height: 0px;
-            overflow: hidden;
-            text-align: justify;
-            -webkit-transition: 0.15s ease;
-            -moz-transition: 0.15s ease;
-            -ms-transition: 0.15s ease;
-            -o-transition: 0.15s ease;
-            transition: all 0.15s ease;
-
-            p {
-                line-height: 1.4em;
-                margin: 10px;
-            }
-            pre {
-                font-size: 1em;
-                line-height: 1.4em;
-                padding: 10px;
-            }
-        }
-        .hidden.open {
-            max-height: 100em;
-            -webkit-transition: 0.15s ease;
-            -moz-transition: 0.15s ease;
-            -ms-transition: 0.15s ease;
-            -o-transition: 0.15s ease;
-            transition: all 0.15s ease;
-        }
-        span.abstract.hidden {
-            border: dashed 1px $background-color;
-        }
-        span.abstract.hidden.open {
-            border-color: $grey-color;
-        }
     }
+
     abbr {
-        position: absolute;
-            left: -7em;
+        display: none;
     }
- }
+}
+
+.publication-card {
+    display: grid;
+    grid-template-columns: 180px minmax(0, 1fr);
+    gap: 1.15rem;
+    align-items: start;
+    float: none;
+    width: 100%;
+    padding: 1.05rem 0;
+    border-top: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+
+.publication-list .bibliography:first-child .publication-card {
+    border-top-color: #dcdcdc;
+}
+
+.publication-media {
+    min-width: 0;
+}
+
+.publication-media-link,
+.publication-teaser {
+    display: block;
+}
+
+.publication-teaser {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    background: #f7f7f7;
+}
+
+.publication-body {
+    min-width: 0;
+    color: #333;
+}
+
+.bibliography .title {
+    display: block;
+    color: #222;
+    font-size: 1.04rem;
+    font-weight: 700;
+    line-height: 1.32;
+    margin: 0 0 0.32rem;
+}
+
+.bibliography .author {
+    display: block;
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.42;
+    margin-bottom: 0.28rem;
+
+    a {
+        color: #555;
+        border-bottom: 1px dashed #c8c8c8;
+
+        &:hover {
+            color: #F56600;
+            border-bottom-color: #F56600;
+            text-decoration: none;
+        }
+    }
+
+    > em {
+        color: #222;
+        font-style: normal;
+        font-weight: 700;
+    }
+}
+
+.bibliography .periodical {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    align-items: center;
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.35;
+    margin-bottom: 0.7rem;
+}
+
+.publication-venue {
+    color: #222;
+    font-weight: 700;
+}
+
+.publication-year {
+    color: #666;
+    font-weight: 700;
+}
+
+.publication-year::before {
+    content: "|";
+    color: #cfcfcf;
+    font-weight: 400;
+    margin-right: 0.35rem;
+}
+
+.publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    align-items: center;
+    margin-top: 0.65rem;
+}
+
+article.post-content.home-post-content .publication-links a,
+.publication-link,
+.publication-video-summary {
+    display: inline-flex;
+    align-items: center;
+    min-height: 1.75rem;
+    padding: 0.25rem 0.62rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 999px;
+    color: #222;
+    background: #fff;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+article.post-content.home-post-content .publication-links a:hover,
+.publication-link:hover,
+.publication-video-summary:hover {
+    border-color: #F56600;
+    color: #F56600;
+    text-decoration: none;
+}
+
+.publication-link--code {
+    border-color: rgba(245, 102, 0, 0.35);
+}
+
+.publication-video {
+    display: inline-block;
+}
+
+.publication-video[open] {
+    flex-basis: 100%;
+}
+
+.publication-video-summary {
+    list-style: none;
+}
+
+.publication-video-summary::-webkit-details-marker {
+    display: none;
+}
+
+.publication-video-frame {
+    margin-top: 0.8rem;
+}
+
+.publication-video-frame iframe {
+    display: block;
+    width: min(100%, 560px);
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: 0;
+    border-radius: 8px;
+    background: #f7f7f7;
+}
+
+.bibliography .hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.18s ease, margin 0.18s ease, padding 0.18s ease;
+}
+
+.publication-abstract.open {
+    max-height: 40rem;
+    margin-top: 0.75rem;
+    padding: 0.78rem 0.9rem;
+    border-left: 3px solid #F56600;
+    border-radius: 0 8px 8px 0;
+    background: #fafafa;
+}
+
+article.post-content.home-post-content .publication-abstract p,
+.publication-abstract p {
+    margin: 0;
+    color: #444;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
 .star {
-    color: $theme-color;
+    color: #F56600;
     font-style: normal;
+}
+
+@media (max-width: 760px) {
+    .publication-card {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+
+    .publication-teaser {
+        max-height: 210px;
+    }
 }

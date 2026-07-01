@@ -133,9 +133,11 @@ Putman2020PiecewiseLR,
 8901071,
 Ferland2018AssistiveAF
 " | split: "," %}
+<div class="publication-list">
 {% for paper_id in papers %}
   {% bibliography -f papers -q @*[id={{paper_id}}]* %}
 {% endfor %}
+</div>
 
 
 ---
