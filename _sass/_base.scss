@@ -34,22 +34,28 @@ body {
 .trigger {
   display: flex;            /* 水平排布 */
   align-items: center;      /* 垂直居中 */
-  gap: 6px;                 /* 各元素间距 */
+  gap: 1rem;                /* 各元素间距 */
 }
 
 /* Home 的样式（你的原样式） */
 .page-link {
   font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 0.3px;
-  margin-right: 4px;
+  font-size: 0.95rem;
+  letter-spacing: 0;
+  margin-right: 0;
+  color: #F56600;
+}
+
+.page-link:hover {
+  color: #F56600;
+  text-decoration: underline;
 }
 
 /* divider：保持你的原样式 */
 .divider {
-  color: #aaa;
+  color: #555;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 0.95rem;
 }
 
 /* Logo + Lab 文本组合（新加 flex，不改变外观） */

@@ -1,8 +1,8 @@
 .site-header {
     border-bottom: 1px solid $grey-color-light;
     background-color: #fff;
-    opacity: 0.95;
-    position:fixed;
+    opacity: 1;
+    position: static;
     left:0px;
     top:0px;
     width:100%;
@@ -31,7 +31,7 @@
         line-height: $line-height;
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 10px;
+            margin-left: 0;
         }
     }
     // added for hamburger

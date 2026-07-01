@@ -1,5 +1,5 @@
 .page-content {
-    padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+    padding: 64px 0 80px; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 .page-heading {
     font-size: 20px;
@@ -11,6 +11,78 @@
 }
 .center{
     text-align: center;
+}
+
+article.post-content.home-post-content {
+    color: #222;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.58;
+}
+
+article.post-content.home-post-content p {
+    color: #222;
+    margin: 0 0 1.05rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.58;
+}
+
+.home-post-header .post-title {
+    margin: 0 0 1.4rem;
+    font-size: 2rem;
+    line-height: 1.25;
+    letter-spacing: 0;
+}
+
+article.post-content.home-post-content .profile.col.one {
+    width: 230px;
+    margin: 0 0 1.5rem 2rem;
+}
+
+article.post-content.home-post-content .profile img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+article.post-content.home-post-content h2,
+article.post-content.home-post-content h3,
+article.post-content.home-post-content h4 {
+    color: #222;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0;
+}
+
+article.post-content.home-post-content h2 {
+    font-size: 1.45rem;
+}
+
+article.post-content.home-post-content h3 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+}
+
+article.post-content.home-post-content h4 {
+    font-size: 1rem;
+}
+
+article.post-content.home-post-content a {
+    color: #F56600;
+    font-weight: 400;
+}
+
+article.post-content.home-post-content strong a {
+    color: #F56600;
+    font-weight: 700;
+}
+
+article.post-content.home-post-content a.plain-link,
+article.post-content.home-post-content a.plain-link:hover {
+    color: #222;
+    font-weight: 400;
 }
 
 article a.plain-strong-link {
@@ -69,13 +141,34 @@ article a.plain-link:hover {
     text-transform: uppercase;
 }
 
+article.post-content.home-post-content .smile-lab-preview__eyebrow {
+    margin: 0 0 0.25rem;
+    color: #F56600;
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
 .smile-lab-preview h3 {
     margin: 0 0 0.55rem;
     font-size: 1.18rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+article.post-content.home-post-content .smile-lab-preview h3 {
+    margin: 0 0 0.55rem;
+    font-size: 1.18rem;
+    font-weight: 700;
     line-height: 1.3;
 }
 
 .smile-lab-preview__content p {
+    margin-top: 0;
+}
+
+article.post-content.home-post-content .smile-lab-preview__content p {
     margin-top: 0;
 }
 
@@ -86,7 +179,7 @@ article a.plain-link:hover {
     margin-top: 0.9rem;
 }
 
-article .smile-lab-preview__links a {
+article.post-content.home-post-content .smile-lab-preview__links a {
     display: inline-flex;
     align-items: center;
     min-height: 2rem;
@@ -99,13 +192,19 @@ article .smile-lab-preview__links a {
     text-decoration: none;
 }
 
-article .smile-lab-preview__links a:hover {
+article.post-content.home-post-content .smile-lab-preview__links a:hover {
     border-color: #F56600;
     color: #F56600;
     text-decoration: none;
 }
 
 @media (max-width: 720px) {
+    article.post-content.home-post-content .profile.col.one {
+        float: none !important;
+        width: 180px;
+        margin: 0 0 1.5rem;
+    }
+
     .smile-lab-preview {
         grid-template-columns: 1fr;
         gap: 1rem;
