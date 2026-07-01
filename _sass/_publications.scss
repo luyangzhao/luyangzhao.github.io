@@ -73,7 +73,7 @@
     display: block;
     color: #222;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.32;
     margin: 0 0 0.32rem;
 }
@@ -99,7 +99,7 @@
     > em {
         color: #222;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
     }
 }
 
@@ -116,12 +116,12 @@
 
 .publication-venue {
     color: #222;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .publication-year {
     color: #666;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .publication-year::before {
@@ -151,7 +151,7 @@ article.post-content.home-post-content .publication-links a,
     color: #222;
     background: #fff;
     font-size: 0.78rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.2;
     text-decoration: none;
     cursor: pointer;
