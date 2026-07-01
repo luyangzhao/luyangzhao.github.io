@@ -14,17 +14,31 @@ social: true
 years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
 ---
 
-Hello, I am **Luyang Zhao**, an Assistant Professor in the Department of Electrical and Computer Engineering at <span style="color:#F56600"><strong><a href="https://www.clemson.edu" style="color:#F56600;">Clemson University</a></strong></span>. I direct the **[SMILE Robotics Lab](https://smile-robotics-lab.github.io/)** (Soft, Modular, Intelligent, Learning, Embodied).
+Hello, I am Luyang Zhao, an Assistant Professor in the Department of Electrical and Computer Engineering at <a class="plain-link" href="https://www.clemson.edu/">Clemson University</a>. I direct the **[SMILE Robotics Lab](https://smile-robotics-lab.github.io/)** (Soft, Modular, Intelligent, Learning, Embodied).
 
-Before joining Clemson in 2025, I completed my PhD in Computer Science from **Dartmouth College** (advised by [Prof. Devin Balkcom](https://rlab.cs.dartmouth.edu/devin/)). I earned double majors in **Computer Science** and **Mathematics** from the **University of Minnesota**, where I conducted undergraduate research with [Prof. Maria Gini](https://www-users.cse.umn.edu/~gini/).
+Before joining Clemson in 2025, I completed my PhD in Computer Science from Dartmouth College (advised by <a class="plain-link" href="https://rlab.cs.dartmouth.edu/devin/">Prof. Devin Balkcom</a>). I earned double majors in Computer Science and Mathematics from the University of Minnesota, where I conducted undergraduate research with <a class="plain-link" href="https://www-users.cse.umn.edu/~gini/">Prof. Maria Gini</a>.
 
 <!-- My research focuses on soft and modular robotic systems, using AI to co-design robot morphology and control policies, and to enable adaptive decision-making in real-world environments. -->
 
-My research focuses on soft and modular robotic systems, robot perception, embodied AI, and robot learning. I develop AI-driven methods to co-design robot morphology and control policies, and explore vision-language-action (VLA) models that enable robots to perceive, reason, and act adaptively in complex real-world environments.
+My research centers on soft, modular, and tensegrity robotics. I design, model, and control reconfigurable robotic structures that can self-assemble, adapt, and collaborate in unstructured environments. In my lab, I am extending this work with AI-driven co-design, reinforcement learning, and vision-language-action models to enable robots to reason about morphology, task context, and physical interaction. These ideas support emerging applications in robotic manipulation, agricultural robotics, aerial assembly, and distributed embodied systems.
 
 
-<span style="color:#FF0000">I am actively recruiting motivated PhD students!</span> If you are passionate about building robots and coding intelligence, please email me at `luyangz@clemson.edu`.
+Prospective students interested in building robots and coding intelligence are welcome to email me at `luyangz@clemson.edu`.
 
+<div class="smile-lab-preview">
+  <a class="smile-lab-preview__media" href="https://smile-robotics-lab.github.io/#lab" target="_blank" rel="noopener" aria-label="Visit SMILE Robotics Lab members">
+    <img src="https://smile-robotics-lab.github.io/assets/img/hero/smile.gif" alt="SMILE Robotics Lab animation" loading="eager">
+  </a>
+  <div class="smile-lab-preview__content">
+    <p class="smile-lab-preview__eyebrow">SMILE Robotics Lab</p>
+    <h3>We design Soft, Modular, Intelligent, Learning, and Embodied robotic systems — advancing adaptive, cooperative, and reconfigurable robots.</h3>
+    <div class="smile-lab-preview__links">
+      <a href="https://smile-robotics-lab.github.io/#lab" target="_blank" rel="noopener">Members</a>
+      <a href="https://smile-robotics-lab.github.io/#research" target="_blank" rel="noopener">Research</a>
+      <a href="https://www.youtube.com/@SMILERoboticsLab" target="_blank" rel="noopener">YouTube</a>
+    </div>
+  </div>
+</div>
 
 ---
 
