@@ -169,6 +169,25 @@ article.post-content.home-post-content .publication-links a:hover,
     border-color: rgba(245, 102, 0, 0.35);
 }
 
+.publication-link--video,
+.publication-video-summary {
+    border-color: rgba(245, 102, 0, 0.58);
+    color: #F56600;
+    background: rgba(245, 102, 0, 0.07);
+    font-weight: 700;
+}
+
+.publication-link--video::before,
+.publication-video-summary::before {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-right: 0.38rem;
+    border-top: 0.28rem solid transparent;
+    border-bottom: 0.28rem solid transparent;
+    border-left: 0.42rem solid currentColor;
+}
+
 .publication-video {
     display: inline-block;
 }

@@ -85,22 +85,6 @@
       {% if entry.pdf %}
         <a class="publication-link" href="{{ entry.pdf | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener">PDF</a>
       {% endif %}
-      {% if entry.link %}
-        <a class="publication-link" href="{{ entry.link }}" target="_blank" rel="noopener">Publisher</a>
-      {% endif %}
-      {% if entry.code %}
-        <a class="publication-link publication-link--code" href="{{ entry.code }}" target="_blank" rel="noopener">Code/Hardware</a>
-      {% endif %}
-      {% if entry.supp %}
-        <a class="publication-link" href="{{ entry.supp | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener">Supp</a>
-      {% endif %}
-      {% if entry.poster %}
-        <a class="publication-link" href="{{ entry.poster | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener">Poster</a>
-      {% endif %}
-      {% if entry.slides %}
-        <a class="publication-link" href="{{ entry.slides | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener">Slides</a>
-      {% endif %}
-
       {% if entry.video %}
         <details class="publication-video">
           <summary class="publication-link publication-video-summary">Video</summary>
@@ -116,6 +100,21 @@
             {% endif %}
           </div>
         </details>
+      {% endif %}
+      {% if entry.link %}
+        <a class="publication-link" href="{{ entry.link }}" target="_blank" rel="noopener">Publisher</a>
+      {% endif %}
+      {% if entry.code %}
+        <a class="publication-link publication-link--code" href="{{ entry.code }}" target="_blank" rel="noopener">Code/Hardware</a>
+      {% endif %}
+      {% if entry.supp %}
+        <a class="publication-link" href="{{ entry.supp | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener">Supp</a>
+      {% endif %}
+      {% if entry.poster %}
+        <a class="publication-link" href="{{ entry.poster | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener">Poster</a>
+      {% endif %}
+      {% if entry.slides %}
+        <a class="publication-link" href="{{ entry.slides | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank" rel="noopener">Slides</a>
       {% endif %}
     </div>
 
