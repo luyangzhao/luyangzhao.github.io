@@ -27,7 +27,10 @@ Prospective students interested in building robots and coding intelligence are w
 
 <div class="smile-lab-preview">
   <a class="smile-lab-preview__media" href="https://smile-robotics-lab.github.io/#lab" target="_blank" rel="noopener" aria-label="Visit SMILE Robotics Lab members">
-    <img src="{{ '/assets/img/teasers/smile-first-author-reel.gif' | relative_url }}" alt="SMILE Robotics Lab first-author research reel" loading="eager">
+    <picture>
+      <source srcset="{{ '/assets/img/teasers/smile-first-author-reel.webp' | relative_url }}?v=webp-reel-1" type="image/webp">
+      <img src="{{ '/assets/img/teasers/smile-first-author-reel.gif' | relative_url }}?v=soft-lattice-upscaled-2" alt="SMILE Robotics Lab first-author research reel" loading="eager">
+    </picture>
   </a>
   <div class="smile-lab-preview__content">
     <p class="smile-lab-preview__eyebrow">SMILE Robotics Lab</p>
