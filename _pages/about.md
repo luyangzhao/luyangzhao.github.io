@@ -149,9 +149,10 @@ Ferland2018AssistiveAF
 
 - **Instructor**: Clemson University
     - ECE 8930: Advanced Robotics (Spring 2026)
-    - ECE 1990–4990: Creative Inquiry – LLM-Driven Robotics (Spring 2026)
+    - ECE 2230: Data Structures and Algorithms (Fall 2026)
+    - ECE 1990–4990: Creative Inquiry – LLM-Driven Robotics (Spring 2026, Fall 2026)
       *Project: "From Vision-Language Understanding to Physical Action"*
-    - ECE 1990–4990: Creative Inquiry – Soft Modular Robotic Hand (Spring 2026)
+    - ECE 1990–4990: Creative Inquiry – Soft Modular Robotic Hand (Spring 2026, Fall 2026)
       *Project: "Designing and Building a Cable-Driven Soft Modular Robotic Hand"*
 
 ---
