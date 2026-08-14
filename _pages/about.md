@@ -20,14 +20,14 @@ Before joining Clemson in 2025, I completed my PhD in Computer Science from Dart
 
 <!-- My research focuses on soft and modular robotic systems, using AI to co-design robot morphology and control policies, and to enable adaptive decision-making in real-world environments. -->
 
-My research centers on soft, modular, and tensegrity robotics. I design, model, and control reconfigurable robotic structures that can self-assemble, adapt, and collaborate in unstructured environments. In my lab, I am extending this work with AI-driven co-design, reinforcement learning, and vision-language-action models to enable robots to reason about morphology, task context, and physical interaction. These ideas support emerging applications in robotic manipulation, agricultural robotics, aerial assembly, and distributed embodied systems.
+My research centers on soft, modular, and tensegrity robotics, with AI and machine learning as tools for making reconfigurable robots more adaptive and intelligent. I design, model, and control robotic structures that can self-assemble, adapt, and collaborate in unstructured environments. In my lab, we use reinforcement learning, large language models (LLMs), and vision-language-action (VLA) models for robot co-design, perception, and decision-making, enabling robots to reason about morphology, task context, and physical interaction. These ideas support emerging applications in robotic manipulation, agricultural robotics, aerial assembly, and distributed embodied systems.
 
 
 Prospective students interested in building robots and coding intelligence are welcome to email me at `luyangz@clemson.edu`.
 
 <div class="smile-lab-preview">
   <a class="smile-lab-preview__media" href="https://smile-robotics-lab.github.io/#lab" target="_blank" rel="noopener" aria-label="Visit SMILE Robotics Lab members">
-    <img src="https://smile-robotics-lab.github.io/assets/img/hero/smile.gif" alt="SMILE Robotics Lab animation" loading="eager">
+    <img src="{{ '/assets/img/teasers/smile-first-author-reel.gif' | relative_url }}" alt="SMILE Robotics Lab first-author research reel" loading="eager">
   </a>
   <div class="smile-lab-preview__content">
     <p class="smile-lab-preview__eyebrow">SMILE Robotics Lab</p>
@@ -61,6 +61,13 @@ I was honored with the **Neukom Outstanding Graduate Research Prize** for my con
 Previously, I gained industrial experience at Amazon Robotics (perception, localization & planning for Kiva robots) and TuSimple (motion planning and decision-making for autonomous trucks in urban environments).
 
 
+---
+
+### Funding
+
+- 2026-2027: NASA South Carolina Space Grant Consortium REAP award, $8,000 with $8,000 institutional cost share ($16,000 total project support), "An Education Research Study of Library-Based Tensegrity Robotics Workshops for NASA-Relevant Workforce Development" (PI: Chuhao Wu; Co-PI: Luyang Zhao).
+
+
 <!-- I have also mentored graduate and undergraduate students on various research projects. My research has been published in top journals and conferences, including **Nature Communications**, **Soft Robotics**, **IEEE Transactions on Field Robotics**, **IEEE Robotics and Automation Letters (RA-L)**, **IROS**, and **RoboSoft**. -->
 <!-- Beyond academia, I gained industry experience through research internships at **Amazon Robotics** (perception, localization, and path planning for Kiva robots) and **TuSimple** (motion planning and decision-making for autonomous vehicles in urban environments). -->
 
@@ -71,7 +78,11 @@ Previously, I gained industrial experience at Amazon Robotics (perception, local
 
 ### News
 
+- **Jun 2026**: Our paper, "Manipulider: A Multi-Engine Buoyancy-Controlled Robot for Thrusterless Underwater Gliding and Manipulation," has been accepted to IROS 2026.
+- **Jun 2026**: "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors" was published in *Microsystems & Nanoengineering*.
+- **Jun 2026**: Our work-in-progress paper with Chuhao Wu, Minghao Zha, and Yinhong Qin on multidisciplinary soft robotics workshops was presented at ASEE 2026.
 - **May 2026**: Our proposal for the 2nd Workshop on Challenges and Application Prospects for Reconfigurable Modular Robots has been accepted for IROS 2026. Looking forward to seeing everyone there!
+- **Apr 2026**: Received a NASA South Carolina Space Grant Consortium REAP award with $16,000 total project support ($8,000 award + $8,000 institutional cost share) for NASA-relevant robotics education and workforce development.
 - **Apr 2026**: Completed my newly developed graduate course, ECE 8930: Advanced Robotics, where final projects explored VLA-based robot manipulation using SO-101 robotic arms. I also concluded two Creative Inquiry projects with about 20 undergraduate students, who built four soft robotic hands and explored VLA-based manipulation.
 - **Apr 2026**: Appointed as a Faculty Scholar in the Clemson University School of Health Research (CUSHR).
 - **Dec 18, 2025**: “SoftRafts: Floating and Adaptive Soft Modular Robots” has been accepted for publication in npj Robotics.
@@ -116,17 +127,20 @@ Previously, I gained industrial experience at Amazon Robotics (perception, local
 <!-- learning, -->
 
 {% assign papers = "
-surface,
-airfoil,
 zhaosci,
+surface,
 softsnap,
+starblocks,
+9738480,
+manipulider,
 dolphin,
 seepersea,
+airfoil,
+mao2026tensegrityllm,
+wu2026softroboticsworkshops,
 llmswarm,
 learning,
 jeong2024multimodal,
-starblocks,
-9738480,
 9341312,
 Putman2020PiecewiseLR, 
 8901071,

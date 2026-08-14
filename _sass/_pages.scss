@@ -182,8 +182,11 @@ article a.plain-link:hover {
 
 .smile-lab-preview__media {
     display: block;
+    position: relative;
     overflow: hidden;
     border-radius: 8px;
+    aspect-ratio: 16 / 9;
+    background: #f7f7f7;
 }
 
 .smile-lab-preview__media img {
