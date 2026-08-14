@@ -5,7 +5,7 @@ plr:
   img: teasers/plr.gif
 
 soft1:
-  img: teasers/soft1.gif
+  img: teasers/soft1.webp
   url: https://www.youtube.com/watch?v=EYLYyijfzCg
 
 soft2:
@@ -66,7 +66,6 @@ seepersea:
 
 airfoil:
   img: teasers/sim.png
-
 
 
 
