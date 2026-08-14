@@ -66,26 +66,13 @@ Previously, I gained industrial experience at Amazon Robotics (perception, local
 
 ---
 
-### Funding
-
-- 2026-2027: NASA South Carolina Space Grant Consortium REAP award, $8,000 with $8,000 institutional cost share ($16,000 total project support), "An Education Research Study of Library-Based Tensegrity Robotics Workshops for NASA-Relevant Workforce Development" (PI: Chuhao Wu; Co-PI: Luyang Zhao).
-
-
-<!-- I have also mentored graduate and undergraduate students on various research projects. My research has been published in top journals and conferences, including **Nature Communications**, **Soft Robotics**, **IEEE Transactions on Field Robotics**, **IEEE Robotics and Automation Letters (RA-L)**, **IROS**, and **RoboSoft**. -->
-<!-- Beyond academia, I gained industry experience through research internships at **Amazon Robotics** (perception, localization, and path planning for Kiva robots) and **TuSimple** (motion planning and decision-making for autonomous vehicles in urban environments). -->
-
-<!-- Additionally, I currently serve as an **Associate Editor** for the IEEE International Conference on Robotics and Automation (ICRA) 2026 and previously co-organized the Tensegrity Robotics Workshop at IROS 2023. I also actively contribute to the peer-review community, having reviewed manuscripts for leading journals and conferences, including **Science Advances**, The International Journal of Robotics Research (**IJRR**), IEEE/ASME Transactions on Mechatronics (**TMECH**), IEEE Robotics and Automation Letters (**RA-L**), ICRA, IROS, RoboSoft, BioRob, and Construction Robotics. -->
-
-
----
-
 ### News
 
 - **Jun 2026**: Our paper, "Manipulider: A Multi-Engine Buoyancy-Controlled Robot for Thrusterless Underwater Gliding and Manipulation," has been accepted to IROS 2026.
 - **Jun 2026**: "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors" was published in *Microsystems & Nanoengineering*.
 - **Jun 2026**: Our work-in-progress paper with Chuhao Wu, Minghao Zha, and Yinhong Qin on multidisciplinary soft robotics workshops was presented at ASEE 2026.
 - **May 2026**: Our proposal for the 2nd Workshop on Challenges and Application Prospects for Reconfigurable Modular Robots has been accepted for IROS 2026. Looking forward to seeing everyone there!
-- **Apr 2026**: Received a NASA South Carolina Space Grant Consortium REAP award with $16,000 total project support ($8,000 award + $8,000 institutional cost share) for NASA-relevant robotics education and workforce development.
+- **Apr 2026**: Received support from the NASA South Carolina Space Grant Consortium REAP program for library-based tensegrity robotics workshops and NASA-relevant robotics workforce development.
 - **Apr 2026**: Completed my newly developed graduate course, ECE 8930: Advanced Robotics, where final projects explored VLA-based robot manipulation using SO-101 robotic arms. I also concluded two Creative Inquiry projects with about 20 undergraduate students, who built four soft robotic hands and explored VLA-based manipulation.
 - **Apr 2026**: Appointed as a Faculty Scholar in the Clemson University School of Health Research (CUSHR).
 - **Dec 18, 2025**: “SoftRafts: Floating and Adaptive Soft Modular Robots” has been accepted for publication in npj Robotics.
