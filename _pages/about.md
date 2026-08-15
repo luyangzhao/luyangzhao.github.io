@@ -72,7 +72,7 @@ Previously, I gained industrial experience at Amazon Robotics (perception, local
 - **Jun 2026**: "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors" was published in *Microsystems & Nanoengineering*.
 - **Jun 2026**: Our work-in-progress paper with Chuhao Wu, Minghao Zha, and Yinhong Qin on multidisciplinary soft robotics workshops was presented at ASEE 2026.
 - **May 2026**: Our proposal for the 2nd Workshop on Challenges and Application Prospects for Reconfigurable Modular Robots has been accepted for IROS 2026. Looking forward to seeing everyone there!
-- **Apr 2026**: Received support from the NASA South Carolina Space Grant Consortium REAP program for library-based tensegrity robotics workshops and NASA-relevant robotics workforce development.
+- **Apr 2026**: We received support from the NASA South Carolina Space Grant Consortium REAP program for library-based tensegrity robotics workshops that support NASA-relevant robotics education and workforce development. We thank NASA SCSGC for the support.
 - **Apr 2026**: Completed my newly developed graduate course, ECE 8930: Advanced Robotics, where final projects explored VLA-based robot manipulation using SO-101 robotic arms. I also concluded two Creative Inquiry projects with about 20 undergraduate students, who built four soft robotic hands and explored VLA-based manipulation.
 - **Apr 2026**: Appointed as a Faculty Scholar in the Clemson University School of Health Research (CUSHR).
 - **Dec 18, 2025**: “SoftRafts: Floating and Adaptive Soft Modular Robots” has been accepted for publication in npj Robotics.
