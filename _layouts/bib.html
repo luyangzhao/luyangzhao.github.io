@@ -4,7 +4,13 @@
 <div id="{{ entry.key }}" class="publication-card">
   <div class="publication-media">
     {% assign teaser = site.data.teasers[entry.abbr] %}
-    {% if teaser.img %}
+    {% if teaser.video %}
+      <video class="publication-teaser publication-teaser-video" autoplay muted loop playsinline preload="metadata"
+        {% if teaser.poster %}poster="{{ teaser.poster | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}"{% endif %}
+        aria-label="{{ entry.title | strip_html | escape }} teaser">
+        <source src="{{ teaser.video | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" type="video/mp4">
+      </video>
+    {% elsif teaser.img %}
       {% if teaser.url %}
         <a class="publication-media-link" href="{{ teaser.url }}" target="_blank" rel="noopener">
           <img class="publication-teaser" src="{{ teaser.img | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="{{ entry.title | strip_html | escape }} teaser">
@@ -68,7 +74,9 @@
         {% endif %}
 
         {% if entry.type != "preprint" %}
-          {% if entry.year %}
+          {% if entry.month and entry.year %}
+            <span class="publication-year">{{ entry.month }} {{ entry.year }}</span>
+          {% elsif entry.year %}
             <span class="publication-year">{{ entry.year }}</span>
           {% endif %}
         {% endif %}

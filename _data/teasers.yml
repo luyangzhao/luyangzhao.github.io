@@ -20,10 +20,20 @@ lldm:
 
 
 flexblocks:
-  img: teasers/tensegrity-block.gif
+  video: teasers/tensegrity-blocks-teaser.mp4
+  poster: teasers/tensegrity-blocks-teaser.jpg
 
 manipulider:
   img: teasers/manipulider.gif
+
+codec-gauge:
+  img: teasers/codec-gauge.jpg
+
+flowmo:
+  img: teasers/flowmo.jpg
+
+ascii-art:
+  img: teasers/ascii-art.jpg
 
 mao-tensegrity-llm:
   img: teasers/mao-tensegrity-llm.gif
@@ -56,16 +66,18 @@ seesea:
 airplane:
   img: teasers/airplane.png
 
+aircraft-under-review:
+  img: teasers/aircraft-under-review.jpg
+
 llmswarm:
-  img: teasers/llmswarm.png
+  video: teasers/llm-swarm-teaser.mp4
+  poster: teasers/llm-swarm-teaser.jpg
 
 
 seepersea:
-  img: teasers/seepersea.png
+  img: teasers/seepersea-boat.png
 
 
 airfoil:
-  img: teasers/sim.png
-
-
+  img: teasers/airfoil-wing.jpg
 
