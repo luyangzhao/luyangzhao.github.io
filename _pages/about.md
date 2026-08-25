@@ -71,7 +71,7 @@ Previously, I gained industrial experience at Amazon Robotics (perception, local
 - **Jun 2026**: Our paper, "Manipulider: A Multi-Engine Buoyancy-Controlled Robot for Thrusterless Underwater Gliding and Manipulation," has been accepted to IROS 2026.
 - **Jun 2026**: "Fine-tuned multimodal large language model for autonomous state cognition system of shape-recognition 6-bar tensegrity integrated with flexible sensors" was published in *Microsystems & Nanoengineering*.
 - **Jun 2026**: Our work-in-progress paper with Chuhao Wu, Minghao Zha, and Yinhong Qin on multidisciplinary soft robotics workshops was presented at ASEE 2026.
-- **May 2026**: Our proposal for the 2nd Workshop on Challenges and Application Prospects for Reconfigurable Modular Robots has been accepted for IROS 2026. Looking forward to seeing everyone there!
+- **May 2026**: Our proposal for the [2nd Workshop: Challenges and Applications Prospects for Reconfigurable Modular Robots](https://modular-robot-workshop.github.io/iros2026-modular-robot-workshop-site/) has been accepted for IROS 2026. Looking forward to seeing everyone there!
 - **Apr 2026**: We received support from the NASA South Carolina Space Grant Consortium REAP program for library-based tensegrity robotics workshops that support NASA-relevant robotics education and workforce development. We thank NASA SCSGC for the support.
 - **Apr 2026**: Completed my newly developed graduate course, ECE 8930: Advanced Robotics, where final projects explored VLA-based robot manipulation using SO-101 robotic arms. I also concluded two Creative Inquiry projects with about 20 undergraduate students, who built four soft robotic hands and explored VLA-based manipulation.
 - **Apr 2026**: Appointed as a Faculty Scholar in the Clemson University School of Health Research (CUSHR).
@@ -166,7 +166,7 @@ Ferland2018AssistiveAF
 - **Guest Editor**: Special Issue on "Design, Motion Planning, and Control of Morphology-Rich Bio-Inspired Systems", *Biomimetic Intelligence and Robotics* ([link](https://www.sciencedirect.com/special-issue/331531/special-issue-on-design-motion-planning-and-control-of-morphology-rich-bio-inspired-systems))
 - **Associate Editor**: IEEE International Conference on Robotics and Automation (ICRA), 2026
 - **Workshop Organizer**:
-  - "2nd Workshop: Challenges and Applications Prospects for Reconfigurable Modular Robots" at IROS 2026 (accepted, forthcoming)
+  - ["2nd Workshop: Challenges and Applications Prospects for Reconfigurable Modular Robots"](https://modular-robot-workshop.github.io/iros2026-modular-robot-workshop-site/) at IROS 2026 (accepted, forthcoming)
   - "Tensegrity Robotics Workshop" at IROS 2023 ([link](https://www.eng.yale.edu/faboratory/tensegrityworkshop/))
 - **Reviewer**: Science Advances, IEEE T-RO, IJRR, Soft Robotics, IEEE/ASME T-MECH, IEEE RA-L, ICRA, IROS, RoboSoft, BioRob, Construction Robotics, AAMAS.
 
