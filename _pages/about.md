@@ -168,7 +168,7 @@ Ferland2018AssistiveAF
 - **Workshop Organizer**:
   - ["2nd Workshop: Challenges and Applications Prospects for Reconfigurable Modular Robots"](https://modular-robot-workshop.github.io/iros2026-modular-robot-workshop-site/) at IROS 2026 (accepted, forthcoming)
   - "Tensegrity Robotics Workshop" at IROS 2023 ([link](https://www.eng.yale.edu/faboratory/tensegrityworkshop/))
-- **Reviewer**: Science Advances, IEEE T-RO, IJRR, Soft Robotics, IEEE/ASME T-MECH, IEEE RA-L, ICRA, IROS, RoboSoft, BioRob, Construction Robotics, AAMAS.
+- **Reviewer**: Science Advances, IEEE T-RO, IJRR, Soft Robotics, IEEE/ASME T-MECH, IEEE RA-L, ICRA, IROS, RoboSoft, BioRob, Construction Robotics, AAAI, AAMAS.
 
 ---
 
