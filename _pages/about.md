@@ -54,7 +54,7 @@ Prospective students interested in building robots and coding intelligence are w
 
 I was honored with the **Neukom Outstanding Graduate Research Prize**. My work has also been featured in the media, including [**Dartmouth College's official website (2025)**](https://home.dartmouth.edu/news/2025/08/multipurpose-robots-take-shape), [**Interesting Engineering**](https://interestingengineering.com/innovation/modular-robots-build-bridges-and-shelters), [**Dartmouth College's official website (2023)**](https://home.dartmouth.edu/news/2023/08/computer-science-researcher-creates-flexible-robots), [**Tech Xplore**](https://techxplore.com/news/2023-08-science-flexible-robots-soft-modules.amp), [**ScienceSprings**](https://sciencesprings.wordpress.com/2023/08/15/from-dartmouth-college-computer-science-researcher-creates-flexible-robots-luyang-zhao/), and [**Communications of the ACM**](https://cacmb4.acm.org/news/275527-computer-science-researchers-create-modular-flexible-robots/fulltext).
 
-I publish in top venues including **Nature Communications**, **Soft Robotics**, **IEEE T-RO/T-FR**, **npj Robotics**, **RA-L**, **IROS**, and **RoboSoft**. I also serve as an **Associate Editor** for **ICRA 2026**. Before academia, I gained industry experience at **Amazon Robotics** (perception, localization, and path planning for Kiva robots)  and **TuSimple** (motion planning and decision-making for autonomous vehicles in urban environments).
+I publish in top venues including **Nature Communications**, **Soft Robotics**, **IEEE T-RO/T-FR**, **npj Robotics**, **RA-L**, **IROS**, and **RoboSoft**. I also serve as an **Associate Editor** for **ICRA 2026 and 2027**. Before academia, I gained industry experience at **Amazon Robotics** (perception, localization, and path planning for Kiva robots)  and **TuSimple** (motion planning and decision-making for autonomous vehicles in urban environments).
  -->
 
 ### Research Highlights
@@ -164,7 +164,7 @@ Ferland2018AssistiveAF
 ### Service
 
 - **Guest Editor**: Special Issue on "Design, Motion Planning, and Control of Morphology-Rich Bio-Inspired Systems", *Biomimetic Intelligence and Robotics* ([link](https://www.sciencedirect.com/special-issue/331531/special-issue-on-design-motion-planning-and-control-of-morphology-rich-bio-inspired-systems))
-- **Associate Editor**: IEEE International Conference on Robotics and Automation (ICRA), 2026
+- **Associate Editor**: IEEE International Conference on Robotics and Automation (ICRA), 2026 and 2027
 - **Workshop Organizer**:
   - ["2nd Workshop: Challenges and Applications Prospects for Reconfigurable Modular Robots"](https://modular-robot-workshop.github.io/iros2026-modular-robot-workshop-site/) at IROS 2026 (accepted, forthcoming)
   - "Tensegrity Robotics Workshop" at IROS 2023 ([link](https://www.eng.yale.edu/faboratory/tensegrityworkshop/))
