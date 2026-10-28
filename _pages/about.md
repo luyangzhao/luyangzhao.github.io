@@ -120,6 +120,7 @@ Previously, I gained industrial experience at Amazon Robotics (perception, local
 zhaosci,
 surface,
 softsnap,
+wang2026biologicalcurves,
 starblocks,
 9738480,
 manipulider,
@@ -163,6 +164,7 @@ Ferland2018AssistiveAF
 
 ### Service
 
+- **Faculty Advisor**: Clemson Lunabotics Team
 - **Guest Editor**: Special Issue on "Design, Motion Planning, and Control of Morphology-Rich Bio-Inspired Systems", *Biomimetic Intelligence and Robotics* ([link](https://www.sciencedirect.com/special-issue/331531/special-issue-on-design-motion-planning-and-control-of-morphology-rich-bio-inspired-systems))
 - **Associate Editor**: IEEE International Conference on Robotics and Automation (ICRA), 2026 and 2027
 - **Workshop Organizer**:

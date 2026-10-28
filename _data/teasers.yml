@@ -1,6 +1,10 @@
 plrc:
   img: teasers/plrc.png
 
+biological-curves:
+  img: teasers/biological-curves.png
+  url: https://www.youtube.com/watch?v=4Xw9c4H2Etk
+
 plr:
   img: teasers/plr.gif
 
@@ -80,4 +84,3 @@ seepersea:
 
 airfoil:
   img: teasers/airfoil-wing.jpg
-
