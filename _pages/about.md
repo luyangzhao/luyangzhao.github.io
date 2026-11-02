@@ -116,6 +116,7 @@ Previously, I gained industrial experience at Amazon Robotics (perception, local
 <!-- learning, -->
 
 {% assign papers = "
+song2026woodpecker,
 zhaosci,
 surface,
 softsnap,
