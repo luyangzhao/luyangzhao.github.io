@@ -18,9 +18,9 @@ Hello, I am Luyang Zhao, an Assistant Professor in the Department of Electrical 
 
 Before joining Clemson, I received my Ph.D. in Computer Science from Dartmouth College in 2025, advised by <a class="plain-link" href="https://rlab.cs.dartmouth.edu/devin/">Prof. Devin Balkcom</a>. I earned double majors in Computer Science and Mathematics from the University of Minnesota, where I conducted undergraduate research with <a class="plain-link" href="https://www-users.cse.umn.edu/~gini/">Prof. Maria Gini</a>.
 
-My research focuses on **designing adaptable robots for real-world environments**, particularly through soft, modular, and reconfigurable robotic systems. I develop robotic structures that can deform, reconfigure, and interact with their surroundings through locomotion, manipulation, and self-assembly.
+My research focuses on designing adaptable robots for real-world tasks. In the SMILE Robotics Lab, we develop soft, modular, and tensegrity robotic systems that can change shape, connect, and interact with their environments.
 
-My lab combines **physical robot design and computational design methods**, including physics-based modeling, optimization, learning-based design, and generative AI, to facilitate robot design, fabrication, and control. Our research is motivated by real-world applications in field and outdoor robotics, aquatic robotics, agricultural robotics, and robotic manipulation.
+Our research combines human-driven physical design, computational design and optimization, and AI-driven design to explore robot morphology, fabrication, and control. Our long-term vision is to enable AI to autonomously design, evaluate, and improve physical robot embodiments for robust interaction and adaptation.
 
 Prospective students interested in building robots and coding intelligence are welcome to email me at `luyangz@clemson.edu`.
 
