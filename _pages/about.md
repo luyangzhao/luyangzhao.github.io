@@ -16,12 +16,11 @@ years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018]
 
 Hello, I am Luyang Zhao, an Assistant Professor in the Department of Electrical and Computer Engineering at <a class="plain-link" href="https://www.clemson.edu/">Clemson University</a>. I direct the **[SMILE Robotics Lab](https://smile-robotics-lab.github.io/)** (Soft, Modular, Intelligent, Learning, Embodied).
 
-Before joining Clemson in 2025, I completed my PhD in Computer Science from Dartmouth College (advised by <a class="plain-link" href="https://rlab.cs.dartmouth.edu/devin/">Prof. Devin Balkcom</a>). I earned double majors in Computer Science and Mathematics from the University of Minnesota, where I conducted undergraduate research with <a class="plain-link" href="https://www-users.cse.umn.edu/~gini/">Prof. Maria Gini</a>.
+Before joining Clemson, I received my Ph.D. in Computer Science from Dartmouth College in 2025, advised by <a class="plain-link" href="https://rlab.cs.dartmouth.edu/devin/">Prof. Devin Balkcom</a>. I earned double majors in Computer Science and Mathematics from the University of Minnesota, where I conducted undergraduate research with <a class="plain-link" href="https://www-users.cse.umn.edu/~gini/">Prof. Maria Gini</a>.
 
-<!-- My research focuses on soft and modular robotic systems, using AI to co-design robot morphology and control policies, and to enable adaptive decision-making in real-world environments. -->
+My research focuses on **designing adaptable robots for real-world environments**, particularly through soft, modular, and reconfigurable robotic systems. I develop robotic structures that can deform, reconfigure, and interact with their surroundings through locomotion, manipulation, and self-assembly.
 
-My research centers on soft, modular, and tensegrity robotics, with AI and machine learning as tools for making reconfigurable robots more adaptive and intelligent. I design, model, and control robotic structures that can self-assemble, adapt, and collaborate in unstructured environments. In my lab, we use reinforcement learning, large language models (LLMs), and vision-language-action (VLA) models for robot co-design, perception, and decision-making, enabling robots to reason about morphology, task context, and physical interaction. These ideas support emerging applications in robotic manipulation, agricultural robotics, aerial assembly, and distributed embodied systems.
-
+My lab combines **physical robot design and computational design methods**, including physics-based modeling, optimization, learning-based design, and generative AI, to facilitate robot design, fabrication, and control. Our research is motivated by real-world applications in field and outdoor robotics, aquatic robotics, agricultural robotics, and robotic manipulation.
 
 Prospective students interested in building robots and coding intelligence are welcome to email me at `luyangz@clemson.edu`.
 
